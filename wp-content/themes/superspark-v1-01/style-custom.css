@@ -1,5 +1,5 @@
 .top-navigation-wrapper{ background-color: #fcc71f; } 
-.top-navigation-wrapper{ color: #ffffff; } 
+.top-navigation-wrapper, .top-navigation-wrapper a{ color: #ffffff; } 
 .sf-menu li a{ color: #686868; } 
 .sf-menu li a:hover{ color: #adadad; } 
 .sf-menu li.current-menu-ancestor a, .sf-menu li.current-menu-item a{ color: #686868; } 
@@ -51,16 +51,16 @@ body .gdl-top-slider-wrapper{ border-bottom-color: #fcc71f; }
 .ls-superspark .ls-nav-prev, .ls-superspark .ls-nav-next,div.gdl-top-slider .flex-direction-nav li .flex-prev, div.gdl-top-slider .flex-direction-nav li .flex-next,div.gdl-top-slider .nivo-directionNav a.nivo-prevNav, div.gdl-top-slider .nivo-directionNav a.nivo-nextNav,div.gdl-top-slider .anythingSlider .arrow.back, div.gdl-top-slider .anythingSlider .arrow.forward{ background-color: #373737; } 
 .ls-superspark .ls-nav-prev:hover, .ls-superspark .ls-nav-next:hover, div.gdl-top-slider .flex-direction-nav li .flex-prev:hover, div.gdl-top-slider .flex-direction-nav li .flex-next:hover, div.gdl-top-slider .nivo-directionNav a.nivo-prevNav:hover, div.gdl-top-slider .nivo-directionNav a.nivo-nextNav:hover,div.gdl-top-slider .anythingSlider .arrow.back:hover, div.gdl-top-slider .anythingSlider .arrow.forward:hover{ background-color: #000000; } 
 h2.gdl-slider-title{ color: #ffffff; } 
-h2.gdl-slider-title{ background-color: #1bc4de; } 
+h2.gdl-slider-title{ background-color: #fcc71f; } 
 div.gdl-slider-caption{ color: #d4d4d4; } 
 div.gdl-slider-caption{ background: #333333; } 
-.flex-control-nav, .nivo-controlNav, div.anythingSlider .anythingControls ul{ background: #1bc4de; } 
+.flex-control-nav, .nivo-controlNav, div.anythingSlider .anythingControls ul{ background: #fcc71f; } 
 .flex-control-nav li a, .nivo-controlNav a, div.anythingSlider .anythingControls ul a{ background-color: #ffffff; } 
 .flex-control-nav li a:hover, .flex-control-nav li a.flex-active, .nivo-controlNav a:hover, .nivo-controlNav a.active, div.anythingSlider .anythingControls ul a.cur, div.anythingSlider .anythingControls ul a:hover { background: #000000; } 
 .flex-carousel.carousel-included{ background-color: #000000; } 
 h1.stunning-text-title{ color: #1f1f1f; } 
 .stunning-text-caption{ color: #8a8a8a; } 
-.stunning-text-wrapper{ background-color: #f5f5f5; } 
+.stunning-text-wrapper{ background-color: #fafafa; } 
 .stunning-text-wrapper{ border-left-color: #fcc71f; border-right-color: #fcc71f; } 
 h2.blog-title a, h1.blog-title a, div.portfolio-item .page-item-title a{ color: #212121; } 
 h2.blog-title a:hover, h1.blog-title a:hover, div.portfolio-item .page-item-title a:hover{ color: #9c9c9c; } 
@@ -131,10 +131,10 @@ div.gdl-carousel-testimonial .testimonial-content{ background-color: #f8f8f8; }
 div.gdl-static-testimonial .testimonial-item{ color: #666666; } 
 div.gdl-static-testimonial .testimonial-item{ border-color: #bdbdbd; } 
 div.gdl-static-testimonial .testimonial-info{ color: #a8a8a8; } 
-.logo-wrapper{ padding-top: 50px; padding-bottom: 42px; } 
+.logo-wrapper{ padding-top: 45px; padding-bottom: 35px; } 
 .navigation-wrapper{ margin-top: 56px; } 
 div.gdl-top-slider{ max-width: 1200px; } 
-div.navigation-wrapper{ font-size: 15px; } 
+div.navigation-wrapper{ font-size: 13px; } 
 h1.gdl-header-title{ font-size: 21px; } 
 body{ font-size: 13px; } 
 h3.custom-sidebar-title{ font-size: 13px; } 
@@ -145,26 +145,26 @@ h4{ font-size: 18px; }
 h5{ font-size: 16px; } 
 h6{ font-size: 15px; } 
 h1, h2, h3, h4, h5, h6{ font-family: "Open Sans"; } 
-.gdl-slider-title{ font-family: "Gnuolane Free"; } 
+.gdl-slider-title{ font-family: "Open Sans"; } 
 h1.stunning-text-title{ font-family: "Open Sans"; } 
 div.navigation-wrapper{ font-family: "Merriweather"; } 
-ul.gdl-accordion li.active .accordion-title, ul.gdl-toggle-box li.active .toggle-box-title{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/accordion-title-active.png); } 
-ul.gdl-accordion li .accordion-title, ul.gdl-toggle-box li .toggle-box-title{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/accordion-title.png); } 
-div.gdl-carousel-testimonial .testimonial-content{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/testimonial-quote.png); } 
-div.personnal-widget-prev{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/personnal-widget-left.png); } 
-div.personnal-widget-next{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/personnal-widget-right.png); } 
-div.gdl-search-button, div.custom-sidebar #searchsubmit{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/search-button.png) no-repeat center; } 
-div.top-search-wrapper input[type='submit']{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/top-search-button.png) no-repeat right center;; } 
-div.custom-sidebar ul li{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/li-arrow.png) no-repeat 0px center; } 
-ul.sf-menu .sf-sub-indicator{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/menu-indicator.png) no-repeat 0px center; } 
-ul.sf-menu ul .sf-sub-indicator{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/dark/sub-menu-indicator.png) no-repeat 0px center; } 
-div.portfolio-tag{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/port-hover-tag.png) no-repeat 0px center; } 
-div.footer-wrapper div.custom-sidebar ul li{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/li-arrow.png) no-repeat 0px center; } 
-div.footer-wrapper div.custom-sidebar #searchsubmit{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/search-button.png) no-repeat center; } 
-div.footer-wrapper div.personnal-widget-prev{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/personnal-widget-left.png); } 
-div.footer-wrapper div.personnal-widget-next{ background-image: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/personnal-widget-right.png); } 
-.flex-carousel .flex-direction-nav li a.flex-prev{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/carousel-nav-left.png) no-repeat; } 
-.flex-carousel .flex-direction-nav li a.flex-next{ background: url(http://localhost/superspark/wp-content/themes/superspark/images/icon/light/carousel-nav-right.png) no-repeat; } 
+ul.gdl-accordion li.active .accordion-title, ul.gdl-toggle-box li.active .toggle-box-title{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/accordion-title-active.png); } 
+ul.gdl-accordion li .accordion-title, ul.gdl-toggle-box li .toggle-box-title{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/accordion-title.png); } 
+div.gdl-carousel-testimonial .testimonial-content{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/testimonial-quote.png); } 
+div.personnal-widget-prev{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/personnal-widget-left.png); } 
+div.personnal-widget-next{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/personnal-widget-right.png); } 
+div.gdl-search-button, div.custom-sidebar #searchsubmit{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/search-button.png) no-repeat center; } 
+div.top-search-wrapper input[type='submit']{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/top-search-button.png) no-repeat right center;; } 
+div.custom-sidebar ul li{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/li-arrow.png) no-repeat 0px center; } 
+ul.sf-menu .sf-sub-indicator{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/menu-indicator.png) no-repeat 0px center; } 
+ul.sf-menu ul .sf-sub-indicator{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/dark/sub-menu-indicator.png) no-repeat 0px center; } 
+div.portfolio-tag{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/port-hover-tag.png) no-repeat 0px center; } 
+div.footer-wrapper div.custom-sidebar ul li{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/li-arrow.png) no-repeat 0px center; } 
+div.footer-wrapper div.custom-sidebar #searchsubmit{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/search-button.png) no-repeat center; } 
+div.footer-wrapper div.personnal-widget-prev{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/personnal-widget-left.png); } 
+div.footer-wrapper div.personnal-widget-next{ background-image: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/personnal-widget-right.png); } 
+.flex-carousel .flex-direction-nav li a.flex-prev{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/carousel-nav-left.png) no-repeat; } 
+.flex-carousel .flex-direction-nav li a.flex-next{ background: url(http://gxdangian.org/wp-content/themes/superspark-v1-01/images/icon/light/carousel-nav-right.png) no-repeat; } 
 div.gdl-blog-modern .blog-modern-head, div.gdl-blog-list .blog-list-style{ border-bottom-color: #fcc71f; } 
 ul.sf-menu li a{ border-left-color: #ffffff; } 
 div.contact-form-wrapper input[type="text"], div.contact-form-wrapper input[type="password"], div.contact-form-wrapper textarea, div.sidebar-wrapper #search-text input[type="text"], div.sidebar-wrapper .contact-widget input, div.custom-sidebar .contact-widget textarea, div.comment-wrapper input[type="text"], div.comment-wrapper input[type="password"], div.comment-wrapper textarea{ color: #888888; background-color: #ffffff; border-color: #e3e3e3; -webkit-box-shadow: #ececec 0px 1px 4px inset, #f7f7f7 -5px -5px 0px 0px, #f7f7f7 5px 5px 0px 0px, #f7f7f7 5px 0px 0px 0px, #f7f7f7 0px 5px 0px 0px, #f7f7f7 5px -5px 0px 0px, #f7f7f7 -5px 5px 0px 0px ; box-shadow: #ececec 0px 1px 4px inset, #f7f7f7 -5px -5px 0px 0px, #f7f7f7 5px 5px 0px 0px, #f7f7f7 5px 0px 0px 0px, #f7f7f7 0px 5px 0px 0px, #f7f7f7 5px -5px 0px 0px, #f7f7f7 -5px 5px 0px 0px ; } 
@@ -177,5 +177,3 @@ url("javascript/font/gnuolane_free-webfont.woff") format("woff"),
 url("javascript/font/gnuolane_free-webfont.ttf") format("truetype"); 
 }
 div.gdl-top-slider-wrapper{ background-image: url('images/top-slider-pattern.png'); }
-.gdl-slider-title{ visibility: hidden; }
-.nivo-caption .gdl-slider-title{ visibility: visible; }
