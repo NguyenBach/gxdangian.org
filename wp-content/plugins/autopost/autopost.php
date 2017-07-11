@@ -37,6 +37,7 @@ function autopost_add_post()
             'post_title' => $title,
             'post_status'   => 'publish',
             'post_content' => $contentPost,
+            'post_category' => array( get_cat_ID( "Lời Chúa Mỗi Ngày" ) )
         ];
         wp_insert_post($post,true);
 //    }
