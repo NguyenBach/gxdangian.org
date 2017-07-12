@@ -29,18 +29,20 @@ function autopost_add_post($linkCategory,$category,$slug)
         $divid = $div->id;
         $id[] = explode('-', $divid)[1];
     }
-//    if(isset($lastpostid[$slug]) && $lastpostid[$slug] == $id[0]){
-//        return;
-//    }
+    if(isset($lastpostid[$slug]) && $lastpostid[$slug] == $id[0]){
+        return;
+    }
     $lastpostid[$slug] = $id[0];
     $html = file_get_html('http://dongten.net/noidung/' . $id[0]);
     $postContent = $html->getElementById('post-' . $id[0]);
     $title = $postContent->find('.entry-title')[0];
     $contentPost = $postContent->childNodes(2);
-    $a = $contentPost->childNodes(0)->find('a')[0];
+    $fuck = 0;
+    if($slug == 'loichua') $fuck = 1;
+    $a = $contentPost->childNodes($fuck)->find('a')[0];
     $l = $a->find('img')[0]->src;
     $l = explode('?',$l)[0];
-    $contentPost->childNodes(0)->find('a')[0]->outertext = '';
+    $contentPost->childNodes($fuck)->find('a')[0]->outertext = '';
     $post = [
         'post_title' => $title,
         'post_status' => 'publish',
