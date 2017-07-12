@@ -40,7 +40,7 @@ function autopost_add_post($linkCategory,$category,$slug)
     $a = $contentPost->childNodes(1)->find('a')[0];
     $l = $a->find('img')[0]->src;
     $l = explode('?',$l)[0];
-//    $contentPost->childNodes(1)->find('a')[0]->outertext = '';
+    $contentPost->childNodes(1)->find('a')[0]->outertext = '';
     $post = [
         'post_title' => $title,
         'post_status' => 'publish',
