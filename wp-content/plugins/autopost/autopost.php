@@ -29,15 +29,15 @@ function autopost_add_post($linkCategory,$category,$slug)
         $divid = $div->id;
         $id[] = explode('-', $divid)[1];
     }
-    if(isset($lastpostid[$slug]) && $lastpostid[$slug] == $id[0]){
-        return;
-    }
+//    if(isset($lastpostid[$slug]) && $lastpostid[$slug] == $id[0]){
+//        return;
+//    }
     $lastpostid[$slug] = $id[0];
     $html = file_get_html('http://dongten.net/noidung/' . $id[0]);
     $postContent = $html->getElementById('post-' . $id[0]);
     $title = $postContent->find('.entry-title')[0];
     $contentPost = $postContent->childNodes(2);
-    $a = $contentPost->childNodes(1)->find('a')[0];
+    $a = $contentPost->childNodes(0)->find('a')[0];
     $l = $a->find('img')[0]->src;
     $l = explode('?',$l)[0];
     $contentPost->childNodes(0)->find('a')[0]->outertext = '';
@@ -47,7 +47,7 @@ function autopost_add_post($linkCategory,$category,$slug)
         'post_content' => $contentPost,
         'post_category' => array(get_cat_ID($category))
     ];
-    $post_id = wp_insert_post($post, true);
+    $post_id = wp_insert_post($post);
     Generate_Featured_Image($l, $post_id);
 }
 
@@ -62,11 +62,10 @@ function my_activation()
 
 function do_this_daily()
 {
-    autopost_add_post('http://dongten.net/noidung/category/loi-chua-cho-ngay-song',"Lời Chúa Mỗi Ngày",'loi-chua-moi-ngay');
-    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi',"Học Làm Người",'hoc-lam-nguoi');
-    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi/le-song',"Lẽ Sống",'le-song');
-    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi',"Học Làm Người",'hoc-lam-nguoi');
-    autopost_add_post('http://dongten.net/noidung/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre',"Đức Tin Và Người Trẻ",'duc-tin');
+    autopost_add_post('http://dongten.net/noidung/category/loi-chua-cho-ngay-song',"Lời Chúa Mỗi Ngày",'loichua');
+    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi',"Học Làm Người",'hoclamnguoi');
+    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi/le-song',"Lẽ Sống",'lesong');
+    autopost_add_post('http://dongten.net/noidung/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre',"Đức Tin Và Người Trẻ",'ductin');
 
 }
 
