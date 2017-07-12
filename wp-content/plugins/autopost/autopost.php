@@ -62,7 +62,7 @@ function my_activation()
 
 function do_this_daily()
 {
-//    autopost_add_post('http://dongten.net/noidung/category/loi-chua-cho-ngay-song',"Lời Chúa Mỗi Ngày",'loichua');
+    autopost_add_post('http://dongten.net/noidung/category/loi-chua-cho-ngay-song',"Lời Chúa Mỗi Ngày",'loichua');
     autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi',"Học Làm Người",'hoclamnguoi');
 //    autopost_add_post('http://dongten.net/noidung/category/hoc-lam-nguoi/le-song',"Lẽ Sống",'lesong');
 //    autopost_add_post('http://dongten.net/noidung/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre',"Đức Tin Và Người Trẻ",'ductin');
