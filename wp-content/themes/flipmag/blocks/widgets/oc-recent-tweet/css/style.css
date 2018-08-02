@@ -1,0 +1,44 @@
+.oc_recent_tweets {
+	float: left;
+	clear: left;
+        width: 100%;
+        max-width: 100%;
+}
+
+.oc_recent_tweets  li {
+	padding-left: 20px !important;
+        padding-bottom: 10px !important;
+	float: left;
+	clear: left;
+	line-height: 20px;
+	list-style-type: none;
+        width: 100%;
+        max-width: 100%;
+}
+
+.oc_recent_tweets  li i.fa-twitter {
+    color:#55acee;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px;  
+}
+
+.oc_recent_tweets  li a {
+	font-weight: bold;
+}
+
+.oc_recent_tweets  li a.links {
+    width: 100%;
+    float: left;
+}
+
+.oc_recent_tweets .twitter_time {
+	color: #999;
+	font-size: 12px;
+	font-style: italic;	
+	font-weight: normal;        
+}
+
+.oc_recent_tweets li a {
+    color: #8ba2b9;
+}
