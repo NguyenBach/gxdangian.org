@@ -1,0 +1,6319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flipmag v2.0\n"
+"POT-Creation-Date: 2017-05-14 14:57+0530\n"
+"PO-Revision-Date: 2017-05-14 14:58+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: 404.php:7
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:12
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"We're sorry, but we can't find the page you were looking for. It's probably "
+"some thing we've done wrong but now we know about it and we'll try to fix "
+"it. In the meantime, try one of these options:"
+msgstr ""
+
+#: 404.php:20
+msgid "Go to Previous Page"
+msgstr ""
+
+#: 404.php:21
+msgid "Go to Homepage"
+msgstr ""
+
+#: admin/category-meta.php:40 admin/options.php:667
+msgid "Category Listing Style"
+msgstr ""
+
+#: admin/category-meta.php:46
+msgid "Default Style (In Theme Settings)"
+msgstr ""
+
+#: admin/category-meta.php:47 admin/options.php:672 admin/options.php:860
+#: admin/options.php:1048
+msgid "Block 1"
+msgstr ""
+
+#: admin/category-meta.php:48 admin/options.php:673 admin/options.php:861
+#: admin/options.php:1049
+msgid "Block 2"
+msgstr ""
+
+#: admin/category-meta.php:49 admin/options.php:674 admin/options.php:862
+#: admin/options.php:1050
+msgid "Block 3"
+msgstr ""
+
+#: admin/category-meta.php:50 admin/options.php:675 admin/options.php:863
+#: admin/options.php:1051
+msgid "Block 4"
+msgstr ""
+
+#: admin/category-meta.php:51 admin/options.php:676 admin/options.php:864
+#: admin/options.php:1052
+msgid "Block 5"
+msgstr ""
+
+#: admin/category-meta.php:52 admin/options.php:677 admin/options.php:865
+#: admin/options.php:1053
+msgid "Block 6"
+msgstr ""
+
+#: admin/category-meta.php:53 admin/options.php:678 admin/options.php:866
+#: admin/options.php:1054
+msgid "Block 7"
+msgstr ""
+
+#: admin/category-meta.php:54 admin/options.php:679 admin/options.php:867
+#: admin/options.php:1055
+msgid "Block 8"
+msgstr ""
+
+#: admin/category-meta.php:55 admin/options.php:680 admin/options.php:868
+#: admin/options.php:1056
+msgid "Block 9"
+msgstr ""
+
+#: admin/category-meta.php:56 admin/options.php:681 admin/options.php:869
+#: admin/options.php:1057
+msgid "Block 10"
+msgstr ""
+
+#: admin/category-meta.php:57 admin/options.php:682 admin/options.php:870
+#: admin/options.php:1058
+msgid "Block 11"
+msgstr ""
+
+#: admin/category-meta.php:58 admin/options.php:683 admin/options.php:871
+#: admin/options.php:1059
+msgid "Block 12"
+msgstr ""
+
+#: admin/category-meta.php:59 admin/options.php:684 admin/options.php:872
+#: admin/options.php:1060
+msgid "Block 13"
+msgstr ""
+
+#: admin/category-meta.php:60 admin/options.php:685 admin/options.php:873
+#: admin/options.php:1061
+msgid "Block 14"
+msgstr ""
+
+#: admin/category-meta.php:61 admin/options.php:686 admin/options.php:874
+#: admin/options.php:1062
+msgid "Block 15"
+msgstr ""
+
+#: admin/category-meta.php:62 admin/options.php:687 admin/options.php:875
+#: admin/options.php:1063
+msgid "Block 16"
+msgstr ""
+
+#: admin/category-meta.php:63 admin/options.php:688 admin/options.php:876
+#: admin/options.php:1064
+msgid "Block 17"
+msgstr ""
+
+#: admin/category-meta.php:64 admin/options.php:689 admin/options.php:877
+#: admin/options.php:1065
+msgid "Block 18"
+msgstr ""
+
+#: admin/category-meta.php:65 admin/options.php:690 admin/options.php:878
+#: admin/options.php:1066
+msgid "Block 19"
+msgstr ""
+
+#: admin/category-meta.php:66
+msgid "Block 20"
+msgstr ""
+
+#: admin/category-meta.php:71
+msgid "Select a template to use for this category"
+msgstr ""
+
+#: admin/category-meta.php:76
+msgid "Show Sidebar?"
+msgstr ""
+
+#: admin/category-meta.php:81 admin/category-meta.php:186
+#: admin/category-meta.php:212 admin/category-meta.php:233
+#: admin/category-meta.php:251 admin/category-meta.php:279
+#: admin/category-meta.php:298 admin/category-meta.php:316
+#: admin/category-meta.php:334 admin/category-meta.php:352
+#: admin/category-meta.php:384 admin/meta/page-options.php:12
+#: admin/meta/post-options.php:31 admin/options.php:74
+#: blocks/widgets/oc-about-website/oc-about-website.php:39
+#: blocks/widgets/oc-block-1/oc-block-1.php:63
+#: blocks/widgets/oc-block-10/oc-block-10.php:63
+#: blocks/widgets/oc-block-11/oc-block-11.php:63
+#: blocks/widgets/oc-block-12/oc-block-12.php:63
+#: blocks/widgets/oc-block-13/oc-block-13.php:63
+#: blocks/widgets/oc-block-14/oc-block-14.php:63
+#: blocks/widgets/oc-block-15/oc-block-15.php:63
+#: blocks/widgets/oc-block-16/oc-block-16.php:63
+#: blocks/widgets/oc-block-17/oc-block-17.php:63
+#: blocks/widgets/oc-block-18/oc-block-18.php:63
+#: blocks/widgets/oc-block-19/oc-block-19.php:63
+#: blocks/widgets/oc-block-2/oc-block-2.php:63
+#: blocks/widgets/oc-block-20/oc-block-20.php:63
+#: blocks/widgets/oc-block-3/oc-block-3.php:63
+#: blocks/widgets/oc-block-4/oc-block-4.php:63
+#: blocks/widgets/oc-block-5/oc-block-5.php:63
+#: blocks/widgets/oc-block-6/oc-block-6.php:63
+#: blocks/widgets/oc-block-7/oc-block-7.php:64
+#: blocks/widgets/oc-block-8/oc-block-8.php:62
+#: blocks/widgets/oc-block-9/oc-block-9.php:63
+#: blocks/widgets/oc-module-1/oc-module-1.php:41
+#: blocks/widgets/oc-module-2/oc-module-2.php:64
+#: blocks/widgets/oc-module-3/oc-module-3.php:82
+#: blocks/widgets/oc-module-5/oc-module-5.php:57
+#: blocks/widgets/oc-module-6/oc-module-6.php:51
+#: blocks/widgets/oc-module-7/oc-module-7.php:57
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:46
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:41
+msgid "Default"
+msgstr ""
+
+#: admin/category-meta.php:81 admin/options.php:130 admin/options.php:662
+#: admin/options.php:850 admin/options.php:1038 woocommerce/init.php:321
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/category-meta.php:81 admin/meta/page-options.php:14
+#: admin/meta/post-options.php:33 admin/options.php:130 admin/options.php:662
+#: admin/options.php:850 admin/options.php:1038 woocommerce/init.php:321
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/category-meta.php:81 admin/meta/page-options.php:13
+#: admin/meta/post-options.php:32 admin/options.php:130 admin/options.php:662
+#: admin/options.php:850 admin/options.php:1038 woocommerce/init.php:321
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/category-meta.php:85
+msgid "Select layout sidebar preference for this category's listing."
+msgstr ""
+
+#: admin/category-meta.php:90
+msgid "Featured Slider?"
+msgstr ""
+
+#: admin/category-meta.php:96 admin/meta/post-options.php:58 functions.php:701
+msgid "Disabled"
+msgstr ""
+
+#: admin/category-meta.php:97
+msgid "Show Posts Marked for Featured Slider"
+msgstr ""
+
+#: admin/category-meta.php:98
+msgid "Show Latest Posts"
+msgstr ""
+
+#: admin/category-meta.php:103
+msgid "Featured slider will display on category listing."
+msgstr ""
+
+#: admin/category-meta.php:108 admin/meta/page-options.php:49
+msgid "Featured Style"
+msgstr ""
+
+#: admin/category-meta.php:114 admin/meta/page-options.php:53
+msgid "Feature 1"
+msgstr ""
+
+#: admin/category-meta.php:115 admin/meta/page-options.php:54
+msgid "Feature 2"
+msgstr ""
+
+#: admin/category-meta.php:116 admin/meta/page-options.php:55
+msgid "Feature 3"
+msgstr ""
+
+#: admin/category-meta.php:117 admin/meta/page-options.php:56
+msgid "Feature 4"
+msgstr ""
+
+#: admin/category-meta.php:118 admin/meta/page-options.php:57
+msgid "Feature 5"
+msgstr ""
+
+#: admin/category-meta.php:119 admin/meta/page-options.php:58
+msgid "Feature 6"
+msgstr ""
+
+#: admin/category-meta.php:120 admin/meta/page-options.php:59
+msgid "Feature 7"
+msgstr ""
+
+#: admin/category-meta.php:125
+msgid "Change different feature styles."
+msgstr ""
+
+#: admin/category-meta.php:130 admin/meta/page-options.php:65
+msgid "Featured Wrapper"
+msgstr ""
+
+#: admin/category-meta.php:136 admin/category-meta.php:154
+#: admin/category-meta.php:234 admin/category-meta.php:299
+#: admin/category-meta.php:317 admin/category-meta.php:335
+#: admin/category-meta.php:353 admin/category-meta.php:385
+#: admin/meta/page-options.php:69 admin/meta/page-options.php:81
+#: admin/options.php:728 admin/options.php:775 admin/options.php:787
+#: admin/options.php:799 admin/options.php:811 admin/options.php:831
+#: admin/options.php:916 admin/options.php:963 admin/options.php:975
+#: admin/options.php:987 admin/options.php:999 admin/options.php:1019
+#: admin/options.php:1104 admin/options.php:1151 admin/options.php:1163
+#: admin/options.php:1175 admin/options.php:1187 admin/options.php:1207
+#: blocks/widgets/oc-block-1/oc-block-1.php:91
+#: blocks/widgets/oc-block-1/oc-block-1.php:134
+#: blocks/widgets/oc-block-1/oc-block-1.php:144
+#: blocks/widgets/oc-block-1/oc-block-1.php:154
+#: blocks/widgets/oc-block-1/oc-block-1.php:164
+#: blocks/widgets/oc-block-1/oc-block-1.php:182
+#: blocks/widgets/oc-block-10/oc-block-10.php:91
+#: blocks/widgets/oc-block-10/oc-block-10.php:134
+#: blocks/widgets/oc-block-10/oc-block-10.php:144
+#: blocks/widgets/oc-block-10/oc-block-10.php:154
+#: blocks/widgets/oc-block-10/oc-block-10.php:164
+#: blocks/widgets/oc-block-10/oc-block-10.php:182
+#: blocks/widgets/oc-block-11/oc-block-11.php:91
+#: blocks/widgets/oc-block-11/oc-block-11.php:134
+#: blocks/widgets/oc-block-11/oc-block-11.php:144
+#: blocks/widgets/oc-block-11/oc-block-11.php:154
+#: blocks/widgets/oc-block-11/oc-block-11.php:164
+#: blocks/widgets/oc-block-11/oc-block-11.php:182
+#: blocks/widgets/oc-block-12/oc-block-12.php:91
+#: blocks/widgets/oc-block-12/oc-block-12.php:134
+#: blocks/widgets/oc-block-12/oc-block-12.php:144
+#: blocks/widgets/oc-block-12/oc-block-12.php:154
+#: blocks/widgets/oc-block-12/oc-block-12.php:164
+#: blocks/widgets/oc-block-12/oc-block-12.php:182
+#: blocks/widgets/oc-block-13/oc-block-13.php:91
+#: blocks/widgets/oc-block-13/oc-block-13.php:134
+#: blocks/widgets/oc-block-13/oc-block-13.php:144
+#: blocks/widgets/oc-block-13/oc-block-13.php:154
+#: blocks/widgets/oc-block-13/oc-block-13.php:164
+#: blocks/widgets/oc-block-13/oc-block-13.php:182
+#: blocks/widgets/oc-block-14/oc-block-14.php:91
+#: blocks/widgets/oc-block-14/oc-block-14.php:134
+#: blocks/widgets/oc-block-14/oc-block-14.php:144
+#: blocks/widgets/oc-block-14/oc-block-14.php:154
+#: blocks/widgets/oc-block-14/oc-block-14.php:164
+#: blocks/widgets/oc-block-14/oc-block-14.php:182
+#: blocks/widgets/oc-block-15/oc-block-15.php:91
+#: blocks/widgets/oc-block-15/oc-block-15.php:133
+#: blocks/widgets/oc-block-15/oc-block-15.php:143
+#: blocks/widgets/oc-block-15/oc-block-15.php:153
+#: blocks/widgets/oc-block-15/oc-block-15.php:163
+#: blocks/widgets/oc-block-15/oc-block-15.php:181
+#: blocks/widgets/oc-block-16/oc-block-16.php:91
+#: blocks/widgets/oc-block-16/oc-block-16.php:134
+#: blocks/widgets/oc-block-16/oc-block-16.php:144
+#: blocks/widgets/oc-block-16/oc-block-16.php:154
+#: blocks/widgets/oc-block-16/oc-block-16.php:164
+#: blocks/widgets/oc-block-16/oc-block-16.php:182
+#: blocks/widgets/oc-block-17/oc-block-17.php:91
+#: blocks/widgets/oc-block-17/oc-block-17.php:134
+#: blocks/widgets/oc-block-17/oc-block-17.php:144
+#: blocks/widgets/oc-block-17/oc-block-17.php:154
+#: blocks/widgets/oc-block-17/oc-block-17.php:164
+#: blocks/widgets/oc-block-17/oc-block-17.php:182
+#: blocks/widgets/oc-block-18/oc-block-18.php:91
+#: blocks/widgets/oc-block-18/oc-block-18.php:134
+#: blocks/widgets/oc-block-18/oc-block-18.php:144
+#: blocks/widgets/oc-block-18/oc-block-18.php:154
+#: blocks/widgets/oc-block-18/oc-block-18.php:164
+#: blocks/widgets/oc-block-18/oc-block-18.php:182
+#: blocks/widgets/oc-block-19/oc-block-19.php:91
+#: blocks/widgets/oc-block-19/oc-block-19.php:134
+#: blocks/widgets/oc-block-19/oc-block-19.php:144
+#: blocks/widgets/oc-block-19/oc-block-19.php:154
+#: blocks/widgets/oc-block-19/oc-block-19.php:164
+#: blocks/widgets/oc-block-19/oc-block-19.php:182
+#: blocks/widgets/oc-block-2/oc-block-2.php:91
+#: blocks/widgets/oc-block-2/oc-block-2.php:134
+#: blocks/widgets/oc-block-2/oc-block-2.php:144
+#: blocks/widgets/oc-block-2/oc-block-2.php:154
+#: blocks/widgets/oc-block-2/oc-block-2.php:164
+#: blocks/widgets/oc-block-2/oc-block-2.php:182
+#: blocks/widgets/oc-block-20/oc-block-20.php:91
+#: blocks/widgets/oc-block-20/oc-block-20.php:134
+#: blocks/widgets/oc-block-20/oc-block-20.php:144
+#: blocks/widgets/oc-block-20/oc-block-20.php:154
+#: blocks/widgets/oc-block-20/oc-block-20.php:164
+#: blocks/widgets/oc-block-20/oc-block-20.php:182
+#: blocks/widgets/oc-block-3/oc-block-3.php:91
+#: blocks/widgets/oc-block-3/oc-block-3.php:135
+#: blocks/widgets/oc-block-3/oc-block-3.php:145
+#: blocks/widgets/oc-block-4/oc-block-4.php:91
+#: blocks/widgets/oc-block-4/oc-block-4.php:135
+#: blocks/widgets/oc-block-4/oc-block-4.php:145
+#: blocks/widgets/oc-block-5/oc-block-5.php:91
+#: blocks/widgets/oc-block-5/oc-block-5.php:135
+#: blocks/widgets/oc-block-5/oc-block-5.php:145
+#: blocks/widgets/oc-block-6/oc-block-6.php:91
+#: blocks/widgets/oc-block-6/oc-block-6.php:135
+#: blocks/widgets/oc-block-6/oc-block-6.php:145
+#: blocks/widgets/oc-block-7/oc-block-7.php:92
+#: blocks/widgets/oc-block-7/oc-block-7.php:135
+#: blocks/widgets/oc-block-7/oc-block-7.php:145
+#: blocks/widgets/oc-block-7/oc-block-7.php:155
+#: blocks/widgets/oc-block-7/oc-block-7.php:165
+#: blocks/widgets/oc-block-7/oc-block-7.php:183
+#: blocks/widgets/oc-block-8/oc-block-8.php:90
+#: blocks/widgets/oc-block-8/oc-block-8.php:133
+#: blocks/widgets/oc-block-8/oc-block-8.php:143
+#: blocks/widgets/oc-block-8/oc-block-8.php:153
+#: blocks/widgets/oc-block-8/oc-block-8.php:163
+#: blocks/widgets/oc-block-8/oc-block-8.php:181
+#: blocks/widgets/oc-block-9/oc-block-9.php:91
+#: blocks/widgets/oc-block-9/oc-block-9.php:134
+#: blocks/widgets/oc-block-9/oc-block-9.php:144
+#: blocks/widgets/oc-block-9/oc-block-9.php:154
+#: blocks/widgets/oc-block-9/oc-block-9.php:164
+#: blocks/widgets/oc-block-9/oc-block-9.php:182
+#: blocks/widgets/oc-module-1/oc-module-1.php:90
+#: blocks/widgets/oc-module-1/oc-module-1.php:133
+#: blocks/widgets/oc-module-1/oc-module-1.php:143
+#: blocks/widgets/oc-module-1/oc-module-1.php:153
+#: blocks/widgets/oc-module-1/oc-module-1.php:163
+#: blocks/widgets/oc-module-1/oc-module-1.php:217
+#: blocks/widgets/oc-module-1/oc-module-1.php:260
+#: blocks/widgets/oc-module-1/oc-module-1.php:270
+#: blocks/widgets/oc-module-1/oc-module-1.php:280
+#: blocks/widgets/oc-module-1/oc-module-1.php:290
+#: blocks/widgets/oc-module-2/oc-module-2.php:90
+#: blocks/widgets/oc-module-2/oc-module-2.php:133
+#: blocks/widgets/oc-module-2/oc-module-2.php:143
+#: blocks/widgets/oc-module-2/oc-module-2.php:153
+#: blocks/widgets/oc-module-3/oc-module-3.php:110
+#: blocks/widgets/oc-module-3/oc-module-3.php:153
+#: blocks/widgets/oc-module-3/oc-module-3.php:163
+#: blocks/widgets/oc-module-3/oc-module-3.php:173
+#: blocks/widgets/oc-module-3/oc-module-3.php:183
+#: blocks/widgets/oc-module-4/oc-module-4.php:91
+#: blocks/widgets/oc-module-4/oc-module-4.php:134
+#: blocks/widgets/oc-module-4/oc-module-4.php:144
+#: blocks/widgets/oc-module-4/oc-module-4.php:154
+#: blocks/widgets/oc-module-4/oc-module-4.php:164
+#: blocks/widgets/oc-module-5/oc-module-5.php:85
+#: blocks/widgets/oc-module-5/oc-module-5.php:128
+#: blocks/widgets/oc-module-5/oc-module-5.php:138
+#: blocks/widgets/oc-module-5/oc-module-5.php:148
+#: blocks/widgets/oc-module-6/oc-module-6.php:79
+#: blocks/widgets/oc-module-6/oc-module-6.php:122
+#: blocks/widgets/oc-module-6/oc-module-6.php:132
+#: blocks/widgets/oc-module-6/oc-module-6.php:142
+#: blocks/widgets/oc-module-7/oc-module-7.php:85
+#: blocks/widgets/oc-module-7/oc-module-7.php:128
+#: blocks/widgets/oc-module-7/oc-module-7.php:138
+#: blocks/widgets/oc-module-7/oc-module-7.php:148
+#: lib/admin/option-renderer.php:211
+msgid "Yes"
+msgstr ""
+
+#: admin/category-meta.php:137 admin/category-meta.php:153
+#: admin/category-meta.php:235 admin/category-meta.php:300
+#: admin/category-meta.php:318 admin/category-meta.php:336
+#: admin/category-meta.php:354 admin/category-meta.php:386
+#: admin/meta/page-options.php:70 admin/meta/page-options.php:80
+#: admin/options.php:729 admin/options.php:776 admin/options.php:788
+#: admin/options.php:800 admin/options.php:812 admin/options.php:832
+#: admin/options.php:917 admin/options.php:964 admin/options.php:976
+#: admin/options.php:988 admin/options.php:1000 admin/options.php:1020
+#: admin/options.php:1105 admin/options.php:1152 admin/options.php:1164
+#: admin/options.php:1176 admin/options.php:1188 admin/options.php:1208
+#: blocks/widgets/oc-block-1/oc-block-1.php:92
+#: blocks/widgets/oc-block-1/oc-block-1.php:135
+#: blocks/widgets/oc-block-1/oc-block-1.php:145
+#: blocks/widgets/oc-block-1/oc-block-1.php:155
+#: blocks/widgets/oc-block-1/oc-block-1.php:165
+#: blocks/widgets/oc-block-1/oc-block-1.php:183
+#: blocks/widgets/oc-block-10/oc-block-10.php:92
+#: blocks/widgets/oc-block-10/oc-block-10.php:135
+#: blocks/widgets/oc-block-10/oc-block-10.php:145
+#: blocks/widgets/oc-block-10/oc-block-10.php:155
+#: blocks/widgets/oc-block-10/oc-block-10.php:165
+#: blocks/widgets/oc-block-10/oc-block-10.php:183
+#: blocks/widgets/oc-block-11/oc-block-11.php:92
+#: blocks/widgets/oc-block-11/oc-block-11.php:135
+#: blocks/widgets/oc-block-11/oc-block-11.php:145
+#: blocks/widgets/oc-block-11/oc-block-11.php:155
+#: blocks/widgets/oc-block-11/oc-block-11.php:165
+#: blocks/widgets/oc-block-11/oc-block-11.php:183
+#: blocks/widgets/oc-block-12/oc-block-12.php:92
+#: blocks/widgets/oc-block-12/oc-block-12.php:135
+#: blocks/widgets/oc-block-12/oc-block-12.php:145
+#: blocks/widgets/oc-block-12/oc-block-12.php:155
+#: blocks/widgets/oc-block-12/oc-block-12.php:165
+#: blocks/widgets/oc-block-12/oc-block-12.php:183
+#: blocks/widgets/oc-block-13/oc-block-13.php:92
+#: blocks/widgets/oc-block-13/oc-block-13.php:135
+#: blocks/widgets/oc-block-13/oc-block-13.php:145
+#: blocks/widgets/oc-block-13/oc-block-13.php:155
+#: blocks/widgets/oc-block-13/oc-block-13.php:165
+#: blocks/widgets/oc-block-13/oc-block-13.php:183
+#: blocks/widgets/oc-block-14/oc-block-14.php:92
+#: blocks/widgets/oc-block-14/oc-block-14.php:135
+#: blocks/widgets/oc-block-14/oc-block-14.php:145
+#: blocks/widgets/oc-block-14/oc-block-14.php:155
+#: blocks/widgets/oc-block-14/oc-block-14.php:165
+#: blocks/widgets/oc-block-14/oc-block-14.php:183
+#: blocks/widgets/oc-block-15/oc-block-15.php:92
+#: blocks/widgets/oc-block-15/oc-block-15.php:134
+#: blocks/widgets/oc-block-15/oc-block-15.php:144
+#: blocks/widgets/oc-block-15/oc-block-15.php:154
+#: blocks/widgets/oc-block-15/oc-block-15.php:164
+#: blocks/widgets/oc-block-15/oc-block-15.php:182
+#: blocks/widgets/oc-block-16/oc-block-16.php:92
+#: blocks/widgets/oc-block-16/oc-block-16.php:135
+#: blocks/widgets/oc-block-16/oc-block-16.php:145
+#: blocks/widgets/oc-block-16/oc-block-16.php:155
+#: blocks/widgets/oc-block-16/oc-block-16.php:165
+#: blocks/widgets/oc-block-16/oc-block-16.php:183
+#: blocks/widgets/oc-block-17/oc-block-17.php:92
+#: blocks/widgets/oc-block-17/oc-block-17.php:135
+#: blocks/widgets/oc-block-17/oc-block-17.php:145
+#: blocks/widgets/oc-block-17/oc-block-17.php:155
+#: blocks/widgets/oc-block-17/oc-block-17.php:165
+#: blocks/widgets/oc-block-17/oc-block-17.php:183
+#: blocks/widgets/oc-block-18/oc-block-18.php:92
+#: blocks/widgets/oc-block-18/oc-block-18.php:135
+#: blocks/widgets/oc-block-18/oc-block-18.php:145
+#: blocks/widgets/oc-block-18/oc-block-18.php:155
+#: blocks/widgets/oc-block-18/oc-block-18.php:165
+#: blocks/widgets/oc-block-18/oc-block-18.php:183
+#: blocks/widgets/oc-block-19/oc-block-19.php:92
+#: blocks/widgets/oc-block-19/oc-block-19.php:135
+#: blocks/widgets/oc-block-19/oc-block-19.php:145
+#: blocks/widgets/oc-block-19/oc-block-19.php:155
+#: blocks/widgets/oc-block-19/oc-block-19.php:165
+#: blocks/widgets/oc-block-19/oc-block-19.php:183
+#: blocks/widgets/oc-block-2/oc-block-2.php:92
+#: blocks/widgets/oc-block-2/oc-block-2.php:135
+#: blocks/widgets/oc-block-2/oc-block-2.php:145
+#: blocks/widgets/oc-block-2/oc-block-2.php:155
+#: blocks/widgets/oc-block-2/oc-block-2.php:165
+#: blocks/widgets/oc-block-2/oc-block-2.php:183
+#: blocks/widgets/oc-block-20/oc-block-20.php:92
+#: blocks/widgets/oc-block-20/oc-block-20.php:135
+#: blocks/widgets/oc-block-20/oc-block-20.php:145
+#: blocks/widgets/oc-block-20/oc-block-20.php:155
+#: blocks/widgets/oc-block-20/oc-block-20.php:165
+#: blocks/widgets/oc-block-20/oc-block-20.php:183
+#: blocks/widgets/oc-block-3/oc-block-3.php:92
+#: blocks/widgets/oc-block-3/oc-block-3.php:136
+#: blocks/widgets/oc-block-3/oc-block-3.php:146
+#: blocks/widgets/oc-block-4/oc-block-4.php:92
+#: blocks/widgets/oc-block-4/oc-block-4.php:136
+#: blocks/widgets/oc-block-4/oc-block-4.php:146
+#: blocks/widgets/oc-block-5/oc-block-5.php:92
+#: blocks/widgets/oc-block-5/oc-block-5.php:136
+#: blocks/widgets/oc-block-5/oc-block-5.php:146
+#: blocks/widgets/oc-block-6/oc-block-6.php:92
+#: blocks/widgets/oc-block-6/oc-block-6.php:136
+#: blocks/widgets/oc-block-6/oc-block-6.php:146
+#: blocks/widgets/oc-block-7/oc-block-7.php:93
+#: blocks/widgets/oc-block-7/oc-block-7.php:136
+#: blocks/widgets/oc-block-7/oc-block-7.php:146
+#: blocks/widgets/oc-block-7/oc-block-7.php:156
+#: blocks/widgets/oc-block-7/oc-block-7.php:166
+#: blocks/widgets/oc-block-7/oc-block-7.php:184
+#: blocks/widgets/oc-block-8/oc-block-8.php:91
+#: blocks/widgets/oc-block-8/oc-block-8.php:134
+#: blocks/widgets/oc-block-8/oc-block-8.php:144
+#: blocks/widgets/oc-block-8/oc-block-8.php:154
+#: blocks/widgets/oc-block-8/oc-block-8.php:164
+#: blocks/widgets/oc-block-8/oc-block-8.php:182
+#: blocks/widgets/oc-block-9/oc-block-9.php:92
+#: blocks/widgets/oc-block-9/oc-block-9.php:135
+#: blocks/widgets/oc-block-9/oc-block-9.php:145
+#: blocks/widgets/oc-block-9/oc-block-9.php:155
+#: blocks/widgets/oc-block-9/oc-block-9.php:165
+#: blocks/widgets/oc-block-9/oc-block-9.php:183
+#: blocks/widgets/oc-module-1/oc-module-1.php:91
+#: blocks/widgets/oc-module-1/oc-module-1.php:134
+#: blocks/widgets/oc-module-1/oc-module-1.php:144
+#: blocks/widgets/oc-module-1/oc-module-1.php:154
+#: blocks/widgets/oc-module-1/oc-module-1.php:164
+#: blocks/widgets/oc-module-1/oc-module-1.php:218
+#: blocks/widgets/oc-module-1/oc-module-1.php:261
+#: blocks/widgets/oc-module-1/oc-module-1.php:271
+#: blocks/widgets/oc-module-1/oc-module-1.php:281
+#: blocks/widgets/oc-module-1/oc-module-1.php:291
+#: blocks/widgets/oc-module-2/oc-module-2.php:91
+#: blocks/widgets/oc-module-2/oc-module-2.php:134
+#: blocks/widgets/oc-module-2/oc-module-2.php:144
+#: blocks/widgets/oc-module-2/oc-module-2.php:154
+#: blocks/widgets/oc-module-3/oc-module-3.php:111
+#: blocks/widgets/oc-module-3/oc-module-3.php:154
+#: blocks/widgets/oc-module-3/oc-module-3.php:164
+#: blocks/widgets/oc-module-3/oc-module-3.php:174
+#: blocks/widgets/oc-module-3/oc-module-3.php:184
+#: blocks/widgets/oc-module-4/oc-module-4.php:92
+#: blocks/widgets/oc-module-4/oc-module-4.php:135
+#: blocks/widgets/oc-module-4/oc-module-4.php:145
+#: blocks/widgets/oc-module-4/oc-module-4.php:155
+#: blocks/widgets/oc-module-4/oc-module-4.php:165
+#: blocks/widgets/oc-module-5/oc-module-5.php:86
+#: blocks/widgets/oc-module-5/oc-module-5.php:129
+#: blocks/widgets/oc-module-5/oc-module-5.php:139
+#: blocks/widgets/oc-module-5/oc-module-5.php:149
+#: blocks/widgets/oc-module-6/oc-module-6.php:80
+#: blocks/widgets/oc-module-6/oc-module-6.php:123
+#: blocks/widgets/oc-module-6/oc-module-6.php:133
+#: blocks/widgets/oc-module-6/oc-module-6.php:143
+#: blocks/widgets/oc-module-7/oc-module-7.php:86
+#: blocks/widgets/oc-module-7/oc-module-7.php:129
+#: blocks/widgets/oc-module-7/oc-module-7.php:139
+#: blocks/widgets/oc-module-7/oc-module-7.php:149
+#: lib/admin/option-renderer.php:211
+msgid "No"
+msgstr ""
+
+#: admin/category-meta.php:142
+msgid "Used wrapper for feature style."
+msgstr ""
+
+#: admin/category-meta.php:147 admin/meta/page-options.php:76
+msgid "Featured Overlay"
+msgstr ""
+
+#: admin/category-meta.php:163
+msgid "Posts Per Page (Optional)"
+msgstr ""
+
+#: admin/category-meta.php:174
+#, php-format
+msgid ""
+"Override default posts per page setting for this category. Leave empty for "
+"default (from Settings > Reading): %s"
+msgstr ""
+
+#: admin/category-meta.php:180 admin/options.php:697 admin/options.php:885
+#: admin/options.php:1073
+msgid "Pagination Type"
+msgstr ""
+
+#: admin/category-meta.php:187
+msgid "Normal"
+msgstr ""
+
+#: admin/category-meta.php:188 admin/options.php:702 admin/options.php:890
+#: admin/options.php:1078 blocks/widgets/oc-block-1/oc-block-1.php:54
+#: blocks/widgets/oc-block-10/oc-block-10.php:54
+#: blocks/widgets/oc-block-11/oc-block-11.php:54
+#: blocks/widgets/oc-block-12/oc-block-12.php:54
+#: blocks/widgets/oc-block-13/oc-block-13.php:54
+#: blocks/widgets/oc-block-14/oc-block-14.php:54
+#: blocks/widgets/oc-block-15/oc-block-15.php:54
+#: blocks/widgets/oc-block-16/oc-block-16.php:54
+#: blocks/widgets/oc-block-17/oc-block-17.php:54
+#: blocks/widgets/oc-block-18/oc-block-18.php:54
+#: blocks/widgets/oc-block-19/oc-block-19.php:54
+#: blocks/widgets/oc-block-2/oc-block-2.php:54
+#: blocks/widgets/oc-block-20/oc-block-20.php:54
+#: blocks/widgets/oc-block-3/oc-block-3.php:54
+#: blocks/widgets/oc-block-4/oc-block-4.php:54
+#: blocks/widgets/oc-block-5/oc-block-5.php:54
+#: blocks/widgets/oc-block-6/oc-block-6.php:54
+#: blocks/widgets/oc-block-7/oc-block-7.php:55
+#: blocks/widgets/oc-block-8/oc-block-8.php:53
+#: blocks/widgets/oc-block-9/oc-block-9.php:54
+msgid "Infinite Scroll"
+msgstr ""
+
+#: admin/category-meta.php:193
+msgid "Infinite scroll can be globally enabled/disabled from Theme Settings."
+msgstr ""
+
+#: admin/category-meta.php:198
+msgid "Category Color"
+msgstr ""
+
+#: admin/category-meta.php:201
+msgid ""
+"FlipMag uses this in several areas such as navigation and homepage blocks."
+msgstr ""
+
+#: admin/category-meta.php:206 blocks/widgets/oc-block-1/oc-block-1.php:76
+#: blocks/widgets/oc-block-10/oc-block-10.php:76
+#: blocks/widgets/oc-block-11/oc-block-11.php:76
+#: blocks/widgets/oc-block-12/oc-block-12.php:76
+#: blocks/widgets/oc-block-13/oc-block-13.php:76
+#: blocks/widgets/oc-block-14/oc-block-14.php:76
+#: blocks/widgets/oc-block-15/oc-block-15.php:76
+#: blocks/widgets/oc-block-16/oc-block-16.php:76
+#: blocks/widgets/oc-block-17/oc-block-17.php:76
+#: blocks/widgets/oc-block-18/oc-block-18.php:76
+#: blocks/widgets/oc-block-19/oc-block-19.php:76
+#: blocks/widgets/oc-block-2/oc-block-2.php:76
+#: blocks/widgets/oc-block-20/oc-block-20.php:76
+#: blocks/widgets/oc-block-3/oc-block-3.php:76
+#: blocks/widgets/oc-block-4/oc-block-4.php:76
+#: blocks/widgets/oc-block-5/oc-block-5.php:76
+#: blocks/widgets/oc-block-6/oc-block-6.php:76
+#: blocks/widgets/oc-block-7/oc-block-7.php:77
+#: blocks/widgets/oc-block-8/oc-block-8.php:75
+#: blocks/widgets/oc-block-9/oc-block-9.php:76
+#: blocks/widgets/oc-module-1/oc-module-1.php:75
+#: blocks/widgets/oc-module-1/oc-module-1.php:202
+#: blocks/widgets/oc-module-2/oc-module-2.php:49
+#: blocks/widgets/oc-module-3/oc-module-3.php:95
+#: blocks/widgets/oc-module-4/oc-module-4.php:76
+#: blocks/widgets/oc-module-5/oc-module-5.php:70
+#: blocks/widgets/oc-module-6/oc-module-6.php:64
+#: blocks/widgets/oc-module-7/oc-module-7.php:70
+msgid "Animation"
+msgstr ""
+
+#: admin/category-meta.php:213 admin/meta/page-options.php:32
+#: admin/options.php:713 admin/options.php:901 admin/options.php:1089
+#: blocks/widgets/oc-block-1/oc-block-1.php:78
+#: blocks/widgets/oc-block-10/oc-block-10.php:78
+#: blocks/widgets/oc-block-11/oc-block-11.php:78
+#: blocks/widgets/oc-block-12/oc-block-12.php:78
+#: blocks/widgets/oc-block-13/oc-block-13.php:78
+#: blocks/widgets/oc-block-14/oc-block-14.php:78
+#: blocks/widgets/oc-block-15/oc-block-15.php:78
+#: blocks/widgets/oc-block-16/oc-block-16.php:78
+#: blocks/widgets/oc-block-17/oc-block-17.php:78
+#: blocks/widgets/oc-block-18/oc-block-18.php:78
+#: blocks/widgets/oc-block-19/oc-block-19.php:78
+#: blocks/widgets/oc-block-2/oc-block-2.php:78
+#: blocks/widgets/oc-block-20/oc-block-20.php:78
+#: blocks/widgets/oc-block-3/oc-block-3.php:78
+#: blocks/widgets/oc-block-4/oc-block-4.php:78
+#: blocks/widgets/oc-block-5/oc-block-5.php:78
+#: blocks/widgets/oc-block-6/oc-block-6.php:78
+#: blocks/widgets/oc-block-7/oc-block-7.php:79
+#: blocks/widgets/oc-block-8/oc-block-8.php:77
+#: blocks/widgets/oc-block-9/oc-block-9.php:78
+#: blocks/widgets/oc-module-1/oc-module-1.php:77
+#: blocks/widgets/oc-module-1/oc-module-1.php:204
+#: blocks/widgets/oc-module-2/oc-module-2.php:51
+#: blocks/widgets/oc-module-3/oc-module-3.php:97
+#: blocks/widgets/oc-module-4/oc-module-4.php:78
+#: blocks/widgets/oc-module-5/oc-module-5.php:72
+#: blocks/widgets/oc-module-6/oc-module-6.php:66
+#: blocks/widgets/oc-module-7/oc-module-7.php:72
+msgid "None"
+msgstr ""
+
+#: admin/category-meta.php:214 admin/options.php:714 admin/options.php:902
+#: admin/options.php:1090 blocks/widgets/oc-block-1/oc-block-1.php:79
+#: blocks/widgets/oc-block-10/oc-block-10.php:79
+#: blocks/widgets/oc-block-11/oc-block-11.php:79
+#: blocks/widgets/oc-block-12/oc-block-12.php:79
+#: blocks/widgets/oc-block-13/oc-block-13.php:79
+#: blocks/widgets/oc-block-14/oc-block-14.php:79
+#: blocks/widgets/oc-block-15/oc-block-15.php:79
+#: blocks/widgets/oc-block-16/oc-block-16.php:79
+#: blocks/widgets/oc-block-17/oc-block-17.php:79
+#: blocks/widgets/oc-block-18/oc-block-18.php:79
+#: blocks/widgets/oc-block-19/oc-block-19.php:79
+#: blocks/widgets/oc-block-2/oc-block-2.php:79
+#: blocks/widgets/oc-block-20/oc-block-20.php:79
+#: blocks/widgets/oc-block-3/oc-block-3.php:79
+#: blocks/widgets/oc-block-4/oc-block-4.php:79
+#: blocks/widgets/oc-block-5/oc-block-5.php:79
+#: blocks/widgets/oc-block-6/oc-block-6.php:79
+#: blocks/widgets/oc-block-7/oc-block-7.php:80
+#: blocks/widgets/oc-block-8/oc-block-8.php:78
+#: blocks/widgets/oc-block-9/oc-block-9.php:79
+#: blocks/widgets/oc-module-1/oc-module-1.php:78
+#: blocks/widgets/oc-module-1/oc-module-1.php:205
+#: blocks/widgets/oc-module-2/oc-module-2.php:52
+#: blocks/widgets/oc-module-3/oc-module-3.php:98
+#: blocks/widgets/oc-module-4/oc-module-4.php:79
+#: blocks/widgets/oc-module-5/oc-module-5.php:73
+#: blocks/widgets/oc-module-6/oc-module-6.php:67
+#: blocks/widgets/oc-module-7/oc-module-7.php:73
+msgid "Fade In Down"
+msgstr ""
+
+#: admin/category-meta.php:215 admin/options.php:715 admin/options.php:903
+#: admin/options.php:1091 blocks/widgets/oc-block-1/oc-block-1.php:80
+#: blocks/widgets/oc-block-10/oc-block-10.php:80
+#: blocks/widgets/oc-block-11/oc-block-11.php:80
+#: blocks/widgets/oc-block-12/oc-block-12.php:80
+#: blocks/widgets/oc-block-13/oc-block-13.php:80
+#: blocks/widgets/oc-block-14/oc-block-14.php:80
+#: blocks/widgets/oc-block-15/oc-block-15.php:80
+#: blocks/widgets/oc-block-16/oc-block-16.php:80
+#: blocks/widgets/oc-block-17/oc-block-17.php:80
+#: blocks/widgets/oc-block-18/oc-block-18.php:80
+#: blocks/widgets/oc-block-19/oc-block-19.php:80
+#: blocks/widgets/oc-block-2/oc-block-2.php:80
+#: blocks/widgets/oc-block-20/oc-block-20.php:80
+#: blocks/widgets/oc-block-3/oc-block-3.php:80
+#: blocks/widgets/oc-block-4/oc-block-4.php:80
+#: blocks/widgets/oc-block-5/oc-block-5.php:80
+#: blocks/widgets/oc-block-6/oc-block-6.php:80
+#: blocks/widgets/oc-block-7/oc-block-7.php:81
+#: blocks/widgets/oc-block-8/oc-block-8.php:79
+#: blocks/widgets/oc-block-9/oc-block-9.php:80
+#: blocks/widgets/oc-module-1/oc-module-1.php:79
+#: blocks/widgets/oc-module-1/oc-module-1.php:206
+#: blocks/widgets/oc-module-2/oc-module-2.php:53
+#: blocks/widgets/oc-module-3/oc-module-3.php:99
+#: blocks/widgets/oc-module-4/oc-module-4.php:80
+#: blocks/widgets/oc-module-5/oc-module-5.php:74
+#: blocks/widgets/oc-module-6/oc-module-6.php:68
+#: blocks/widgets/oc-module-7/oc-module-7.php:74
+msgid "Fade In Up"
+msgstr ""
+
+#: admin/category-meta.php:216 admin/options.php:716 admin/options.php:904
+#: admin/options.php:1092 blocks/widgets/oc-block-1/oc-block-1.php:81
+#: blocks/widgets/oc-block-10/oc-block-10.php:81
+#: blocks/widgets/oc-block-11/oc-block-11.php:81
+#: blocks/widgets/oc-block-12/oc-block-12.php:81
+#: blocks/widgets/oc-block-13/oc-block-13.php:81
+#: blocks/widgets/oc-block-14/oc-block-14.php:81
+#: blocks/widgets/oc-block-15/oc-block-15.php:81
+#: blocks/widgets/oc-block-16/oc-block-16.php:81
+#: blocks/widgets/oc-block-17/oc-block-17.php:81
+#: blocks/widgets/oc-block-18/oc-block-18.php:81
+#: blocks/widgets/oc-block-19/oc-block-19.php:81
+#: blocks/widgets/oc-block-2/oc-block-2.php:81
+#: blocks/widgets/oc-block-20/oc-block-20.php:81
+#: blocks/widgets/oc-block-3/oc-block-3.php:81
+#: blocks/widgets/oc-block-4/oc-block-4.php:81
+#: blocks/widgets/oc-block-5/oc-block-5.php:81
+#: blocks/widgets/oc-block-6/oc-block-6.php:81
+#: blocks/widgets/oc-block-7/oc-block-7.php:82
+#: blocks/widgets/oc-block-8/oc-block-8.php:80
+#: blocks/widgets/oc-block-9/oc-block-9.php:81
+#: blocks/widgets/oc-module-1/oc-module-1.php:80
+#: blocks/widgets/oc-module-1/oc-module-1.php:207
+#: blocks/widgets/oc-module-2/oc-module-2.php:54
+#: blocks/widgets/oc-module-3/oc-module-3.php:100
+#: blocks/widgets/oc-module-4/oc-module-4.php:81
+#: blocks/widgets/oc-module-5/oc-module-5.php:75
+#: blocks/widgets/oc-module-6/oc-module-6.php:69
+#: blocks/widgets/oc-module-7/oc-module-7.php:75
+msgid "Fade In Left"
+msgstr ""
+
+#: admin/category-meta.php:217 admin/options.php:717 admin/options.php:905
+#: admin/options.php:1093 blocks/widgets/oc-block-1/oc-block-1.php:82
+#: blocks/widgets/oc-block-10/oc-block-10.php:82
+#: blocks/widgets/oc-block-11/oc-block-11.php:82
+#: blocks/widgets/oc-block-12/oc-block-12.php:82
+#: blocks/widgets/oc-block-13/oc-block-13.php:82
+#: blocks/widgets/oc-block-14/oc-block-14.php:82
+#: blocks/widgets/oc-block-15/oc-block-15.php:82
+#: blocks/widgets/oc-block-16/oc-block-16.php:82
+#: blocks/widgets/oc-block-17/oc-block-17.php:82
+#: blocks/widgets/oc-block-18/oc-block-18.php:82
+#: blocks/widgets/oc-block-19/oc-block-19.php:82
+#: blocks/widgets/oc-block-2/oc-block-2.php:82
+#: blocks/widgets/oc-block-20/oc-block-20.php:82
+#: blocks/widgets/oc-block-3/oc-block-3.php:82
+#: blocks/widgets/oc-block-4/oc-block-4.php:82
+#: blocks/widgets/oc-block-5/oc-block-5.php:82
+#: blocks/widgets/oc-block-6/oc-block-6.php:82
+#: blocks/widgets/oc-block-7/oc-block-7.php:83
+#: blocks/widgets/oc-block-8/oc-block-8.php:81
+#: blocks/widgets/oc-block-9/oc-block-9.php:82
+#: blocks/widgets/oc-module-1/oc-module-1.php:81
+#: blocks/widgets/oc-module-1/oc-module-1.php:208
+#: blocks/widgets/oc-module-2/oc-module-2.php:55
+#: blocks/widgets/oc-module-3/oc-module-3.php:101
+#: blocks/widgets/oc-module-4/oc-module-4.php:82
+#: blocks/widgets/oc-module-5/oc-module-5.php:76
+#: blocks/widgets/oc-module-6/oc-module-6.php:70
+#: blocks/widgets/oc-module-7/oc-module-7.php:76
+msgid "Fade In Right"
+msgstr ""
+
+#: admin/category-meta.php:222
+msgid "Give animation effect to selected category block."
+msgstr ""
+
+#: admin/category-meta.php:227 admin/options.php:724 admin/options.php:912
+#: admin/options.php:1100 blocks/widgets/oc-block-1/oc-block-1.php:89
+#: blocks/widgets/oc-block-10/oc-block-10.php:89
+#: blocks/widgets/oc-block-11/oc-block-11.php:89
+#: blocks/widgets/oc-block-12/oc-block-12.php:89
+#: blocks/widgets/oc-block-13/oc-block-13.php:89
+#: blocks/widgets/oc-block-14/oc-block-14.php:89
+#: blocks/widgets/oc-block-15/oc-block-15.php:89
+#: blocks/widgets/oc-block-16/oc-block-16.php:89
+#: blocks/widgets/oc-block-17/oc-block-17.php:89
+#: blocks/widgets/oc-block-18/oc-block-18.php:89
+#: blocks/widgets/oc-block-19/oc-block-19.php:89
+#: blocks/widgets/oc-block-2/oc-block-2.php:89
+#: blocks/widgets/oc-block-20/oc-block-20.php:89
+#: blocks/widgets/oc-block-3/oc-block-3.php:89
+#: blocks/widgets/oc-block-4/oc-block-4.php:89
+#: blocks/widgets/oc-block-5/oc-block-5.php:89
+#: blocks/widgets/oc-block-6/oc-block-6.php:89
+#: blocks/widgets/oc-block-7/oc-block-7.php:90
+#: blocks/widgets/oc-block-8/oc-block-8.php:88
+#: blocks/widgets/oc-block-9/oc-block-9.php:89
+#: blocks/widgets/oc-module-1/oc-module-1.php:88
+#: blocks/widgets/oc-module-1/oc-module-1.php:215
+#: blocks/widgets/oc-module-2/oc-module-2.php:88
+#: blocks/widgets/oc-module-3/oc-module-3.php:108
+#: blocks/widgets/oc-module-4/oc-module-4.php:89
+#: blocks/widgets/oc-module-5/oc-module-5.php:83
+#: blocks/widgets/oc-module-6/oc-module-6.php:77
+#: blocks/widgets/oc-module-7/oc-module-7.php:83
+msgid "Disable Date"
+msgstr ""
+
+#: admin/category-meta.php:240
+msgid "Disable date in category block."
+msgstr ""
+
+#: admin/category-meta.php:245 admin/options.php:736 admin/options.php:924
+#: admin/options.php:1112 admin/options.php:1300
+msgid "Date Format"
+msgstr ""
+
+#: admin/category-meta.php:252 admin/options.php:740 admin/options.php:928
+#: admin/options.php:1116 admin/options.php:1304
+#: blocks/widgets/oc-block-1/oc-block-1.php:102
+#: blocks/widgets/oc-block-10/oc-block-10.php:102
+#: blocks/widgets/oc-block-11/oc-block-11.php:102
+#: blocks/widgets/oc-block-12/oc-block-12.php:102
+#: blocks/widgets/oc-block-13/oc-block-13.php:102
+#: blocks/widgets/oc-block-14/oc-block-14.php:102
+#: blocks/widgets/oc-block-15/oc-block-15.php:101
+#: blocks/widgets/oc-block-16/oc-block-16.php:102
+#: blocks/widgets/oc-block-17/oc-block-17.php:102
+#: blocks/widgets/oc-block-18/oc-block-18.php:102
+#: blocks/widgets/oc-block-19/oc-block-19.php:102
+#: blocks/widgets/oc-block-2/oc-block-2.php:102
+#: blocks/widgets/oc-block-20/oc-block-20.php:102
+#: blocks/widgets/oc-block-3/oc-block-3.php:102
+#: blocks/widgets/oc-block-4/oc-block-4.php:102
+#: blocks/widgets/oc-block-5/oc-block-5.php:102
+#: blocks/widgets/oc-block-6/oc-block-6.php:102
+#: blocks/widgets/oc-block-7/oc-block-7.php:103
+#: blocks/widgets/oc-block-8/oc-block-8.php:101
+#: blocks/widgets/oc-block-9/oc-block-9.php:102
+#: blocks/widgets/oc-module-1/oc-module-1.php:101
+#: blocks/widgets/oc-module-1/oc-module-1.php:228
+#: blocks/widgets/oc-module-2/oc-module-2.php:101
+#: blocks/widgets/oc-module-3/oc-module-3.php:121
+#: blocks/widgets/oc-module-4/oc-module-4.php:102
+#: blocks/widgets/oc-module-5/oc-module-5.php:96
+#: blocks/widgets/oc-module-6/oc-module-6.php:90
+#: blocks/widgets/oc-module-7/oc-module-7.php:96
+#, php-format
+msgid "JANUARY 25, %s"
+msgstr ""
+
+#: admin/category-meta.php:253 admin/options.php:741 admin/options.php:929
+#: admin/options.php:1117 admin/options.php:1305
+#: blocks/widgets/oc-block-1/oc-block-1.php:103
+#: blocks/widgets/oc-block-10/oc-block-10.php:103
+#: blocks/widgets/oc-block-11/oc-block-11.php:103
+#: blocks/widgets/oc-block-12/oc-block-12.php:103
+#: blocks/widgets/oc-block-13/oc-block-13.php:103
+#: blocks/widgets/oc-block-14/oc-block-14.php:103
+#: blocks/widgets/oc-block-15/oc-block-15.php:102
+#: blocks/widgets/oc-block-16/oc-block-16.php:103
+#: blocks/widgets/oc-block-17/oc-block-17.php:103
+#: blocks/widgets/oc-block-18/oc-block-18.php:103
+#: blocks/widgets/oc-block-19/oc-block-19.php:103
+#: blocks/widgets/oc-block-2/oc-block-2.php:103
+#: blocks/widgets/oc-block-20/oc-block-20.php:103
+#: blocks/widgets/oc-block-3/oc-block-3.php:103
+#: blocks/widgets/oc-block-4/oc-block-4.php:103
+#: blocks/widgets/oc-block-5/oc-block-5.php:103
+#: blocks/widgets/oc-block-6/oc-block-6.php:103
+#: blocks/widgets/oc-block-7/oc-block-7.php:104
+#: blocks/widgets/oc-block-8/oc-block-8.php:102
+#: blocks/widgets/oc-block-9/oc-block-9.php:103
+#: blocks/widgets/oc-module-1/oc-module-1.php:102
+#: blocks/widgets/oc-module-1/oc-module-1.php:229
+#: blocks/widgets/oc-module-2/oc-module-2.php:102
+#: blocks/widgets/oc-module-3/oc-module-3.php:122
+#: blocks/widgets/oc-module-4/oc-module-4.php:103
+#: blocks/widgets/oc-module-5/oc-module-5.php:97
+#: blocks/widgets/oc-module-6/oc-module-6.php:91
+#: blocks/widgets/oc-module-7/oc-module-7.php:97
+#, php-format
+msgid "JANUARY 25TH, %s"
+msgstr ""
+
+#: admin/category-meta.php:254 admin/options.php:742 admin/options.php:930
+#: admin/options.php:1118 admin/options.php:1306
+#: blocks/widgets/oc-block-1/oc-block-1.php:104
+#: blocks/widgets/oc-block-10/oc-block-10.php:104
+#: blocks/widgets/oc-block-11/oc-block-11.php:104
+#: blocks/widgets/oc-block-12/oc-block-12.php:104
+#: blocks/widgets/oc-block-13/oc-block-13.php:104
+#: blocks/widgets/oc-block-14/oc-block-14.php:104
+#: blocks/widgets/oc-block-15/oc-block-15.php:103
+#: blocks/widgets/oc-block-16/oc-block-16.php:104
+#: blocks/widgets/oc-block-17/oc-block-17.php:104
+#: blocks/widgets/oc-block-18/oc-block-18.php:104
+#: blocks/widgets/oc-block-19/oc-block-19.php:104
+#: blocks/widgets/oc-block-2/oc-block-2.php:104
+#: blocks/widgets/oc-block-20/oc-block-20.php:104
+#: blocks/widgets/oc-block-3/oc-block-3.php:104
+#: blocks/widgets/oc-block-4/oc-block-4.php:104
+#: blocks/widgets/oc-block-5/oc-block-5.php:104
+#: blocks/widgets/oc-block-6/oc-block-6.php:104
+#: blocks/widgets/oc-block-7/oc-block-7.php:105
+#: blocks/widgets/oc-block-8/oc-block-8.php:103
+#: blocks/widgets/oc-block-9/oc-block-9.php:104
+#: blocks/widgets/oc-module-1/oc-module-1.php:103
+#: blocks/widgets/oc-module-1/oc-module-1.php:230
+#: blocks/widgets/oc-module-2/oc-module-2.php:103
+#: blocks/widgets/oc-module-3/oc-module-3.php:123
+#: blocks/widgets/oc-module-4/oc-module-4.php:104
+#: blocks/widgets/oc-module-5/oc-module-5.php:98
+#: blocks/widgets/oc-module-6/oc-module-6.php:92
+#: blocks/widgets/oc-module-7/oc-module-7.php:98
+#, php-format
+msgid "25 JANUARY, %s"
+msgstr ""
+
+#: admin/category-meta.php:255 admin/options.php:743 admin/options.php:931
+#: admin/options.php:1119 admin/options.php:1307
+#: blocks/widgets/oc-block-1/oc-block-1.php:105
+#: blocks/widgets/oc-block-10/oc-block-10.php:105
+#: blocks/widgets/oc-block-11/oc-block-11.php:105
+#: blocks/widgets/oc-block-12/oc-block-12.php:105
+#: blocks/widgets/oc-block-13/oc-block-13.php:105
+#: blocks/widgets/oc-block-14/oc-block-14.php:105
+#: blocks/widgets/oc-block-15/oc-block-15.php:104
+#: blocks/widgets/oc-block-16/oc-block-16.php:105
+#: blocks/widgets/oc-block-17/oc-block-17.php:105
+#: blocks/widgets/oc-block-18/oc-block-18.php:105
+#: blocks/widgets/oc-block-19/oc-block-19.php:105
+#: blocks/widgets/oc-block-2/oc-block-2.php:105
+#: blocks/widgets/oc-block-20/oc-block-20.php:105
+#: blocks/widgets/oc-block-3/oc-block-3.php:105
+#: blocks/widgets/oc-block-4/oc-block-4.php:105
+#: blocks/widgets/oc-block-5/oc-block-5.php:105
+#: blocks/widgets/oc-block-6/oc-block-6.php:105
+#: blocks/widgets/oc-block-7/oc-block-7.php:106
+#: blocks/widgets/oc-block-8/oc-block-8.php:104
+#: blocks/widgets/oc-block-9/oc-block-9.php:105
+#: blocks/widgets/oc-module-1/oc-module-1.php:104
+#: blocks/widgets/oc-module-1/oc-module-1.php:231
+#: blocks/widgets/oc-module-2/oc-module-2.php:104
+#: blocks/widgets/oc-module-3/oc-module-3.php:124
+#: blocks/widgets/oc-module-4/oc-module-4.php:105
+#: blocks/widgets/oc-module-5/oc-module-5.php:99
+#: blocks/widgets/oc-module-6/oc-module-6.php:93
+#: blocks/widgets/oc-module-7/oc-module-7.php:99
+#, php-format
+msgid "25TH JANUARY, %s"
+msgstr ""
+
+#: admin/category-meta.php:256 admin/options.php:744 admin/options.php:932
+#: admin/options.php:1120 admin/options.php:1308
+#: blocks/widgets/oc-block-1/oc-block-1.php:106
+#: blocks/widgets/oc-block-10/oc-block-10.php:106
+#: blocks/widgets/oc-block-11/oc-block-11.php:106
+#: blocks/widgets/oc-block-12/oc-block-12.php:106
+#: blocks/widgets/oc-block-13/oc-block-13.php:106
+#: blocks/widgets/oc-block-14/oc-block-14.php:106
+#: blocks/widgets/oc-block-15/oc-block-15.php:105
+#: blocks/widgets/oc-block-16/oc-block-16.php:106
+#: blocks/widgets/oc-block-17/oc-block-17.php:106
+#: blocks/widgets/oc-block-18/oc-block-18.php:106
+#: blocks/widgets/oc-block-19/oc-block-19.php:106
+#: blocks/widgets/oc-block-2/oc-block-2.php:106
+#: blocks/widgets/oc-block-20/oc-block-20.php:106
+#: blocks/widgets/oc-block-3/oc-block-3.php:106
+#: blocks/widgets/oc-block-4/oc-block-4.php:106
+#: blocks/widgets/oc-block-5/oc-block-5.php:106
+#: blocks/widgets/oc-block-6/oc-block-6.php:106
+#: blocks/widgets/oc-block-7/oc-block-7.php:107
+#: blocks/widgets/oc-block-8/oc-block-8.php:105
+#: blocks/widgets/oc-block-9/oc-block-9.php:106
+#: blocks/widgets/oc-module-1/oc-module-1.php:105
+#: blocks/widgets/oc-module-1/oc-module-1.php:232
+#: blocks/widgets/oc-module-2/oc-module-2.php:105
+#: blocks/widgets/oc-module-3/oc-module-3.php:125
+#: blocks/widgets/oc-module-4/oc-module-4.php:106
+#: blocks/widgets/oc-module-5/oc-module-5.php:100
+#: blocks/widgets/oc-module-6/oc-module-6.php:94
+#: blocks/widgets/oc-module-7/oc-module-7.php:100
+#, php-format
+msgid "JAN 25, %s"
+msgstr ""
+
+#: admin/category-meta.php:257 admin/options.php:745 admin/options.php:933
+#: admin/options.php:1121 admin/options.php:1309
+#: blocks/widgets/oc-block-1/oc-block-1.php:107
+#: blocks/widgets/oc-block-10/oc-block-10.php:107
+#: blocks/widgets/oc-block-11/oc-block-11.php:107
+#: blocks/widgets/oc-block-12/oc-block-12.php:107
+#: blocks/widgets/oc-block-13/oc-block-13.php:107
+#: blocks/widgets/oc-block-14/oc-block-14.php:107
+#: blocks/widgets/oc-block-15/oc-block-15.php:106
+#: blocks/widgets/oc-block-16/oc-block-16.php:107
+#: blocks/widgets/oc-block-17/oc-block-17.php:107
+#: blocks/widgets/oc-block-18/oc-block-18.php:107
+#: blocks/widgets/oc-block-19/oc-block-19.php:107
+#: blocks/widgets/oc-block-2/oc-block-2.php:107
+#: blocks/widgets/oc-block-20/oc-block-20.php:107
+#: blocks/widgets/oc-block-3/oc-block-3.php:107
+#: blocks/widgets/oc-block-4/oc-block-4.php:107
+#: blocks/widgets/oc-block-5/oc-block-5.php:107
+#: blocks/widgets/oc-block-6/oc-block-6.php:107
+#: blocks/widgets/oc-block-7/oc-block-7.php:108
+#: blocks/widgets/oc-block-8/oc-block-8.php:106
+#: blocks/widgets/oc-block-9/oc-block-9.php:107
+#: blocks/widgets/oc-module-1/oc-module-1.php:106
+#: blocks/widgets/oc-module-1/oc-module-1.php:233
+#: blocks/widgets/oc-module-2/oc-module-2.php:106
+#: blocks/widgets/oc-module-3/oc-module-3.php:126
+#: blocks/widgets/oc-module-4/oc-module-4.php:107
+#: blocks/widgets/oc-module-5/oc-module-5.php:101
+#: blocks/widgets/oc-module-6/oc-module-6.php:95
+#: blocks/widgets/oc-module-7/oc-module-7.php:101
+#, php-format
+msgid "JAN 25TH, %s"
+msgstr ""
+
+#: admin/category-meta.php:258 admin/options.php:746 admin/options.php:934
+#: admin/options.php:1122 admin/options.php:1310
+#: blocks/widgets/oc-block-1/oc-block-1.php:108
+#: blocks/widgets/oc-block-10/oc-block-10.php:108
+#: blocks/widgets/oc-block-11/oc-block-11.php:108
+#: blocks/widgets/oc-block-12/oc-block-12.php:108
+#: blocks/widgets/oc-block-13/oc-block-13.php:108
+#: blocks/widgets/oc-block-14/oc-block-14.php:108
+#: blocks/widgets/oc-block-15/oc-block-15.php:107
+#: blocks/widgets/oc-block-16/oc-block-16.php:108
+#: blocks/widgets/oc-block-17/oc-block-17.php:108
+#: blocks/widgets/oc-block-18/oc-block-18.php:108
+#: blocks/widgets/oc-block-19/oc-block-19.php:108
+#: blocks/widgets/oc-block-2/oc-block-2.php:108
+#: blocks/widgets/oc-block-20/oc-block-20.php:108
+#: blocks/widgets/oc-block-3/oc-block-3.php:108
+#: blocks/widgets/oc-block-4/oc-block-4.php:108
+#: blocks/widgets/oc-block-5/oc-block-5.php:108
+#: blocks/widgets/oc-block-6/oc-block-6.php:108
+#: blocks/widgets/oc-block-7/oc-block-7.php:109
+#: blocks/widgets/oc-block-8/oc-block-8.php:107
+#: blocks/widgets/oc-block-9/oc-block-9.php:108
+#: blocks/widgets/oc-module-1/oc-module-1.php:107
+#: blocks/widgets/oc-module-1/oc-module-1.php:234
+#: blocks/widgets/oc-module-2/oc-module-2.php:107
+#: blocks/widgets/oc-module-3/oc-module-3.php:127
+#: blocks/widgets/oc-module-4/oc-module-4.php:108
+#: blocks/widgets/oc-module-5/oc-module-5.php:102
+#: blocks/widgets/oc-module-6/oc-module-6.php:96
+#: blocks/widgets/oc-module-7/oc-module-7.php:102
+#, php-format
+msgid "25 JAN, %s"
+msgstr ""
+
+#: admin/category-meta.php:259 admin/options.php:747 admin/options.php:935
+#: admin/options.php:1123 admin/options.php:1311
+#: blocks/widgets/oc-block-1/oc-block-1.php:109
+#: blocks/widgets/oc-block-10/oc-block-10.php:109
+#: blocks/widgets/oc-block-11/oc-block-11.php:109
+#: blocks/widgets/oc-block-12/oc-block-12.php:109
+#: blocks/widgets/oc-block-13/oc-block-13.php:109
+#: blocks/widgets/oc-block-14/oc-block-14.php:109
+#: blocks/widgets/oc-block-15/oc-block-15.php:108
+#: blocks/widgets/oc-block-16/oc-block-16.php:109
+#: blocks/widgets/oc-block-17/oc-block-17.php:109
+#: blocks/widgets/oc-block-18/oc-block-18.php:109
+#: blocks/widgets/oc-block-19/oc-block-19.php:109
+#: blocks/widgets/oc-block-2/oc-block-2.php:109
+#: blocks/widgets/oc-block-20/oc-block-20.php:109
+#: blocks/widgets/oc-block-3/oc-block-3.php:109
+#: blocks/widgets/oc-block-4/oc-block-4.php:109
+#: blocks/widgets/oc-block-5/oc-block-5.php:109
+#: blocks/widgets/oc-block-6/oc-block-6.php:109
+#: blocks/widgets/oc-block-7/oc-block-7.php:110
+#: blocks/widgets/oc-block-8/oc-block-8.php:108
+#: blocks/widgets/oc-block-9/oc-block-9.php:109
+#: blocks/widgets/oc-module-1/oc-module-1.php:108
+#: blocks/widgets/oc-module-1/oc-module-1.php:235
+#: blocks/widgets/oc-module-2/oc-module-2.php:108
+#: blocks/widgets/oc-module-3/oc-module-3.php:128
+#: blocks/widgets/oc-module-4/oc-module-4.php:109
+#: blocks/widgets/oc-module-5/oc-module-5.php:103
+#: blocks/widgets/oc-module-6/oc-module-6.php:97
+#: blocks/widgets/oc-module-7/oc-module-7.php:103
+#, php-format
+msgid "25TH JAN, %s"
+msgstr ""
+
+#: admin/category-meta.php:260 admin/options.php:748 admin/options.php:936
+#: admin/options.php:1124 admin/options.php:1312
+#: blocks/widgets/oc-block-1/oc-block-1.php:110
+#: blocks/widgets/oc-block-10/oc-block-10.php:110
+#: blocks/widgets/oc-block-11/oc-block-11.php:110
+#: blocks/widgets/oc-block-12/oc-block-12.php:110
+#: blocks/widgets/oc-block-13/oc-block-13.php:110
+#: blocks/widgets/oc-block-14/oc-block-14.php:110
+#: blocks/widgets/oc-block-15/oc-block-15.php:109
+#: blocks/widgets/oc-block-16/oc-block-16.php:110
+#: blocks/widgets/oc-block-17/oc-block-17.php:110
+#: blocks/widgets/oc-block-18/oc-block-18.php:110
+#: blocks/widgets/oc-block-19/oc-block-19.php:110
+#: blocks/widgets/oc-block-2/oc-block-2.php:110
+#: blocks/widgets/oc-block-20/oc-block-20.php:110
+#: blocks/widgets/oc-block-3/oc-block-3.php:110
+#: blocks/widgets/oc-block-4/oc-block-4.php:110
+#: blocks/widgets/oc-block-5/oc-block-5.php:110
+#: blocks/widgets/oc-block-6/oc-block-6.php:110
+#: blocks/widgets/oc-block-7/oc-block-7.php:111
+#: blocks/widgets/oc-block-8/oc-block-8.php:109
+#: blocks/widgets/oc-block-9/oc-block-9.php:110
+#: blocks/widgets/oc-module-1/oc-module-1.php:109
+#: blocks/widgets/oc-module-1/oc-module-1.php:236
+#: blocks/widgets/oc-module-2/oc-module-2.php:109
+#: blocks/widgets/oc-module-3/oc-module-3.php:129
+#: blocks/widgets/oc-module-4/oc-module-4.php:110
+#: blocks/widgets/oc-module-5/oc-module-5.php:104
+#: blocks/widgets/oc-module-6/oc-module-6.php:98
+#: blocks/widgets/oc-module-7/oc-module-7.php:104
+#, php-format
+msgid "25-1-%s"
+msgstr ""
+
+#: admin/category-meta.php:261 admin/options.php:749 admin/options.php:937
+#: admin/options.php:1125 admin/options.php:1313
+#: blocks/widgets/oc-block-1/oc-block-1.php:111
+#: blocks/widgets/oc-block-10/oc-block-10.php:111
+#: blocks/widgets/oc-block-11/oc-block-11.php:111
+#: blocks/widgets/oc-block-12/oc-block-12.php:111
+#: blocks/widgets/oc-block-13/oc-block-13.php:111
+#: blocks/widgets/oc-block-14/oc-block-14.php:111
+#: blocks/widgets/oc-block-15/oc-block-15.php:110
+#: blocks/widgets/oc-block-16/oc-block-16.php:111
+#: blocks/widgets/oc-block-17/oc-block-17.php:111
+#: blocks/widgets/oc-block-18/oc-block-18.php:111
+#: blocks/widgets/oc-block-19/oc-block-19.php:111
+#: blocks/widgets/oc-block-2/oc-block-2.php:111
+#: blocks/widgets/oc-block-20/oc-block-20.php:111
+#: blocks/widgets/oc-block-3/oc-block-3.php:111
+#: blocks/widgets/oc-block-4/oc-block-4.php:111
+#: blocks/widgets/oc-block-5/oc-block-5.php:111
+#: blocks/widgets/oc-block-6/oc-block-6.php:111
+#: blocks/widgets/oc-block-7/oc-block-7.php:112
+#: blocks/widgets/oc-block-8/oc-block-8.php:110
+#: blocks/widgets/oc-block-9/oc-block-9.php:111
+#: blocks/widgets/oc-module-1/oc-module-1.php:110
+#: blocks/widgets/oc-module-1/oc-module-1.php:237
+#: blocks/widgets/oc-module-2/oc-module-2.php:110
+#: blocks/widgets/oc-module-3/oc-module-3.php:130
+#: blocks/widgets/oc-module-4/oc-module-4.php:111
+#: blocks/widgets/oc-module-5/oc-module-5.php:105
+#: blocks/widgets/oc-module-6/oc-module-6.php:99
+#: blocks/widgets/oc-module-7/oc-module-7.php:105
+#, php-format
+msgid "25/1/%s"
+msgstr ""
+
+#: admin/category-meta.php:262 admin/options.php:750 admin/options.php:938
+#: admin/options.php:1126 admin/options.php:1314
+#: blocks/widgets/oc-block-1/oc-block-1.php:112
+#: blocks/widgets/oc-block-10/oc-block-10.php:112
+#: blocks/widgets/oc-block-11/oc-block-11.php:112
+#: blocks/widgets/oc-block-12/oc-block-12.php:112
+#: blocks/widgets/oc-block-13/oc-block-13.php:112
+#: blocks/widgets/oc-block-14/oc-block-14.php:112
+#: blocks/widgets/oc-block-15/oc-block-15.php:111
+#: blocks/widgets/oc-block-16/oc-block-16.php:112
+#: blocks/widgets/oc-block-17/oc-block-17.php:112
+#: blocks/widgets/oc-block-18/oc-block-18.php:112
+#: blocks/widgets/oc-block-19/oc-block-19.php:112
+#: blocks/widgets/oc-block-2/oc-block-2.php:112
+#: blocks/widgets/oc-block-20/oc-block-20.php:112
+#: blocks/widgets/oc-block-3/oc-block-3.php:112
+#: blocks/widgets/oc-block-4/oc-block-4.php:112
+#: blocks/widgets/oc-block-5/oc-block-5.php:112
+#: blocks/widgets/oc-block-6/oc-block-6.php:112
+#: blocks/widgets/oc-block-7/oc-block-7.php:113
+#: blocks/widgets/oc-block-8/oc-block-8.php:111
+#: blocks/widgets/oc-block-9/oc-block-9.php:112
+#: blocks/widgets/oc-module-1/oc-module-1.php:111
+#: blocks/widgets/oc-module-1/oc-module-1.php:238
+#: blocks/widgets/oc-module-2/oc-module-2.php:111
+#: blocks/widgets/oc-module-3/oc-module-3.php:131
+#: blocks/widgets/oc-module-4/oc-module-4.php:112
+#: blocks/widgets/oc-module-5/oc-module-5.php:106
+#: blocks/widgets/oc-module-6/oc-module-6.php:100
+#: blocks/widgets/oc-module-7/oc-module-7.php:106
+#, php-format
+msgid "%s-1-25"
+msgstr ""
+
+#: admin/category-meta.php:263 admin/options.php:751 admin/options.php:939
+#: admin/options.php:1127 admin/options.php:1315
+#: blocks/widgets/oc-block-1/oc-block-1.php:113
+#: blocks/widgets/oc-block-10/oc-block-10.php:113
+#: blocks/widgets/oc-block-11/oc-block-11.php:113
+#: blocks/widgets/oc-block-12/oc-block-12.php:113
+#: blocks/widgets/oc-block-13/oc-block-13.php:113
+#: blocks/widgets/oc-block-14/oc-block-14.php:113
+#: blocks/widgets/oc-block-15/oc-block-15.php:112
+#: blocks/widgets/oc-block-16/oc-block-16.php:113
+#: blocks/widgets/oc-block-17/oc-block-17.php:113
+#: blocks/widgets/oc-block-18/oc-block-18.php:113
+#: blocks/widgets/oc-block-19/oc-block-19.php:113
+#: blocks/widgets/oc-block-2/oc-block-2.php:113
+#: blocks/widgets/oc-block-20/oc-block-20.php:113
+#: blocks/widgets/oc-block-3/oc-block-3.php:113
+#: blocks/widgets/oc-block-4/oc-block-4.php:113
+#: blocks/widgets/oc-block-5/oc-block-5.php:113
+#: blocks/widgets/oc-block-6/oc-block-6.php:113
+#: blocks/widgets/oc-block-7/oc-block-7.php:114
+#: blocks/widgets/oc-block-8/oc-block-8.php:112
+#: blocks/widgets/oc-block-9/oc-block-9.php:113
+#: blocks/widgets/oc-module-1/oc-module-1.php:112
+#: blocks/widgets/oc-module-1/oc-module-1.php:239
+#: blocks/widgets/oc-module-2/oc-module-2.php:112
+#: blocks/widgets/oc-module-3/oc-module-3.php:132
+#: blocks/widgets/oc-module-4/oc-module-4.php:113
+#: blocks/widgets/oc-module-5/oc-module-5.php:107
+#: blocks/widgets/oc-module-6/oc-module-6.php:101
+#: blocks/widgets/oc-module-7/oc-module-7.php:107
+#, php-format
+msgid "%s/1/25"
+msgstr ""
+
+#: admin/category-meta.php:268
+#, php-format
+msgid "Choose date format to category block. example date is JANUARY 25 %s"
+msgstr ""
+
+#: admin/category-meta.php:273 admin/options.php:758 admin/options.php:946
+#: admin/options.php:1134 admin/options.php:1322
+msgid "Date Link"
+msgstr ""
+
+#: admin/category-meta.php:280 admin/options.php:762 admin/options.php:950
+#: admin/options.php:1138 admin/options.php:1326
+#: blocks/widgets/oc-block-1/oc-block-1.php:123
+#: blocks/widgets/oc-block-10/oc-block-10.php:123
+#: blocks/widgets/oc-block-11/oc-block-11.php:123
+#: blocks/widgets/oc-block-12/oc-block-12.php:123
+#: blocks/widgets/oc-block-13/oc-block-13.php:123
+#: blocks/widgets/oc-block-14/oc-block-14.php:123
+#: blocks/widgets/oc-block-15/oc-block-15.php:122
+#: blocks/widgets/oc-block-16/oc-block-16.php:123
+#: blocks/widgets/oc-block-17/oc-block-17.php:123
+#: blocks/widgets/oc-block-18/oc-block-18.php:123
+#: blocks/widgets/oc-block-19/oc-block-19.php:123
+#: blocks/widgets/oc-block-2/oc-block-2.php:123
+#: blocks/widgets/oc-block-20/oc-block-20.php:123
+#: blocks/widgets/oc-block-3/oc-block-3.php:123
+#: blocks/widgets/oc-block-4/oc-block-4.php:123
+#: blocks/widgets/oc-block-5/oc-block-5.php:123
+#: blocks/widgets/oc-block-6/oc-block-6.php:123
+#: blocks/widgets/oc-block-7/oc-block-7.php:124
+#: blocks/widgets/oc-block-8/oc-block-8.php:122
+#: blocks/widgets/oc-block-9/oc-block-9.php:123
+#: blocks/widgets/oc-module-1/oc-module-1.php:122
+#: blocks/widgets/oc-module-1/oc-module-1.php:249
+#: blocks/widgets/oc-module-2/oc-module-2.php:122
+#: blocks/widgets/oc-module-3/oc-module-3.php:142
+#: blocks/widgets/oc-module-4/oc-module-4.php:123
+#: blocks/widgets/oc-module-5/oc-module-5.php:117
+#: blocks/widgets/oc-module-6/oc-module-6.php:111
+#: blocks/widgets/oc-module-7/oc-module-7.php:117
+msgid "Day"
+msgstr ""
+
+#: admin/category-meta.php:281 admin/options.php:763 admin/options.php:951
+#: admin/options.php:1139 admin/options.php:1327
+#: blocks/widgets/oc-block-1/oc-block-1.php:124
+#: blocks/widgets/oc-block-10/oc-block-10.php:124
+#: blocks/widgets/oc-block-11/oc-block-11.php:124
+#: blocks/widgets/oc-block-12/oc-block-12.php:124
+#: blocks/widgets/oc-block-13/oc-block-13.php:124
+#: blocks/widgets/oc-block-14/oc-block-14.php:124
+#: blocks/widgets/oc-block-15/oc-block-15.php:123
+#: blocks/widgets/oc-block-16/oc-block-16.php:124
+#: blocks/widgets/oc-block-17/oc-block-17.php:124
+#: blocks/widgets/oc-block-18/oc-block-18.php:124
+#: blocks/widgets/oc-block-19/oc-block-19.php:124
+#: blocks/widgets/oc-block-2/oc-block-2.php:124
+#: blocks/widgets/oc-block-20/oc-block-20.php:124
+#: blocks/widgets/oc-block-3/oc-block-3.php:124
+#: blocks/widgets/oc-block-4/oc-block-4.php:124
+#: blocks/widgets/oc-block-5/oc-block-5.php:124
+#: blocks/widgets/oc-block-6/oc-block-6.php:124
+#: blocks/widgets/oc-block-7/oc-block-7.php:125
+#: blocks/widgets/oc-block-8/oc-block-8.php:123
+#: blocks/widgets/oc-block-9/oc-block-9.php:124
+#: blocks/widgets/oc-module-1/oc-module-1.php:123
+#: blocks/widgets/oc-module-1/oc-module-1.php:250
+#: blocks/widgets/oc-module-2/oc-module-2.php:123
+#: blocks/widgets/oc-module-3/oc-module-3.php:143
+#: blocks/widgets/oc-module-4/oc-module-4.php:124
+#: blocks/widgets/oc-module-5/oc-module-5.php:118
+#: blocks/widgets/oc-module-6/oc-module-6.php:112
+#: blocks/widgets/oc-module-7/oc-module-7.php:118
+msgid "Month"
+msgstr ""
+
+#: admin/category-meta.php:282 admin/options.php:764 admin/options.php:952
+#: admin/options.php:1140 admin/options.php:1328
+#: blocks/widgets/oc-block-1/oc-block-1.php:125
+#: blocks/widgets/oc-block-10/oc-block-10.php:125
+#: blocks/widgets/oc-block-11/oc-block-11.php:125
+#: blocks/widgets/oc-block-12/oc-block-12.php:125
+#: blocks/widgets/oc-block-13/oc-block-13.php:125
+#: blocks/widgets/oc-block-14/oc-block-14.php:125
+#: blocks/widgets/oc-block-15/oc-block-15.php:124
+#: blocks/widgets/oc-block-16/oc-block-16.php:125
+#: blocks/widgets/oc-block-17/oc-block-17.php:125
+#: blocks/widgets/oc-block-18/oc-block-18.php:125
+#: blocks/widgets/oc-block-19/oc-block-19.php:125
+#: blocks/widgets/oc-block-2/oc-block-2.php:125
+#: blocks/widgets/oc-block-20/oc-block-20.php:125
+#: blocks/widgets/oc-block-3/oc-block-3.php:125
+#: blocks/widgets/oc-block-4/oc-block-4.php:125
+#: blocks/widgets/oc-block-5/oc-block-5.php:125
+#: blocks/widgets/oc-block-6/oc-block-6.php:125
+#: blocks/widgets/oc-block-7/oc-block-7.php:126
+#: blocks/widgets/oc-block-8/oc-block-8.php:124
+#: blocks/widgets/oc-block-9/oc-block-9.php:125
+#: blocks/widgets/oc-module-1/oc-module-1.php:124
+#: blocks/widgets/oc-module-1/oc-module-1.php:251
+#: blocks/widgets/oc-module-2/oc-module-2.php:124
+#: blocks/widgets/oc-module-3/oc-module-3.php:144
+#: blocks/widgets/oc-module-4/oc-module-4.php:125
+#: blocks/widgets/oc-module-5/oc-module-5.php:119
+#: blocks/widgets/oc-module-6/oc-module-6.php:113
+#: blocks/widgets/oc-module-7/oc-module-7.php:119
+msgid "Year"
+msgstr ""
+
+#: admin/category-meta.php:287
+msgid "Set date href link to archive date."
+msgstr ""
+
+#: admin/category-meta.php:292 admin/options.php:771 admin/options.php:959
+#: admin/options.php:1147 blocks/widgets/oc-block-1/oc-block-1.php:132
+#: blocks/widgets/oc-block-10/oc-block-10.php:132
+#: blocks/widgets/oc-block-11/oc-block-11.php:132
+#: blocks/widgets/oc-block-12/oc-block-12.php:132
+#: blocks/widgets/oc-block-13/oc-block-13.php:132
+#: blocks/widgets/oc-block-14/oc-block-14.php:132
+#: blocks/widgets/oc-block-15/oc-block-15.php:131
+#: blocks/widgets/oc-block-16/oc-block-16.php:132
+#: blocks/widgets/oc-block-17/oc-block-17.php:132
+#: blocks/widgets/oc-block-18/oc-block-18.php:132
+#: blocks/widgets/oc-block-19/oc-block-19.php:132
+#: blocks/widgets/oc-block-2/oc-block-2.php:132
+#: blocks/widgets/oc-block-20/oc-block-20.php:132
+#: blocks/widgets/oc-block-7/oc-block-7.php:133
+#: blocks/widgets/oc-block-8/oc-block-8.php:131
+#: blocks/widgets/oc-block-9/oc-block-9.php:132
+#: blocks/widgets/oc-module-1/oc-module-1.php:131
+#: blocks/widgets/oc-module-1/oc-module-1.php:258
+#: blocks/widgets/oc-module-2/oc-module-2.php:131
+#: blocks/widgets/oc-module-3/oc-module-3.php:151
+#: blocks/widgets/oc-module-4/oc-module-4.php:132
+#: blocks/widgets/oc-module-5/oc-module-5.php:126
+#: blocks/widgets/oc-module-6/oc-module-6.php:120
+#: blocks/widgets/oc-module-7/oc-module-7.php:126
+msgid "Disable Category"
+msgstr ""
+
+#: admin/category-meta.php:305
+msgid "Enable/Disable category in category block."
+msgstr ""
+
+#: admin/category-meta.php:310 admin/options.php:783 admin/options.php:971
+#: admin/options.php:1159 blocks/widgets/oc-block-1/oc-block-1.php:142
+#: blocks/widgets/oc-block-10/oc-block-10.php:142
+#: blocks/widgets/oc-block-11/oc-block-11.php:142
+#: blocks/widgets/oc-block-12/oc-block-12.php:142
+#: blocks/widgets/oc-block-13/oc-block-13.php:142
+#: blocks/widgets/oc-block-14/oc-block-14.php:142
+#: blocks/widgets/oc-block-15/oc-block-15.php:141
+#: blocks/widgets/oc-block-16/oc-block-16.php:142
+#: blocks/widgets/oc-block-17/oc-block-17.php:142
+#: blocks/widgets/oc-block-18/oc-block-18.php:142
+#: blocks/widgets/oc-block-19/oc-block-19.php:142
+#: blocks/widgets/oc-block-2/oc-block-2.php:142
+#: blocks/widgets/oc-block-20/oc-block-20.php:142
+#: blocks/widgets/oc-block-3/oc-block-3.php:133
+#: blocks/widgets/oc-block-4/oc-block-4.php:133
+#: blocks/widgets/oc-block-5/oc-block-5.php:133
+#: blocks/widgets/oc-block-6/oc-block-6.php:133
+#: blocks/widgets/oc-block-7/oc-block-7.php:143
+#: blocks/widgets/oc-block-8/oc-block-8.php:141
+#: blocks/widgets/oc-block-9/oc-block-9.php:142
+#: blocks/widgets/oc-module-1/oc-module-1.php:141
+#: blocks/widgets/oc-module-1/oc-module-1.php:268
+#: blocks/widgets/oc-module-2/oc-module-2.php:141
+#: blocks/widgets/oc-module-3/oc-module-3.php:161
+#: blocks/widgets/oc-module-4/oc-module-4.php:142
+#: blocks/widgets/oc-module-5/oc-module-5.php:136
+#: blocks/widgets/oc-module-6/oc-module-6.php:130
+#: blocks/widgets/oc-module-7/oc-module-7.php:136
+msgid "Disable Comment"
+msgstr ""
+
+#: admin/category-meta.php:323
+msgid "Enable/Disable comments in category block."
+msgstr ""
+
+#: admin/category-meta.php:328 admin/options.php:795 admin/options.php:983
+#: admin/options.php:1171 blocks/widgets/oc-block-1/oc-block-1.php:152
+#: blocks/widgets/oc-block-10/oc-block-10.php:152
+#: blocks/widgets/oc-block-11/oc-block-11.php:152
+#: blocks/widgets/oc-block-12/oc-block-12.php:152
+#: blocks/widgets/oc-block-13/oc-block-13.php:152
+#: blocks/widgets/oc-block-14/oc-block-14.php:152
+#: blocks/widgets/oc-block-15/oc-block-15.php:151
+#: blocks/widgets/oc-block-16/oc-block-16.php:152
+#: blocks/widgets/oc-block-17/oc-block-17.php:152
+#: blocks/widgets/oc-block-18/oc-block-18.php:152
+#: blocks/widgets/oc-block-19/oc-block-19.php:152
+#: blocks/widgets/oc-block-2/oc-block-2.php:152
+#: blocks/widgets/oc-block-20/oc-block-20.php:152
+#: blocks/widgets/oc-block-3/oc-block-3.php:143
+#: blocks/widgets/oc-block-4/oc-block-4.php:143
+#: blocks/widgets/oc-block-5/oc-block-5.php:143
+#: blocks/widgets/oc-block-6/oc-block-6.php:143
+#: blocks/widgets/oc-block-7/oc-block-7.php:153
+#: blocks/widgets/oc-block-8/oc-block-8.php:151
+#: blocks/widgets/oc-block-9/oc-block-9.php:152
+#: blocks/widgets/oc-module-1/oc-module-1.php:151
+#: blocks/widgets/oc-module-1/oc-module-1.php:278
+#: blocks/widgets/oc-module-2/oc-module-2.php:151
+#: blocks/widgets/oc-module-3/oc-module-3.php:171
+#: blocks/widgets/oc-module-4/oc-module-4.php:152
+#: blocks/widgets/oc-module-5/oc-module-5.php:146
+#: blocks/widgets/oc-module-6/oc-module-6.php:140
+#: blocks/widgets/oc-module-7/oc-module-7.php:146
+msgid "Disable Author"
+msgstr ""
+
+#: admin/category-meta.php:341
+msgid "Enable/Disable author in category block."
+msgstr ""
+
+#: admin/category-meta.php:346 admin/options.php:807 admin/options.php:995
+#: admin/options.php:1183 blocks/widgets/oc-block-1/oc-block-1.php:162
+#: blocks/widgets/oc-block-10/oc-block-10.php:162
+#: blocks/widgets/oc-block-11/oc-block-11.php:162
+#: blocks/widgets/oc-block-12/oc-block-12.php:162
+#: blocks/widgets/oc-block-13/oc-block-13.php:162
+#: blocks/widgets/oc-block-14/oc-block-14.php:162
+#: blocks/widgets/oc-block-15/oc-block-15.php:161
+#: blocks/widgets/oc-block-16/oc-block-16.php:162
+#: blocks/widgets/oc-block-17/oc-block-17.php:162
+#: blocks/widgets/oc-block-18/oc-block-18.php:162
+#: blocks/widgets/oc-block-19/oc-block-19.php:162
+#: blocks/widgets/oc-block-2/oc-block-2.php:162
+#: blocks/widgets/oc-block-20/oc-block-20.php:162
+#: blocks/widgets/oc-block-7/oc-block-7.php:163
+#: blocks/widgets/oc-block-8/oc-block-8.php:161
+#: blocks/widgets/oc-block-9/oc-block-9.php:162
+#: blocks/widgets/oc-module-1/oc-module-1.php:161
+#: blocks/widgets/oc-module-1/oc-module-1.php:288
+#: blocks/widgets/oc-module-3/oc-module-3.php:181
+#: blocks/widgets/oc-module-4/oc-module-4.php:162
+msgid "Disable Excerpt"
+msgstr ""
+
+#: admin/category-meta.php:359
+msgid "Enable/Disable excerpt in category block."
+msgstr ""
+
+#: admin/category-meta.php:364 admin/options.php:818 admin/options.php:1006
+#: admin/options.php:1194
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/category-meta.php:374
+msgid "Set excerpt length in category block."
+msgstr ""
+
+#: admin/category-meta.php:379 admin/options.php:827 admin/options.php:1015
+#: admin/options.php:1203 blocks/widgets/oc-block-1/oc-block-1.php:179
+#: blocks/widgets/oc-block-10/oc-block-10.php:179
+#: blocks/widgets/oc-block-11/oc-block-11.php:179
+#: blocks/widgets/oc-block-12/oc-block-12.php:179
+#: blocks/widgets/oc-block-13/oc-block-13.php:179
+#: blocks/widgets/oc-block-14/oc-block-14.php:179
+#: blocks/widgets/oc-block-15/oc-block-15.php:178
+#: blocks/widgets/oc-block-16/oc-block-16.php:179
+#: blocks/widgets/oc-block-17/oc-block-17.php:179
+#: blocks/widgets/oc-block-18/oc-block-18.php:179
+#: blocks/widgets/oc-block-19/oc-block-19.php:179
+#: blocks/widgets/oc-block-2/oc-block-2.php:179
+#: blocks/widgets/oc-block-20/oc-block-20.php:179
+#: blocks/widgets/oc-block-7/oc-block-7.php:180
+#: blocks/widgets/oc-block-8/oc-block-8.php:178
+#: blocks/widgets/oc-block-9/oc-block-9.php:179
+msgid "Disable Read More (If excerpt enable)"
+msgstr ""
+
+#: admin/category-meta.php:391
+msgid "Enable/Disable read more button in category block."
+msgstr ""
+
+#: admin/category-meta.php:397
+msgid "Category Background"
+msgstr ""
+
+#: admin/category-meta.php:404 admin/meta/page-options.php:96
+#: admin/meta/post-options.php:90 admin/options.php:238 admin/options.php:250
+#: admin/options.php:1704 admin/options.php:1816 admin/options.php:2099
+msgid "Upload This Picture"
+msgstr ""
+
+#: admin/category-meta.php:405 admin/meta/page-options.php:97
+#: admin/meta/post-options.php:91 lib/admin/option-renderer.php:305
+msgid "Upload"
+msgstr ""
+
+#: admin/category-meta.php:406 admin/meta/page-options.php:98
+#: admin/meta/post-options.php:92 admin/options.php:1706 admin/options.php:1818
+msgid "Use as Background"
+msgstr ""
+
+#: admin/category-meta.php:411
+msgid ""
+"FlipMag can use an image as body background in boxed layout. Note: It is not "
+"a repeating pattern. A large photo is to be used as background."
+msgstr ""
+
+#: admin/meta/page-options.php:8 admin/meta/post-options.php:27
+#: admin/options.php:109
+msgid "Layout Style"
+msgstr ""
+
+#: admin/meta/page-options.php:15 admin/meta/post-options.php:34
+#: admin/options.php:113
+msgid "Full Width"
+msgstr ""
+
+#: admin/meta/page-options.php:20
+msgid "Show Page Title?"
+msgstr ""
+
+#: admin/meta/page-options.php:28
+msgid "Show Featured Slider?"
+msgstr ""
+
+#: admin/meta/page-options.php:33
+msgid "Use Posts Marked as \"Featured Post?\""
+msgstr ""
+
+#: admin/meta/page-options.php:34
+msgid "Use Latest Posts from Whole Site"
+msgstr ""
+
+#: admin/meta/page-options.php:35
+msgid "Choose from posts query"
+msgstr ""
+
+#: admin/meta/page-options.php:41
+msgid "Select Posts"
+msgstr ""
+
+#: admin/meta/page-options.php:91 admin/meta/post-options.php:85
+msgid "Custom Background Image"
+msgstr ""
+
+#: admin/meta/post-options.php:6
+msgid "Featured Post?"
+msgstr ""
+
+#: admin/meta/post-options.php:13
+msgid "Post Layout"
+msgstr ""
+
+#: admin/meta/post-options.php:17
+msgid "Default (from Theme Settings)"
+msgstr ""
+
+#: admin/meta/post-options.php:18 admin/options.php:1242
+msgid "Classic"
+msgstr ""
+
+#: admin/meta/post-options.php:19 admin/options.php:1243
+msgid "Post Cover"
+msgstr ""
+
+#: admin/meta/post-options.php:20 admin/options.php:1244
+msgid "Post Full Cover"
+msgstr ""
+
+#: admin/meta/post-options.php:21 admin/options.php:1245
+msgid "Classic - Title First"
+msgstr ""
+
+#: admin/meta/post-options.php:39
+msgid "Category Label Overlay"
+msgstr ""
+
+#: admin/meta/post-options.php:43
+msgid "-- Auto Detect--"
+msgstr ""
+
+#: admin/meta/post-options.php:48
+msgid ""
+"When you have multiple categories for a post, auto detection chooses one in "
+"alphabetical order. These labels are shown above image in category listings."
+msgstr ""
+
+#: admin/meta/post-options.php:52
+msgid "Multi-page Content Slideshow?"
+msgstr ""
+
+#: admin/meta/post-options.php:53
+msgid ""
+"You can use <!--nextpage--> to split a page into multi-page content "
+"slideshow."
+msgstr ""
+
+#: admin/meta/post-options.php:59
+msgid "AJAX - No Refresh"
+msgstr ""
+
+#: admin/meta/post-options.php:60
+msgid "Multi-page - Refresh for next page"
+msgstr ""
+
+#: admin/meta/post-options.php:66
+msgid "Disable Featured?"
+msgstr ""
+
+#: admin/meta/post-options.php:67
+msgid ""
+"Do not show featured Image, Video, or Gallery at the top for this post, on "
+"post page."
+msgstr ""
+
+#: admin/meta/post-options.php:74
+msgid "Featured Video Code"
+msgstr ""
+
+#: admin/options.php:17
+msgid "Welcome"
+msgstr ""
+
+#: admin/options.php:23
+msgid "Thank You"
+msgstr ""
+
+#: admin/options.php:29
+#, php-format
+msgid ""
+"%s Thanks %s Thanks for using our theme, we had worked very hard to release "
+"a great product and we will do our absolute best to support this theme and "
+"fix all the issues. %s"
+msgstr ""
+
+#: admin/options.php:37
+msgid "About Theme"
+msgstr ""
+
+#: admin/options.php:43
+msgid "Theme Information"
+msgstr ""
+
+#: admin/options.php:44
+#, php-format
+msgid ""
+"Theme Name: %s %s Version: %s %s Author: %s Octo Creation %s %s "
+"Documentation URL : %s Documentation Here %s %s Demo URL : %s Demo Here %s"
+msgstr ""
+
+#: admin/options.php:59
+msgid "General Settings"
+msgstr ""
+
+#: admin/options.php:64
+msgid "Layout"
+msgstr ""
+
+#: admin/options.php:70
+msgid "Pre-defined Skin"
+msgstr ""
+
+#: admin/options.php:71
+msgid "Select a predefined skin or create your own customized one below."
+msgstr ""
+
+#: admin/options.php:75
+msgid "Light Scheme (Light Nav, Sidebar, Footer)"
+msgstr ""
+
+#: admin/options.php:76
+msgid "Black Scheme (All Dark)"
+msgstr ""
+
+#: admin/options.php:81
+msgid "Body margin from top"
+msgstr ""
+
+#: admin/options.php:91
+msgid "Body margin from bottom"
+msgstr ""
+
+#: admin/options.php:102
+msgid "Skin"
+msgstr ""
+
+#: admin/options.php:110
+msgid ""
+"Select whether you want a boxed or a full-width layout. It affects every "
+"page and the whole layout."
+msgstr ""
+
+#: admin/options.php:114
+msgid "Boxed"
+msgstr ""
+
+#: admin/options.php:121 admin/options.php:545 admin/options.php:658
+#: admin/options.php:846 admin/options.php:1034
+msgid "Sidebar"
+msgstr ""
+
+#: admin/options.php:126
+msgid "Default Sidebar"
+msgstr ""
+
+#: admin/options.php:128
+msgid ""
+"Specify the sidebar to use by default. This can be overriden per-page or per-"
+"post basis when creating a page or post."
+msgstr ""
+
+#: admin/options.php:136
+msgid "Disable Sticky Sidebar"
+msgstr ""
+
+#: admin/options.php:137
+msgid ""
+"Disabling / Enabling sticky sidebar on scroll for both left and right "
+"sidebar."
+msgstr ""
+
+#: admin/options.php:145
+#: blocks/widgets/oc-about-website/oc-about-website.php:37
+#: blocks/widgets/oc-block-1/oc-block-1.php:61
+#: blocks/widgets/oc-block-10/oc-block-10.php:61
+#: blocks/widgets/oc-block-11/oc-block-11.php:61
+#: blocks/widgets/oc-block-12/oc-block-12.php:61
+#: blocks/widgets/oc-block-13/oc-block-13.php:61
+#: blocks/widgets/oc-block-14/oc-block-14.php:61
+#: blocks/widgets/oc-block-15/oc-block-15.php:61
+#: blocks/widgets/oc-block-16/oc-block-16.php:61
+#: blocks/widgets/oc-block-17/oc-block-17.php:61
+#: blocks/widgets/oc-block-18/oc-block-18.php:61
+#: blocks/widgets/oc-block-19/oc-block-19.php:61
+#: blocks/widgets/oc-block-2/oc-block-2.php:61
+#: blocks/widgets/oc-block-20/oc-block-20.php:61
+#: blocks/widgets/oc-block-3/oc-block-3.php:61
+#: blocks/widgets/oc-block-4/oc-block-4.php:61
+#: blocks/widgets/oc-block-5/oc-block-5.php:61
+#: blocks/widgets/oc-block-6/oc-block-6.php:61
+#: blocks/widgets/oc-block-7/oc-block-7.php:62
+#: blocks/widgets/oc-block-8/oc-block-8.php:60
+#: blocks/widgets/oc-module-1/oc-module-1.php:39
+#: blocks/widgets/oc-module-2/oc-module-2.php:62
+#: blocks/widgets/oc-module-3/oc-module-3.php:80
+#: blocks/widgets/oc-module-5/oc-module-5.php:55
+#: blocks/widgets/oc-module-6/oc-module-6.php:49
+#: blocks/widgets/oc-module-7/oc-module-7.php:55
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:44
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:39
+msgid "Section Header Style"
+msgstr ""
+
+#: admin/options.php:151 admin/options.php:203
+msgid "Header Style"
+msgstr ""
+
+#: admin/options.php:152
+msgid "Select the section header style you want to use."
+msgstr ""
+
+#: admin/options.php:155
+#: blocks/widgets/oc-about-website/oc-about-website.php:40
+#: blocks/widgets/oc-block-1/oc-block-1.php:64
+#: blocks/widgets/oc-block-10/oc-block-10.php:64
+#: blocks/widgets/oc-block-11/oc-block-11.php:64
+#: blocks/widgets/oc-block-12/oc-block-12.php:64
+#: blocks/widgets/oc-block-13/oc-block-13.php:64
+#: blocks/widgets/oc-block-14/oc-block-14.php:64
+#: blocks/widgets/oc-block-15/oc-block-15.php:64
+#: blocks/widgets/oc-block-16/oc-block-16.php:64
+#: blocks/widgets/oc-block-17/oc-block-17.php:64
+#: blocks/widgets/oc-block-18/oc-block-18.php:64
+#: blocks/widgets/oc-block-19/oc-block-19.php:64
+#: blocks/widgets/oc-block-2/oc-block-2.php:64
+#: blocks/widgets/oc-block-20/oc-block-20.php:64
+#: blocks/widgets/oc-block-3/oc-block-3.php:64
+#: blocks/widgets/oc-block-4/oc-block-4.php:64
+#: blocks/widgets/oc-block-5/oc-block-5.php:64
+#: blocks/widgets/oc-block-6/oc-block-6.php:64
+#: blocks/widgets/oc-block-7/oc-block-7.php:65
+#: blocks/widgets/oc-block-8/oc-block-8.php:63
+#: blocks/widgets/oc-block-9/oc-block-9.php:64
+#: blocks/widgets/oc-module-1/oc-module-1.php:42
+#: blocks/widgets/oc-module-2/oc-module-2.php:65
+#: blocks/widgets/oc-module-3/oc-module-3.php:83
+#: blocks/widgets/oc-module-5/oc-module-5.php:58
+#: blocks/widgets/oc-module-6/oc-module-6.php:52
+#: blocks/widgets/oc-module-7/oc-module-7.php:58
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:47
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:42
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:56
+msgid "Style 1"
+msgstr ""
+
+#: admin/options.php:156
+#: blocks/widgets/oc-about-website/oc-about-website.php:41
+#: blocks/widgets/oc-block-1/oc-block-1.php:65
+#: blocks/widgets/oc-block-10/oc-block-10.php:65
+#: blocks/widgets/oc-block-11/oc-block-11.php:65
+#: blocks/widgets/oc-block-12/oc-block-12.php:65
+#: blocks/widgets/oc-block-13/oc-block-13.php:65
+#: blocks/widgets/oc-block-14/oc-block-14.php:65
+#: blocks/widgets/oc-block-15/oc-block-15.php:65
+#: blocks/widgets/oc-block-16/oc-block-16.php:65
+#: blocks/widgets/oc-block-17/oc-block-17.php:65
+#: blocks/widgets/oc-block-18/oc-block-18.php:65
+#: blocks/widgets/oc-block-19/oc-block-19.php:65
+#: blocks/widgets/oc-block-2/oc-block-2.php:65
+#: blocks/widgets/oc-block-20/oc-block-20.php:65
+#: blocks/widgets/oc-block-3/oc-block-3.php:65
+#: blocks/widgets/oc-block-4/oc-block-4.php:65
+#: blocks/widgets/oc-block-5/oc-block-5.php:65
+#: blocks/widgets/oc-block-6/oc-block-6.php:65
+#: blocks/widgets/oc-block-7/oc-block-7.php:66
+#: blocks/widgets/oc-block-8/oc-block-8.php:64
+#: blocks/widgets/oc-block-9/oc-block-9.php:65
+#: blocks/widgets/oc-module-1/oc-module-1.php:43
+#: blocks/widgets/oc-module-2/oc-module-2.php:66
+#: blocks/widgets/oc-module-3/oc-module-3.php:84
+#: blocks/widgets/oc-module-5/oc-module-5.php:59
+#: blocks/widgets/oc-module-6/oc-module-6.php:53
+#: blocks/widgets/oc-module-7/oc-module-7.php:59
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:48
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:43
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:57
+msgid "Style 2"
+msgstr ""
+
+#: admin/options.php:157
+#: blocks/widgets/oc-about-website/oc-about-website.php:42
+#: blocks/widgets/oc-block-1/oc-block-1.php:66
+#: blocks/widgets/oc-block-10/oc-block-10.php:66
+#: blocks/widgets/oc-block-11/oc-block-11.php:66
+#: blocks/widgets/oc-block-12/oc-block-12.php:66
+#: blocks/widgets/oc-block-13/oc-block-13.php:66
+#: blocks/widgets/oc-block-14/oc-block-14.php:66
+#: blocks/widgets/oc-block-15/oc-block-15.php:66
+#: blocks/widgets/oc-block-16/oc-block-16.php:66
+#: blocks/widgets/oc-block-17/oc-block-17.php:66
+#: blocks/widgets/oc-block-18/oc-block-18.php:66
+#: blocks/widgets/oc-block-19/oc-block-19.php:66
+#: blocks/widgets/oc-block-2/oc-block-2.php:66
+#: blocks/widgets/oc-block-20/oc-block-20.php:66
+#: blocks/widgets/oc-block-3/oc-block-3.php:66
+#: blocks/widgets/oc-block-4/oc-block-4.php:66
+#: blocks/widgets/oc-block-5/oc-block-5.php:66
+#: blocks/widgets/oc-block-6/oc-block-6.php:66
+#: blocks/widgets/oc-block-7/oc-block-7.php:67
+#: blocks/widgets/oc-block-8/oc-block-8.php:65
+#: blocks/widgets/oc-block-9/oc-block-9.php:66
+#: blocks/widgets/oc-module-1/oc-module-1.php:44
+#: blocks/widgets/oc-module-2/oc-module-2.php:67
+#: blocks/widgets/oc-module-3/oc-module-3.php:85
+#: blocks/widgets/oc-module-5/oc-module-5.php:60
+#: blocks/widgets/oc-module-6/oc-module-6.php:54
+#: blocks/widgets/oc-module-7/oc-module-7.php:60
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:49
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:44
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:58
+msgid "Style 3"
+msgstr ""
+
+#: admin/options.php:158
+#: blocks/widgets/oc-about-website/oc-about-website.php:43
+#: blocks/widgets/oc-block-1/oc-block-1.php:67
+#: blocks/widgets/oc-block-10/oc-block-10.php:67
+#: blocks/widgets/oc-block-11/oc-block-11.php:67
+#: blocks/widgets/oc-block-12/oc-block-12.php:67
+#: blocks/widgets/oc-block-13/oc-block-13.php:67
+#: blocks/widgets/oc-block-14/oc-block-14.php:67
+#: blocks/widgets/oc-block-15/oc-block-15.php:67
+#: blocks/widgets/oc-block-16/oc-block-16.php:67
+#: blocks/widgets/oc-block-17/oc-block-17.php:67
+#: blocks/widgets/oc-block-18/oc-block-18.php:67
+#: blocks/widgets/oc-block-19/oc-block-19.php:67
+#: blocks/widgets/oc-block-2/oc-block-2.php:67
+#: blocks/widgets/oc-block-20/oc-block-20.php:67
+#: blocks/widgets/oc-block-3/oc-block-3.php:67
+#: blocks/widgets/oc-block-4/oc-block-4.php:67
+#: blocks/widgets/oc-block-5/oc-block-5.php:67
+#: blocks/widgets/oc-block-6/oc-block-6.php:67
+#: blocks/widgets/oc-block-7/oc-block-7.php:68
+#: blocks/widgets/oc-block-8/oc-block-8.php:66
+#: blocks/widgets/oc-block-9/oc-block-9.php:67
+#: blocks/widgets/oc-module-1/oc-module-1.php:45
+#: blocks/widgets/oc-module-2/oc-module-2.php:68
+#: blocks/widgets/oc-module-3/oc-module-3.php:86
+#: blocks/widgets/oc-module-5/oc-module-5.php:61
+#: blocks/widgets/oc-module-6/oc-module-6.php:55
+#: blocks/widgets/oc-module-7/oc-module-7.php:61
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:50
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:45
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:59
+msgid "Style 4"
+msgstr ""
+
+#: admin/options.php:159
+#: blocks/widgets/oc-about-website/oc-about-website.php:44
+#: blocks/widgets/oc-block-1/oc-block-1.php:68
+#: blocks/widgets/oc-block-10/oc-block-10.php:68
+#: blocks/widgets/oc-block-11/oc-block-11.php:68
+#: blocks/widgets/oc-block-12/oc-block-12.php:68
+#: blocks/widgets/oc-block-13/oc-block-13.php:68
+#: blocks/widgets/oc-block-14/oc-block-14.php:68
+#: blocks/widgets/oc-block-15/oc-block-15.php:68
+#: blocks/widgets/oc-block-16/oc-block-16.php:68
+#: blocks/widgets/oc-block-17/oc-block-17.php:68
+#: blocks/widgets/oc-block-18/oc-block-18.php:68
+#: blocks/widgets/oc-block-19/oc-block-19.php:68
+#: blocks/widgets/oc-block-2/oc-block-2.php:68
+#: blocks/widgets/oc-block-20/oc-block-20.php:68
+#: blocks/widgets/oc-block-3/oc-block-3.php:68
+#: blocks/widgets/oc-block-4/oc-block-4.php:68
+#: blocks/widgets/oc-block-5/oc-block-5.php:68
+#: blocks/widgets/oc-block-6/oc-block-6.php:68
+#: blocks/widgets/oc-block-7/oc-block-7.php:69
+#: blocks/widgets/oc-block-8/oc-block-8.php:67
+#: blocks/widgets/oc-block-9/oc-block-9.php:68
+#: blocks/widgets/oc-module-1/oc-module-1.php:46
+#: blocks/widgets/oc-module-2/oc-module-2.php:69
+#: blocks/widgets/oc-module-3/oc-module-3.php:87
+#: blocks/widgets/oc-module-5/oc-module-5.php:62
+#: blocks/widgets/oc-module-6/oc-module-6.php:56
+#: blocks/widgets/oc-module-7/oc-module-7.php:62
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:51
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:46
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:60
+msgid "Style 5"
+msgstr ""
+
+#: admin/options.php:160
+#: blocks/widgets/oc-about-website/oc-about-website.php:45
+#: blocks/widgets/oc-block-1/oc-block-1.php:69
+#: blocks/widgets/oc-block-10/oc-block-10.php:69
+#: blocks/widgets/oc-block-11/oc-block-11.php:69
+#: blocks/widgets/oc-block-12/oc-block-12.php:69
+#: blocks/widgets/oc-block-13/oc-block-13.php:69
+#: blocks/widgets/oc-block-14/oc-block-14.php:69
+#: blocks/widgets/oc-block-15/oc-block-15.php:69
+#: blocks/widgets/oc-block-16/oc-block-16.php:69
+#: blocks/widgets/oc-block-17/oc-block-17.php:69
+#: blocks/widgets/oc-block-18/oc-block-18.php:69
+#: blocks/widgets/oc-block-19/oc-block-19.php:69
+#: blocks/widgets/oc-block-2/oc-block-2.php:69
+#: blocks/widgets/oc-block-20/oc-block-20.php:69
+#: blocks/widgets/oc-block-3/oc-block-3.php:69
+#: blocks/widgets/oc-block-4/oc-block-4.php:69
+#: blocks/widgets/oc-block-5/oc-block-5.php:69
+#: blocks/widgets/oc-block-6/oc-block-6.php:69
+#: blocks/widgets/oc-block-7/oc-block-7.php:70
+#: blocks/widgets/oc-block-8/oc-block-8.php:68
+#: blocks/widgets/oc-block-9/oc-block-9.php:69
+#: blocks/widgets/oc-module-1/oc-module-1.php:47
+#: blocks/widgets/oc-module-2/oc-module-2.php:70
+#: blocks/widgets/oc-module-3/oc-module-3.php:88
+#: blocks/widgets/oc-module-5/oc-module-5.php:63
+#: blocks/widgets/oc-module-6/oc-module-6.php:57
+#: blocks/widgets/oc-module-7/oc-module-7.php:63
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:52
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:47
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:61
+msgid "Style 6"
+msgstr ""
+
+#: admin/options.php:168
+msgid "Responsive"
+msgstr ""
+
+#: admin/options.php:174
+msgid "Disable Responsive Layout"
+msgstr ""
+
+#: admin/options.php:175
+msgid ""
+"Disabling responsive layout means mobile phones and tablets will no longer "
+"see a better optimized design. Do not disable this unless really necessary."
+msgstr ""
+
+#: admin/options.php:191 admin/options.php:464
+msgid "Header"
+msgstr ""
+
+#: admin/options.php:197
+msgid "Header Layout"
+msgstr ""
+
+#: admin/options.php:204
+msgid "Select the header style you want to use."
+msgstr ""
+
+#: admin/options.php:207
+msgid "Header 1 (Top Header)"
+msgstr ""
+
+#: admin/options.php:208
+msgid "Header 2 (Left Logo + Right Ad)"
+msgstr ""
+
+#: admin/options.php:209
+msgid "Header 3 (Left Logo + Right Ad with Stretch Navigation)"
+msgstr ""
+
+#: admin/options.php:210
+msgid "Header 4 (Centered Logo)"
+msgstr ""
+
+#: admin/options.php:211
+msgid "Header 5 (Centered Logo with Stretch Navigation)"
+msgstr ""
+
+#: admin/options.php:212
+msgid "Header 6"
+msgstr ""
+
+#: admin/options.php:213
+msgid "Header 7"
+msgstr ""
+
+#: admin/options.php:214
+msgid "Header 8"
+msgstr ""
+
+#: admin/options.php:221
+msgid "Logo"
+msgstr ""
+
+#: admin/options.php:225
+msgid "Logo Text"
+msgstr ""
+
+#: admin/options.php:226
+msgid "It will be used if logo images are not provided below."
+msgstr ""
+
+#: admin/options.php:233
+msgid "Logo Image"
+msgstr ""
+
+#: admin/options.php:234
+msgid ""
+"By default, a text-based logo is created using your site title. But you can "
+"upload an image-based logo here."
+msgstr ""
+
+#: admin/options.php:239 admin/options.php:251
+msgid "Use As Logo"
+msgstr ""
+
+#: admin/options.php:245
+msgid "Logo Image Retina (2x)"
+msgstr ""
+
+#: admin/options.php:246
+msgid ""
+"The retina version is 2x version of the same logo above. This will be used "
+"for higher resolution devices like iPhone. Requires WP Retina 2x plugin."
+msgstr ""
+
+#: admin/options.php:257
+msgid "Logo alt attribute"
+msgstr ""
+
+#: admin/options.php:259
+#, php-format
+msgid ""
+"%s Alt attribute %s for the logo. This is the alternative text if the logo "
+"cannot be displayed. It's useful for SEO and generally is the name of the "
+"site."
+msgstr ""
+
+#: admin/options.php:265
+msgid "Logo title attribute"
+msgstr ""
+
+#: admin/options.php:267
+#, php-format
+msgid ""
+"%s Title attribute %s for the logo. This attribute specifies extra "
+"information about the logo. Most browsers will show a tooltip with this text "
+"on logo hover."
+msgstr ""
+
+#: admin/options.php:274 admin/options.php:1993
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/options.php:280
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: admin/options.php:281
+msgid ""
+"Breadcrumbs are a hierarchy of links displayed below the main navigation. "
+"They are displayed on all pages but the home-page."
+msgstr ""
+
+#: admin/options.php:288
+msgid "Navigation"
+msgstr ""
+
+#: admin/options.php:294
+msgid "Sticky Navigation"
+msgstr ""
+
+#: admin/options.php:295
+msgid ""
+"This makes navigation float at the top when the user scrolls below the fold "
+"- essentially making navigation menu always visible."
+msgstr ""
+
+#: admin/options.php:302
+msgid "Enable Search on Mobile Menu"
+msgstr ""
+
+#: admin/options.php:303
+msgid ""
+"Disabling this will remove the search icon from the mobile navigation menu."
+msgstr ""
+
+#: admin/options.php:310
+msgid "Mobile Menu Type"
+msgstr ""
+
+#: admin/options.php:311
+msgid ""
+"Select the mobile menu you wish to use. The classic menu expands below the "
+"mobile navigation. The off-canvas menu appears in a mobile app style at the "
+"left side."
+msgstr ""
+
+#: admin/options.php:314
+msgid "Classic Menu"
+msgstr ""
+
+#: admin/options.php:315
+msgid "Off-Canvas Menu"
+msgstr ""
+
+#: admin/options.php:320
+msgid "Add top border width of navigation."
+msgstr ""
+
+#: admin/options.php:330
+msgid "Add bottom border width of navigation."
+msgstr ""
+
+#: admin/options.php:341
+msgid "Ticker Bar & News Ticker"
+msgstr ""
+
+#: admin/options.php:347
+msgid "Disable Ticker Bar"
+msgstr ""
+
+#: admin/options.php:348
+msgid ""
+"Setting this to yes will disable the top bar element that appears above the "
+"logo area."
+msgstr ""
+
+#: admin/options.php:355
+msgid "Disable News Ticker"
+msgstr ""
+
+#: admin/options.php:356
+msgid "Setting this to yes will disable the top bar news ticker"
+msgstr ""
+
+#: admin/options.php:362
+msgid "Trending"
+msgstr ""
+
+#: admin/options.php:363
+msgid "Topbar Ticker Text"
+msgstr ""
+
+#: admin/options.php:364
+msgid "Enter the text you wish to display before the headlines in the ticker."
+msgstr ""
+
+#: admin/options.php:371 admin/options.php:441
+msgid "Show Social Icon"
+msgstr ""
+
+#: admin/options.php:372
+msgid "Show or hide the social icons in ticker."
+msgstr ""
+
+#: admin/options.php:386 admin/options.php:392 admin/options.php:2070
+msgid "Footer"
+msgstr ""
+
+#: admin/options.php:397 admin/options.php:405
+msgid "Show Footer"
+msgstr ""
+
+#: admin/options.php:398 admin/options.php:406
+msgid "Show or hide the footer."
+msgstr ""
+
+#: admin/options.php:419
+msgid "Sub-Footer"
+msgstr ""
+
+#: admin/options.php:425
+msgid "Show Sub-Footer"
+msgstr ""
+
+#: admin/options.php:426
+msgid "Show or hide the sub-footer."
+msgstr ""
+
+#: admin/options.php:433
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: admin/options.php:434
+msgid "Set footer copyright text."
+msgstr ""
+
+#: admin/options.php:442
+msgid "Show or hide the social icons in sub footer."
+msgstr ""
+
+#: admin/options.php:458
+msgid "Ads"
+msgstr ""
+
+#: admin/options.php:470
+msgid "Hedaer Right"
+msgstr ""
+
+#: admin/options.php:471
+msgid "Paste your ad code here so its display header logo right side."
+msgstr ""
+
+#: admin/options.php:479
+msgid "Page"
+msgstr ""
+
+#: admin/options.php:485 admin/options.php:579
+msgid "Feature Section"
+msgstr ""
+
+#: admin/options.php:486
+msgid "Paste your ad code here so its display every page in feature section. "
+msgstr ""
+
+#: admin/options.php:495 admin/options.php:523 admin/options.php:551
+#: admin/options.php:589 admin/options.php:617
+msgid "Before Content"
+msgstr ""
+
+#: admin/options.php:496
+msgid ""
+"Paste your ad code here so its display every page in before the content."
+msgstr ""
+
+#: admin/options.php:505 admin/options.php:533 admin/options.php:561
+#: admin/options.php:599 admin/options.php:627
+msgid "After Content"
+msgstr ""
+
+#: admin/options.php:506
+msgid "Paste your ad code here so its display every page in after the content."
+msgstr ""
+
+#: admin/options.php:517
+msgid "Post"
+msgstr ""
+
+#: admin/options.php:524
+msgid ""
+"Paste your ad code here so its display every post in before the content."
+msgstr ""
+
+#: admin/options.php:534
+msgid "Paste your ad code here so its display every post in after the content."
+msgstr ""
+
+#: admin/options.php:552
+msgid ""
+"Paste your ad code here so its display every left sidebar and right sidebar "
+"in before the content."
+msgstr ""
+
+#: admin/options.php:562
+msgid ""
+"Paste your ad code here so its display every left sidebar and right sidebar "
+"in after the content."
+msgstr ""
+
+#: admin/options.php:573 blocks/widgets/oc-module-3/oc-module-3.php:45
+msgid "Category"
+msgstr ""
+
+#: admin/options.php:580
+msgid ""
+"Paste your ad code here so its display every category page in feature "
+"section."
+msgstr ""
+
+#: admin/options.php:590
+msgid ""
+"Paste your ad code here so its display every category page in before the "
+"content."
+msgstr ""
+
+#: admin/options.php:600
+msgid ""
+"Paste your ad code here so its display every category page in after the "
+"content."
+msgstr ""
+
+#: admin/options.php:611
+msgid "Archive"
+msgstr ""
+
+#: admin/options.php:618
+msgid ""
+"Paste your ad code here so its display every archive page in before the "
+"content."
+msgstr ""
+
+#: admin/options.php:628
+msgid ""
+"Paste your ad code here so its display every archive page in after the "
+"content."
+msgstr ""
+
+#: admin/options.php:647
+msgid "Listing Layouts"
+msgstr ""
+
+#: admin/options.php:653
+msgid "Category Layout Style"
+msgstr ""
+
+#: admin/options.php:660
+msgid "Specify the sidebar to use by default for category template."
+msgstr ""
+
+#: admin/options.php:669
+msgid "This style is used while browsing category page."
+msgstr ""
+
+#: admin/options.php:698
+msgid "Sets pagination type on all category template."
+msgstr ""
+
+#: admin/options.php:701 admin/options.php:889 admin/options.php:1077
+#: blocks/widgets/oc-block-1/oc-block-1.php:52
+#: blocks/widgets/oc-block-10/oc-block-10.php:52
+#: blocks/widgets/oc-block-11/oc-block-11.php:52
+#: blocks/widgets/oc-block-12/oc-block-12.php:52
+#: blocks/widgets/oc-block-13/oc-block-13.php:52
+#: blocks/widgets/oc-block-14/oc-block-14.php:52
+#: blocks/widgets/oc-block-15/oc-block-15.php:52
+#: blocks/widgets/oc-block-16/oc-block-16.php:52
+#: blocks/widgets/oc-block-17/oc-block-17.php:52
+#: blocks/widgets/oc-block-18/oc-block-18.php:52
+#: blocks/widgets/oc-block-19/oc-block-19.php:52
+#: blocks/widgets/oc-block-2/oc-block-2.php:52
+#: blocks/widgets/oc-block-20/oc-block-20.php:52
+#: blocks/widgets/oc-block-3/oc-block-3.php:52
+#: blocks/widgets/oc-block-4/oc-block-4.php:52
+#: blocks/widgets/oc-block-5/oc-block-5.php:52
+#: blocks/widgets/oc-block-6/oc-block-6.php:52
+#: blocks/widgets/oc-block-7/oc-block-7.php:53
+#: blocks/widgets/oc-block-8/oc-block-8.php:52
+#: blocks/widgets/oc-block-9/oc-block-9.php:52
+msgid "Normal Pagination"
+msgstr ""
+
+#: admin/options.php:709 admin/options.php:897 admin/options.php:1085
+msgid "Listing Animation"
+msgstr ""
+
+#: admin/options.php:710
+msgid "Animation of listing for category page block."
+msgstr ""
+
+#: admin/options.php:725
+msgid "Disable date from category archive page block."
+msgstr ""
+
+#: admin/options.php:737
+msgid "Date Format of listing for category page block.When date is enable."
+msgstr ""
+
+#: admin/options.php:759
+msgid ""
+"Date archive link url of listing for category page block. When date is "
+"enable."
+msgstr ""
+
+#: admin/options.php:772
+msgid "Disable category from category archive page block."
+msgstr ""
+
+#: admin/options.php:784
+msgid "Disable comment from category archive page block."
+msgstr ""
+
+#: admin/options.php:796
+msgid "Disable author from category archive page block."
+msgstr ""
+
+#: admin/options.php:808
+msgid "Disable excerpt from category archive page block."
+msgstr ""
+
+#: admin/options.php:819 admin/options.php:1007 admin/options.php:1195
+#: blocks/widgets/oc-block-1/oc-block-1.php:173
+#: blocks/widgets/oc-block-1/oc-block-1.php:180
+#: blocks/widgets/oc-block-10/oc-block-10.php:173
+#: blocks/widgets/oc-block-10/oc-block-10.php:180
+#: blocks/widgets/oc-block-11/oc-block-11.php:173
+#: blocks/widgets/oc-block-11/oc-block-11.php:180
+#: blocks/widgets/oc-block-12/oc-block-12.php:173
+#: blocks/widgets/oc-block-12/oc-block-12.php:180
+#: blocks/widgets/oc-block-13/oc-block-13.php:173
+#: blocks/widgets/oc-block-13/oc-block-13.php:180
+#: blocks/widgets/oc-block-14/oc-block-14.php:173
+#: blocks/widgets/oc-block-14/oc-block-14.php:180
+#: blocks/widgets/oc-block-15/oc-block-15.php:172
+#: blocks/widgets/oc-block-15/oc-block-15.php:179
+#: blocks/widgets/oc-block-16/oc-block-16.php:173
+#: blocks/widgets/oc-block-16/oc-block-16.php:180
+#: blocks/widgets/oc-block-17/oc-block-17.php:173
+#: blocks/widgets/oc-block-17/oc-block-17.php:180
+#: blocks/widgets/oc-block-18/oc-block-18.php:173
+#: blocks/widgets/oc-block-18/oc-block-18.php:180
+#: blocks/widgets/oc-block-19/oc-block-19.php:173
+#: blocks/widgets/oc-block-19/oc-block-19.php:180
+#: blocks/widgets/oc-block-2/oc-block-2.php:173
+#: blocks/widgets/oc-block-2/oc-block-2.php:180
+#: blocks/widgets/oc-block-20/oc-block-20.php:173
+#: blocks/widgets/oc-block-20/oc-block-20.php:180
+#: blocks/widgets/oc-block-7/oc-block-7.php:174
+#: blocks/widgets/oc-block-7/oc-block-7.php:181
+#: blocks/widgets/oc-block-8/oc-block-8.php:172
+#: blocks/widgets/oc-block-8/oc-block-8.php:179
+#: blocks/widgets/oc-block-9/oc-block-9.php:173
+#: blocks/widgets/oc-block-9/oc-block-9.php:180
+#: blocks/widgets/oc-module-1/oc-module-1.php:172
+#: blocks/widgets/oc-module-1/oc-module-1.php:299
+#: blocks/widgets/oc-module-3/oc-module-3.php:192
+#: blocks/widgets/oc-module-4/oc-module-4.php:173
+msgid "If excerpt enable."
+msgstr ""
+
+#: admin/options.php:828 admin/options.php:1016 admin/options.php:1204
+msgid "(If excerpt enable)"
+msgstr ""
+
+#: admin/options.php:841
+msgid "Archive Layout Style"
+msgstr ""
+
+#: admin/options.php:848
+msgid "Specify the sidebar to use by default for archive template."
+msgstr ""
+
+#: admin/options.php:855
+msgid "Archive Listing Style"
+msgstr ""
+
+#: admin/options.php:857
+msgid "This style is used while browsing archive page."
+msgstr ""
+
+#: admin/options.php:886
+msgid "Sets pagination type on all archive template."
+msgstr ""
+
+#: admin/options.php:898
+msgid "Animation of listing for archive page block."
+msgstr ""
+
+#: admin/options.php:913
+msgid "Disable date from archive page block."
+msgstr ""
+
+#: admin/options.php:925
+msgid "Date Format of listing for archive page block.When date is enable."
+msgstr ""
+
+#: admin/options.php:947
+msgid ""
+"Date archive link url of listing for archive page block. When date is enable."
+msgstr ""
+
+#: admin/options.php:960
+msgid "Disable category from archive page block."
+msgstr ""
+
+#: admin/options.php:972
+msgid "Disable comment from archive page block."
+msgstr ""
+
+#: admin/options.php:984
+msgid "Disable author from archive page block."
+msgstr ""
+
+#: admin/options.php:996
+msgid "Disable excerpt from archive page block."
+msgstr ""
+
+#: admin/options.php:1029
+msgid "Author Layout Style"
+msgstr ""
+
+#: admin/options.php:1036
+msgid "Specify the sidebar to use by default for author template."
+msgstr ""
+
+#: admin/options.php:1043
+msgid "Author Listing Style"
+msgstr ""
+
+#: admin/options.php:1045
+msgid "This style is used while browsing author page."
+msgstr ""
+
+#: admin/options.php:1074
+msgid "Sets pagination type on all author template."
+msgstr ""
+
+#: admin/options.php:1086
+msgid "Animation of listing for author page block."
+msgstr ""
+
+#: admin/options.php:1101
+msgid "Disable date from author page block."
+msgstr ""
+
+#: admin/options.php:1113
+msgid "Date Format of listing for author page block.When date is enable."
+msgstr ""
+
+#: admin/options.php:1135
+msgid ""
+"Date archive link url of listing for author page block. When date is enable."
+msgstr ""
+
+#: admin/options.php:1148
+msgid "Disable category from author page block."
+msgstr ""
+
+#: admin/options.php:1160
+msgid "Disable comment from author page block."
+msgstr ""
+
+#: admin/options.php:1172
+msgid "Disable author from author page block."
+msgstr ""
+
+#: admin/options.php:1184
+msgid "Disable excerpt from author page block."
+msgstr ""
+
+#: admin/options.php:1226
+msgid "Page/Post Settings"
+msgstr ""
+
+#: admin/options.php:1232
+msgid "Single Post / Article Page"
+msgstr ""
+
+#: admin/options.php:1237
+msgid "Default Posts Layout"
+msgstr ""
+
+#: admin/options.php:1239
+msgid ""
+"Default single post layout to use, unless explicitly overriden in the post "
+"options."
+msgstr ""
+
+#: admin/options.php:1252
+msgid "Enable prettyPhoto Lightbox"
+msgstr ""
+
+#: admin/options.php:1253
+msgid ""
+"When enabled, prettyPhoto lightbox will auto-bind to images such as featured "
+"images, WordPress galleries etc."
+msgstr ""
+
+#: admin/options.php:1260
+msgid "Show Featured"
+msgstr ""
+
+#: admin/options.php:1261
+msgid ""
+"Disabling featured area will mean the featured image or video will no longer "
+"show at top of the article."
+msgstr ""
+
+#: admin/options.php:1268
+msgid "Show Tags"
+msgstr ""
+
+#: admin/options.php:1269
+msgid "Show tags below posts? We recommend using categories instead of tags."
+msgstr ""
+
+#: admin/options.php:1276
+msgid "Show Social Sharing"
+msgstr ""
+
+#: admin/options.php:1277
+msgid "Show twitter, facebook, etc. share images beneath posts?"
+msgstr ""
+
+#: admin/options.php:1284
+msgid "Previous/Next Navigation?"
+msgstr ""
+
+#: admin/options.php:1285
+msgid ""
+"Enabling this will add a Previous and Next post link in the single post page."
+msgstr ""
+
+#: admin/options.php:1292
+msgid "Show Author Box"
+msgstr ""
+
+#: admin/options.php:1293
+msgid ""
+"Setting to No will disable author box displayed below posts on post page."
+"( author description require. )"
+msgstr ""
+
+#: admin/options.php:1301
+msgid "Date Format of listing for post page block.When date is enable."
+msgstr ""
+
+#: admin/options.php:1323
+msgid "Date archive link url of listing for post page block."
+msgstr ""
+
+#: admin/options.php:1337 blocks/single/related-posts.php:9
+msgid "Related Posts"
+msgstr ""
+
+#: admin/options.php:1343
+msgid "Show Related Posts"
+msgstr ""
+
+#: admin/options.php:1344
+msgid ""
+"Setting to No will disable the related posts that appear on the single post "
+"page."
+msgstr ""
+
+#: admin/options.php:1352
+msgid "Related Posts By"
+msgstr ""
+
+#: admin/options.php:1353
+msgid ""
+"By default, related posts will be displayed by finding posts based on the "
+"categories of post being viewed. You can change it to tags."
+msgstr ""
+
+#: admin/options.php:1356 sitemap.php:70
+msgid "Categories"
+msgstr ""
+
+#: admin/options.php:1356
+msgid "Tags"
+msgstr ""
+
+#: admin/options.php:1364
+msgid "comment"
+msgstr ""
+
+#: admin/options.php:1370
+msgid "Disable comments on posts"
+msgstr ""
+
+#: admin/options.php:1371
+msgid ""
+"Enable or disable the comments for post, on the entire site. This option is "
+"disabled by default."
+msgstr ""
+
+#: admin/options.php:1386
+msgid "Typography"
+msgstr ""
+
+#: admin/options.php:1392 admin/options.php:1634
+msgid "General"
+msgstr ""
+
+#: admin/options.php:1398
+#, php-format
+msgid ""
+"%s Selecting a font will show a basic preview. Go to %s google fonts "
+"directory %s for more details. It is highly recommended that you choose "
+"fonts that have similar heights to the default fonts to maintain pleasing "
+"aesthetics. %s"
+msgstr ""
+
+#: admin/options.php:1407
+msgid "Main Font Family"
+msgstr ""
+
+#: admin/options.php:1408
+msgid ""
+"This effects almost every element on the theme. Please use a family that has "
+"regular, semi-bold and bold style. You may want to set the same for \"Blog "
+"Post & Pages Body\" too."
+msgstr ""
+
+#: admin/options.php:1427
+msgid "Contrast Font Family"
+msgstr ""
+
+#: admin/options.php:1428
+msgid ""
+"This font will apply to mainly post headlines in post pages, slider, "
+"homepage, etc."
+msgstr ""
+
+#: admin/options.php:1448
+msgid "Blog Post & Pages Body"
+msgstr ""
+
+#: admin/options.php:1449
+msgid ""
+"Pages and blog posts body can also use a font of your choice. Readability is "
+"cruicial. Choose wisely."
+msgstr ""
+
+#: admin/options.php:1466
+msgid "Navigation Font"
+msgstr ""
+
+#: admin/options.php:1467
+msgid "Change the font used in the navigation menu."
+msgstr ""
+
+#: admin/options.php:1485
+msgid "Pages & In-Post Headings"
+msgstr ""
+
+#: admin/options.php:1486
+msgid ""
+"Changing this will affect the font used for pages heading and heading h1-h6 "
+"used within posts or default template pages."
+msgstr ""
+
+#: admin/options.php:1504
+msgid "Content Heading Sizes"
+msgstr ""
+
+#: admin/options.php:1511
+#, php-format
+msgid "%s These sizes affects the heading of fonts used within posts. %s"
+msgstr ""
+
+#: admin/options.php:1517
+msgid "H1 Size"
+msgstr ""
+
+#: admin/options.php:1518
+msgid "h1 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1528
+msgid "H2 Size"
+msgstr ""
+
+#: admin/options.php:1529
+msgid "h2 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1539
+msgid "H3 Size"
+msgstr ""
+
+#: admin/options.php:1540
+msgid "h3 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1550
+msgid "H4 Size"
+msgstr ""
+
+#: admin/options.php:1551
+msgid "h4 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1561
+msgid "H5 Size"
+msgstr ""
+
+#: admin/options.php:1562
+msgid "h5 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1572
+msgid "H6 Size"
+msgstr ""
+
+#: admin/options.php:1573
+msgid "h6 size for in-post headings."
+msgstr ""
+
+#: admin/options.php:1583
+msgid "Advanced"
+msgstr ""
+
+#: admin/options.php:1587
+msgid "Font Character Set"
+msgstr ""
+
+#: admin/options.php:1589
+msgid ""
+"For some languages, you will need an extended character set. Please note, "
+"not all fonts will have the subset. Check the google font to make sure."
+msgstr ""
+
+#: admin/options.php:1592
+msgid "Latin"
+msgstr ""
+
+#: admin/options.php:1593
+msgid "Latin Extended"
+msgstr ""
+
+#: admin/options.php:1594
+msgid "Cyrillic"
+msgstr ""
+
+#: admin/options.php:1595
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: admin/options.php:1596
+msgid "Greek"
+msgstr ""
+
+#: admin/options.php:1597
+msgid "Greek Extended"
+msgstr ""
+
+#: admin/options.php:1598
+msgid "Vietnamese"
+msgstr ""
+
+#: admin/options.php:1612
+msgid "Style & Color"
+msgstr ""
+
+#: admin/options.php:1624 admin/options.php:1628
+msgid "Reset Colors"
+msgstr ""
+
+#: admin/options.php:1625
+msgid ""
+"Clicking this button will reset all the color settings below to the default "
+"color settings."
+msgstr ""
+
+#: admin/options.php:1628
+msgid "Do you really wish to reset colors to defaults?"
+msgstr ""
+
+#: admin/options.php:1639
+msgid "Theme Color"
+msgstr ""
+
+#: admin/options.php:1640
+msgid ""
+"It is the contrast color for the theme. It will be used for all links, menu, "
+"category overlays, main page and many contrasting elements."
+msgstr ""
+
+#: admin/options.php:1680
+msgid "Body Background Color"
+msgstr ""
+
+#: admin/options.php:1681
+msgid ""
+"Use light colors only in non-boxed layout. Setting a body background image "
+"below will override it."
+msgstr ""
+
+#: admin/options.php:1693
+msgid "Body Background"
+msgstr ""
+
+#: admin/options.php:1694
+msgid ""
+"Use light patterns in non-boxed layout. For patterns, use a repeating "
+"background. Use photo to fully cover the background with an image. Note that "
+"it will override the background color option."
+msgstr ""
+
+#: admin/options.php:1705 admin/options.php:1817
+msgid "Upload Image"
+msgstr ""
+
+#: admin/options.php:1714
+msgid "Main Content Background Color"
+msgstr ""
+
+#: admin/options.php:1715
+msgid "Use main content backgroud color for all pages and posts."
+msgstr ""
+
+#: admin/options.php:1727
+msgid "Posts Main Text Color"
+msgstr ""
+
+#: admin/options.php:1728
+msgid "Text color applies to body text of posts and pages."
+msgstr ""
+
+#: admin/options.php:1740
+msgid "Blocks Excerpt Color"
+msgstr ""
+
+#: admin/options.php:1741
+msgid ""
+"Text color applies to excerpt text displayed on homepage blocks and category "
+"listings."
+msgstr ""
+
+#: admin/options.php:1753
+msgid "Main Headings Color"
+msgstr ""
+
+#: admin/options.php:1754
+msgid ""
+"Applies to headings such as main post/page heading and all the in-post "
+"headings."
+msgstr ""
+
+#: admin/options.php:1767
+msgid "Posts Link Color"
+msgstr ""
+
+#: admin/options.php:1768
+msgid "Changes all the links color within posts and pages."
+msgstr ""
+
+#: admin/options.php:1780
+msgid "Posts Link Hover Color"
+msgstr ""
+
+#: admin/options.php:1781
+msgid "This color is applied when you mouse-over a certain link."
+msgstr ""
+
+#: admin/options.php:1793
+msgid "Featured Slider Background Color"
+msgstr ""
+
+#: admin/options.php:1794
+msgid "Setting a body background pattern below will override it."
+msgstr ""
+
+#: admin/options.php:1806
+msgid "Featured Slider Background"
+msgstr ""
+
+#: admin/options.php:1807 admin/options.php:2090
+msgid ""
+"Please use a background pattern that can be repeated. Note that it will "
+"override the background color option."
+msgstr ""
+
+#: admin/options.php:1826
+msgid "Header & Navigation Menu"
+msgstr ""
+
+#: admin/options.php:1832
+msgid "Main Menu Background Color"
+msgstr ""
+
+#: admin/options.php:1833
+msgid "Menu background affects the top-level background only."
+msgstr ""
+
+#: admin/options.php:1851
+msgid "Menu Dropdowns Background Color"
+msgstr ""
+
+#: admin/options.php:1852
+msgid ""
+"Menu background color is only used when a background pattern is not "
+"specified below."
+msgstr ""
+
+#: admin/options.php:1867
+msgid "Menu Border Below"
+msgstr ""
+
+#: admin/options.php:1868
+msgid ""
+"Navigation sub menu has a 3 pixel border below it. Changing this color will "
+"only affect that border."
+msgstr ""
+
+#: admin/options.php:1880
+msgid "Header Menu Text Color"
+msgstr ""
+
+#: admin/options.php:1881
+msgid "Applies to top menu items. Does not apply to drop down."
+msgstr ""
+
+#: admin/options.php:1893
+msgid "Header Background"
+msgstr ""
+
+#: admin/options.php:1894
+msgid "Applies to header background color."
+msgstr ""
+
+#: admin/options.php:1906
+msgid "Navigation Border Color"
+msgstr ""
+
+#: admin/options.php:1907
+msgid "Applies to navigation border color."
+msgstr ""
+
+#: admin/options.php:1919
+msgid "Menu Text Color"
+msgstr ""
+
+#: admin/options.php:1920
+msgid "Applies to drop down items. "
+msgstr ""
+
+#: admin/options.php:1934
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: admin/options.php:1935
+msgid "Applies to mobile menu drop down background."
+msgstr ""
+
+#: admin/options.php:1948
+msgid "Ticker Bar & Sticky Post"
+msgstr ""
+
+#: admin/options.php:1954
+msgid "Ticker Bar Background"
+msgstr ""
+
+#: admin/options.php:1955
+msgid "Ticker Bar background color affects  for all page."
+msgstr ""
+
+#: admin/options.php:1967
+msgid "Ticker Bar Link Color"
+msgstr ""
+
+#: admin/options.php:1968
+msgid "Change color of posts link in ticker bar."
+msgstr ""
+
+#: admin/options.php:1980
+msgid "Sticky Post Background"
+msgstr ""
+
+#: admin/options.php:1981
+msgid "Sticky Post change background color for all block as well as module."
+msgstr ""
+
+#: admin/options.php:1999
+msgid "Breadcrumbs Background"
+msgstr ""
+
+#: admin/options.php:2000
+msgid "Breadcrumbs background color affects  for all page."
+msgstr ""
+
+#: admin/options.php:2012
+msgid "Breadcrumbs Link Color"
+msgstr ""
+
+#: admin/options.php:2013
+msgid "Change color of posts link in breadcrumbs."
+msgstr ""
+
+#: admin/options.php:2025
+msgid "Breadcrumbs Text Color"
+msgstr ""
+
+#: admin/options.php:2026
+msgid ""
+"Change color of delimiter and current page/post text color  in breadcrumbs."
+msgstr ""
+
+#: admin/options.php:2038 functions.php:428
+msgid "Main Sidebar"
+msgstr ""
+
+#: admin/options.php:2044
+msgid "Sidebar Heading Background"
+msgstr ""
+
+#: admin/options.php:2045
+msgid ""
+"Sidebar heading background color affects all the headings in the main "
+"sidebar."
+msgstr ""
+
+#: admin/options.php:2057
+msgid "Sidebar Heading Color"
+msgstr ""
+
+#: admin/options.php:2058
+msgid "Change color of headings/widget titles in the main sidebar."
+msgstr ""
+
+#: admin/options.php:2076
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/options.php:2077
+msgid ""
+"Footer background color is only used when a background pattern is not "
+"specified below."
+msgstr ""
+
+#: admin/options.php:2089
+msgid "Footer Background Pattern"
+msgstr ""
+
+#: admin/options.php:2100
+msgid "Upload Pattern"
+msgstr ""
+
+#: admin/options.php:2101
+msgid "Use as Background Pattern"
+msgstr ""
+
+#: admin/options.php:2108
+msgid "Footer Headings Color"
+msgstr ""
+
+#: admin/options.php:2109
+msgid "Change color of headings in the footer."
+msgstr ""
+
+#: admin/options.php:2121
+msgid "Footer Text Color"
+msgstr ""
+
+#: admin/options.php:2122
+msgid "Affects color of text in the footer."
+msgstr ""
+
+#: admin/options.php:2134
+msgid "Footer Links Color"
+msgstr ""
+
+#: admin/options.php:2135 admin/options.php:2174
+msgid "Affects color of links in the footer."
+msgstr ""
+
+#: admin/options.php:2147
+msgid "Lower Footer Background Color"
+msgstr ""
+
+#: admin/options.php:2148
+msgid "Second footer uses this color in the background."
+msgstr ""
+
+#: admin/options.php:2160
+msgid "Lower Footer Text Color"
+msgstr ""
+
+#: admin/options.php:2161
+msgid "Second footer uses this color for text."
+msgstr ""
+
+#: admin/options.php:2173
+msgid "Lower Footer Links Color"
+msgstr ""
+
+#: admin/options.php:2194 admin/options.php:2205
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options.php:2200
+msgid "CSS"
+msgstr ""
+
+#: admin/options.php:2206
+msgid ""
+"Custom CSS will be added at end of all other customizations and thus can be "
+"used to overwrite rules. Less chances of specificity wars."
+msgstr ""
+
+#: admin/options.php:2214
+msgid "Output Method"
+msgstr ""
+
+#: admin/options.php:2215
+msgid ""
+"On-page is better for performance unless your Custom CSS is too large. If "
+"you are experiencing problem with a cache plugin or your Custom CSS is "
+"large, use external method."
+msgstr ""
+
+#: admin/options.php:2218
+msgid "On-page (For few lines of Custom CSS)"
+msgstr ""
+
+#: admin/options.php:2219
+msgid "External (For a lot of Custom CSS)"
+msgstr ""
+
+#: admin/options.php:2235
+msgid "Custom JS"
+msgstr ""
+
+#: admin/options.php:2241
+msgid "JavaScript"
+msgstr ""
+
+#: admin/options.php:2247
+msgid "Custom JavaScript"
+msgstr ""
+
+#: admin/options.php:2248
+msgid "Quickly add some JavaScript to your theme by adding it to this block."
+msgstr ""
+
+#: admin/options.php:2265 admin/options.php:2271
+msgid "Analytics"
+msgstr ""
+
+#: admin/options.php:2276
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/options.php:2277
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: admin/options.php:2295 admin/options.php:2301
+msgid "Social Networks"
+msgstr ""
+
+#: admin/options.php:2306
+msgid "BEHANCE"
+msgstr ""
+
+#: admin/options.php:2307
+msgid "Link to : Behance"
+msgstr ""
+
+#: admin/options.php:2314
+msgid "DELICIOUS"
+msgstr ""
+
+#: admin/options.php:2315
+msgid "Link to : Delicious"
+msgstr ""
+
+#: admin/options.php:2322
+msgid "DEVIANTART"
+msgstr ""
+
+#: admin/options.php:2323
+msgid "Link to : Deviantart"
+msgstr ""
+
+#: admin/options.php:2330
+msgid "DIGG"
+msgstr ""
+
+#: admin/options.php:2331
+msgid "Link to : Digg"
+msgstr ""
+
+#: admin/options.php:2338
+msgid "DRIBBBLE"
+msgstr ""
+
+#: admin/options.php:2339
+msgid "Link to : Dribbble"
+msgstr ""
+
+#: admin/options.php:2346
+msgid "FACEBOOK"
+msgstr ""
+
+#: admin/options.php:2347
+msgid "Link to : Facebook"
+msgstr ""
+
+#: admin/options.php:2354
+msgid "FLICKR"
+msgstr ""
+
+#: admin/options.php:2355
+msgid "Link to : Flickr"
+msgstr ""
+
+#: admin/options.php:2362
+msgid "GOOGLE PLUS"
+msgstr ""
+
+#: admin/options.php:2363
+msgid "Link to : Google Plus"
+msgstr ""
+
+#: admin/options.php:2370
+msgid "HTML5"
+msgstr ""
+
+#: admin/options.php:2371
+msgid "Link to : Html5"
+msgstr ""
+
+#: admin/options.php:2378
+msgid "INSTAGRAM"
+msgstr ""
+
+#: admin/options.php:2379
+msgid "Link to : Instagram"
+msgstr ""
+
+#: admin/options.php:2386
+msgid "LASTFM"
+msgstr ""
+
+#: admin/options.php:2387
+msgid "Link to : Lastfm"
+msgstr ""
+
+#: admin/options.php:2394
+msgid "LINKEDIN"
+msgstr ""
+
+#: admin/options.php:2395
+msgid "Link to : Linkedin"
+msgstr ""
+
+#: admin/options.php:2402
+msgid "MAIL"
+msgstr ""
+
+#: admin/options.php:2403
+msgid "Link to : Mail"
+msgstr ""
+
+#: admin/options.php:2410
+msgid "PAYPAL"
+msgstr ""
+
+#: admin/options.php:2411
+msgid "Link to : Paypal"
+msgstr ""
+
+#: admin/options.php:2418
+msgid "PINTEREST"
+msgstr ""
+
+#: admin/options.php:2419
+msgid "Link to : Pinterest"
+msgstr ""
+
+#: admin/options.php:2426
+msgid "REDDIT"
+msgstr ""
+
+#: admin/options.php:2427
+msgid "Link to : Reddit"
+msgstr ""
+
+#: admin/options.php:2434
+msgid "RSS"
+msgstr ""
+
+#: admin/options.php:2435
+msgid "Link to : Rss"
+msgstr ""
+
+#: admin/options.php:2442
+msgid "SHARE"
+msgstr ""
+
+#: admin/options.php:2443
+msgid "Link to : Share"
+msgstr ""
+
+#: admin/options.php:2450
+msgid "SKYPE"
+msgstr ""
+
+#: admin/options.php:2451
+msgid "Link to : Skype"
+msgstr ""
+
+#: admin/options.php:2458
+msgid "SOUNDCLOUD"
+msgstr ""
+
+#: admin/options.php:2459
+msgid "Link to : Soundcloud"
+msgstr ""
+
+#: admin/options.php:2466
+msgid "SPOTIFY"
+msgstr ""
+
+#: admin/options.php:2467
+msgid "Link to : Spotify"
+msgstr ""
+
+#: admin/options.php:2474
+msgid "STACKOVERFLOW"
+msgstr ""
+
+#: admin/options.php:2475
+msgid "Link to : Stackoverflow"
+msgstr ""
+
+#: admin/options.php:2482
+msgid "STEAM"
+msgstr ""
+
+#: admin/options.php:2483
+msgid "Link to : Steam"
+msgstr ""
+
+#: admin/options.php:2490
+msgid "STUMBLEUPON"
+msgstr ""
+
+#: admin/options.php:2491
+msgid "Link to : StumbleUpon"
+msgstr ""
+
+#: admin/options.php:2498
+msgid "TUMBLR"
+msgstr ""
+
+#: admin/options.php:2499
+msgid "Link to : Tumblr"
+msgstr ""
+
+#: admin/options.php:2506
+msgid "TWITTER"
+msgstr ""
+
+#: admin/options.php:2507
+msgid "Link to : Twitter"
+msgstr ""
+
+#: admin/options.php:2514
+msgid "VIMEO"
+msgstr ""
+
+#: admin/options.php:2515
+msgid "Link to : Vimeo"
+msgstr ""
+
+#: admin/options.php:2522
+msgid "VKONTAKTE"
+msgstr ""
+
+#: admin/options.php:2523
+msgid "Link to : VKontakte"
+msgstr ""
+
+#: admin/options.php:2530
+msgid "WINDOWS"
+msgstr ""
+
+#: admin/options.php:2531
+msgid "Link to : Windows"
+msgstr ""
+
+#: admin/options.php:2538
+msgid "WOORDPRESS"
+msgstr ""
+
+#: admin/options.php:2539
+msgid "Link to : Woordpress"
+msgstr ""
+
+#: admin/options.php:2546
+msgid "YAHOO"
+msgstr ""
+
+#: admin/options.php:2547
+msgid "Link to : Yahoo"
+msgstr ""
+
+#: admin/options.php:2554
+msgid "YOUTUBE"
+msgstr ""
+
+#: admin/options.php:2555
+msgid "Link to : Youtube"
+msgstr ""
+
+#: admin/options.php:2574
+msgid "Backup & Restore"
+msgstr ""
+
+#: admin/options.php:2580
+msgid "Backup"
+msgstr ""
+
+#: admin/options.php:2584
+msgid "Backup / Export"
+msgstr ""
+
+#: admin/options.php:2585
+msgid ""
+"This allows you to create a backup of your options and settings. Please "
+"note, it will not backup anything else."
+msgstr ""
+
+#: admin/options.php:2587
+msgid "Download Backup"
+msgstr ""
+
+#: admin/options.php:2591
+msgid "Restore / Import"
+msgstr ""
+
+#: admin/options.php:2592
+#, php-format
+msgid ""
+"%s It will override your current settings! %s Please make sure to select a "
+"valid backup file."
+msgstr ""
+
+#: admin/options.php:2608 lib/admin/importer.php:29
+msgid "Sample Import"
+msgstr ""
+
+#: admin/options.php:2614
+msgid "Import Sample Content"
+msgstr ""
+
+#: admin/options.php:2621
+#, php-format
+msgid ""
+"%s Import Sample Content %s Import sample content from FlipMag official demo "
+"site. It needs a powerful webhost and may fail on a weaker one. It may take "
+"%s 2-4 %s minutes to complete. %s WARNING: Only use on an empty site and "
+"make sure you have enabled recommended plugins first! Existing widgets will "
+"NOT be deleted but it is a good idea to remove them. %s Important: %s Once "
+"import is completed, you will have to install and run \"Regenerate Thumbnails"
+"\" plugin."
+msgstr ""
+
+#: admin/options.php:2628
+msgid "Select Demo"
+msgstr ""
+
+#: admin/options.php:2633
+msgid "Default Demo"
+msgstr ""
+
+#: admin/options.php:2634
+msgid "Tech Demo"
+msgstr ""
+
+#: admin/options.php:2635
+msgid "Lifestyle/Trendy Demo"
+msgstr ""
+
+#: admin/options.php:2636
+msgid "TheZine Demo"
+msgstr ""
+
+#: admin/options.php:2642
+msgid "Images & Media"
+msgstr ""
+
+#: admin/options.php:2645
+msgid ""
+"When enabled, random public domain licensed (CC0) images will be imported."
+msgstr ""
+
+#: admin/options.php:2646
+msgid "Skip images & media"
+msgstr ""
+
+#: admin/options.php:2646
+msgid "Import random images"
+msgstr ""
+
+#: admin/options.php:2651
+msgid "Full or Settings Only?"
+msgstr ""
+
+#: admin/options.php:2655
+msgid "Theme Settings Only"
+msgstr ""
+
+#: admin/options.php:2655
+msgid "Full Import"
+msgstr ""
+
+#: admin/options.php:2659
+msgid "Start Import"
+msgstr ""
+
+#: admin/options.php:2662
+msgid "Import Sample Data"
+msgstr ""
+
+#: admin/options.php:2663
+msgid ""
+"WARNING: Do not use this on site with existing content. Enable Flipmag "
+"plugins before importing. Do you really wish to import sample data?"
+msgstr ""
+
+#: admin/template-options.php:14
+msgid "Theme Option"
+msgstr ""
+
+#: admin/template-options.php:14 admin/template-options.php:87
+msgid "Save Settings"
+msgstr ""
+
+#: admin/template-options.php:31
+msgid "Options saved!"
+msgstr ""
+
+#: admin/template-options.php:33
+msgid "Options reset to defaults."
+msgstr ""
+
+#: admin/template-options.php:36
+msgid "Errors:"
+msgstr ""
+
+#: admin/template-options.php:83
+msgid "Reset All Settings"
+msgstr ""
+
+#: admin/template-options.php:84
+msgid "Do you really wish to reset your options to default?"
+msgstr ""
+
+#: archive.php:90 archive.php:98 archive.php:106
+#, php-format
+msgid "Browsing: %s"
+msgstr ""
+
+#: archive.php:114
+#, php-format
+msgid "Search Results: %s (%d)"
+msgstr ""
+
+#: archive.php:119
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:121
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:123
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: author.php:28
+#, php-format
+msgid "Author %s"
+msgstr ""
+
+#: authors.php:63
+msgid "Browse Author Articles"
+msgstr ""
+
+#: authors.php:64
+#, php-format
+msgid "%s Articles"
+msgstr ""
+
+#: bbpress/auth-modal.php:7
+msgid "Sign In"
+msgstr ""
+
+#: bbpress/auth-modal.php:16 bbpress/auth-modal.php:39
+#: bbpress/auth-modal.php:144
+msgid "Log In"
+msgstr ""
+
+#: bbpress/auth-modal.php:21 bbpress/auth-modal.php:149
+msgid "Your Username"
+msgstr ""
+
+#: bbpress/auth-modal.php:27
+msgid "Your Password"
+msgstr ""
+
+#: bbpress/auth-modal.php:33 bbpress/auth-modal.php:34
+msgid "Lost password?"
+msgstr ""
+
+#: bbpress/auth-modal.php:49
+msgid "Don't have an account?"
+msgstr ""
+
+#: bbpress/auth-modal.php:50
+msgid "Register Now!"
+msgstr ""
+
+#: bbpress/auth-modal.php:60 bbpress/auth-modal.php:90
+msgid "Welcome back, "
+msgstr ""
+
+#: bbpress/auth-modal.php:65
+msgid "Edit Profile"
+msgstr ""
+
+#: bbpress/auth-modal.php:67
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/auth-modal.php:69
+msgid "Favorites"
+msgstr ""
+
+#: bbpress/auth-modal.php:105 bbpress/auth-modal.php:112
+msgid "Recover Password"
+msgstr ""
+
+#: bbpress/auth-modal.php:117
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/auth-modal.php:125
+msgid "Recover"
+msgstr ""
+
+#: bbpress/auth-modal.php:137 bbpress/auth-modal.php:167
+msgid "Register"
+msgstr ""
+
+#: bbpress/auth-modal.php:155 comments.php:63
+msgid "Your Email"
+msgstr ""
+
+#: bbpress/auth-modal.php:161
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: bbpress/form-search.php:10
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:13 blocks/header/search.php:9
+msgid "Search"
+msgstr ""
+
+#: bbpress/loop-forums.php:26
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-topic.php:102
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-topic.php:103
+#: blocks/widgets/oc-social-counter/tpl/base.php:321
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:28
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:15
+msgid "Posted In: "
+msgstr ""
+
+#: bbpress/loop-search-reply.php:12
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-search-reply.php:46 bbpress/loop-search-topic.php:51
+#: bbpress/loop-single-reply.php:39 partial-comment.php:42
+msgid "on"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:52 bbpress/loop-search-topic.php:57
+#: bbpress/loop-single-reply.php:45
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:16
+msgid "Topic: "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:47
+msgid "topics"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:49
+msgid "replies"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:50
+msgid "posts"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:62
+msgid "by "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:63
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:71
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:78
+msgid "Last post:"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:99
+msgid "Voices"
+msgstr ""
+
+#: blocks/header/header-2.php:45 blocks/header/header-3.php:43
+#: blocks/header/header-4.php:38 blocks/header/header-5.php:35
+#: blocks/header/header-7.php:35 blocks/header/header-8.php:40
+msgid "Navigate"
+msgstr ""
+
+#: blocks/header/search.php:8
+msgid "Search..."
+msgstr ""
+
+#: blocks/header/social.php:6
+msgid "Behance"
+msgstr ""
+
+#: blocks/header/social.php:9
+msgid "Delicious"
+msgstr ""
+
+#: blocks/header/social.php:12
+msgid "Deviantart"
+msgstr ""
+
+#: blocks/header/social.php:15
+msgid "Digg"
+msgstr ""
+
+#: blocks/header/social.php:18
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:357
+msgid "Dribbble"
+msgstr ""
+
+#: blocks/header/social.php:21 blocks/single/share.php:19
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:69
+#: partial-author.php:29
+msgid "Facebook"
+msgstr ""
+
+#: blocks/header/social.php:24
+msgid "Flickr"
+msgstr ""
+
+#: blocks/header/social.php:27
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:148
+msgid "Google Plus"
+msgstr ""
+
+#: blocks/header/social.php:30
+msgid "Html5"
+msgstr ""
+
+#: blocks/header/social.php:33
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:244
+msgid "Instagram"
+msgstr ""
+
+#: blocks/header/social.php:36
+msgid "Lastfm"
+msgstr ""
+
+#: blocks/header/social.php:39
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:219
+msgid "Linkedin"
+msgstr ""
+
+#: blocks/header/social.php:42
+msgid "Mail"
+msgstr ""
+
+#: blocks/header/social.php:45
+msgid "Paypal"
+msgstr ""
+
+#: blocks/header/social.php:48 blocks/single/share.php:37
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:276
+msgid "Pinterest"
+msgstr ""
+
+#: blocks/header/social.php:51
+msgid "Reddit"
+msgstr ""
+
+#: blocks/header/social.php:54
+msgid "Rss"
+msgstr ""
+
+#: blocks/header/social.php:57 blocks/single/share.php:10
+msgid "Share"
+msgstr ""
+
+#: blocks/header/social.php:60
+msgid "Skype"
+msgstr ""
+
+#: blocks/header/social.php:63
+msgid "Soundcloud"
+msgstr ""
+
+#: blocks/header/social.php:66
+msgid "Spotify"
+msgstr ""
+
+#: blocks/header/social.php:69
+msgid "Stackoverflow"
+msgstr ""
+
+#: blocks/header/social.php:72
+msgid "Steam"
+msgstr ""
+
+#: blocks/header/social.php:75
+msgid "StumbleUpon"
+msgstr ""
+
+#: blocks/header/social.php:78
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:445
+msgid "Tumblr"
+msgstr ""
+
+#: blocks/header/social.php:81 blocks/single/share.php:25
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:96
+#: partial-author.php:30
+msgid "Twitter"
+msgstr ""
+
+#: blocks/header/social.php:84
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:388
+msgid "Vimeo"
+msgstr ""
+
+#: blocks/header/social.php:87
+msgid "VKontakte"
+msgstr ""
+
+#: blocks/header/social.php:90
+msgid "Windows"
+msgstr ""
+
+#: blocks/header/social.php:93
+msgid "Woordpress"
+msgstr ""
+
+#: blocks/header/social.php:96
+msgid "Yahoo"
+msgstr ""
+
+#: blocks/header/social.php:99
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:181
+msgid "Youtube"
+msgstr ""
+
+#: blocks/mega-menu-category.php:9 blocks/widgets/oc-module-3/tpl/base.php:8
+#: blocks/widgets/oc-module-3/tpl/base.php:10
+msgid "All"
+msgstr ""
+
+#: blocks/pagination-next.php:11
+#, php-format
+msgid "Showing %s of %s"
+msgstr ""
+
+#: blocks/pagination-next.php:18 lib/posts.php:321 lib/posts.php:372
+msgid "Next"
+msgstr ""
+
+#: blocks/pagination-next.php:19
+msgid "Prev"
+msgstr ""
+
+#: blocks/single/author-box.php:7
+msgid "About Author"
+msgstr ""
+
+#: blocks/single/layout-cover.php:86 blocks/single/layout-cover.php:89
+#: blocks/single/layout-full-cover.php:84
+#: blocks/single/layout-full-cover.php:87 blocks/single/title-meta.php:24
+#: blocks/single/title-meta.php:26 lib/blocks.php:2672 lib/blocks.php:2674
+msgid "By"
+msgstr ""
+
+#: blocks/single/layout-cover.php:115 blocks/single/layout-full-cover.php:113
+#, php-format
+msgid "%d "
+msgstr ""
+
+#: blocks/single/post-navigation.php:11
+msgid "Previous Article"
+msgstr ""
+
+#: blocks/single/post-navigation.php:15
+msgid "Next Article"
+msgstr ""
+
+#: blocks/single/share.php:31 partial-author.php:31
+msgid "Google+"
+msgstr ""
+
+#: blocks/single/share.php:43 partial-author.php:32
+msgid "LinkedIn"
+msgstr ""
+
+#: blocks/single/share.php:49 woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:18
+msgid "About Website - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:20
+msgid "A rich-text, text editor."
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:28
+#: blocks/widgets/oc-block-1/oc-block-1.php:28
+#: blocks/widgets/oc-block-10/oc-block-10.php:28
+#: blocks/widgets/oc-block-11/oc-block-11.php:28
+#: blocks/widgets/oc-block-12/oc-block-12.php:28
+#: blocks/widgets/oc-block-13/oc-block-13.php:28
+#: blocks/widgets/oc-block-14/oc-block-14.php:28
+#: blocks/widgets/oc-block-15/oc-block-15.php:28
+#: blocks/widgets/oc-block-16/oc-block-16.php:28
+#: blocks/widgets/oc-block-17/oc-block-17.php:28
+#: blocks/widgets/oc-block-18/oc-block-18.php:28
+#: blocks/widgets/oc-block-19/oc-block-19.php:28
+#: blocks/widgets/oc-block-2/oc-block-2.php:28
+#: blocks/widgets/oc-block-20/oc-block-20.php:28
+#: blocks/widgets/oc-block-3/oc-block-3.php:28
+#: blocks/widgets/oc-block-4/oc-block-4.php:28
+#: blocks/widgets/oc-block-5/oc-block-5.php:28
+#: blocks/widgets/oc-block-6/oc-block-6.php:28
+#: blocks/widgets/oc-block-7/oc-block-7.php:28
+#: blocks/widgets/oc-block-8/oc-block-8.php:28
+#: blocks/widgets/oc-block-9/oc-block-9.php:28
+#: blocks/widgets/oc-module-1/oc-module-1.php:28
+#: blocks/widgets/oc-module-2/oc-module-2.php:28
+#: blocks/widgets/oc-module-3/oc-module-3.php:28
+#: blocks/widgets/oc-module-3/oc-module-3.php:54
+#: blocks/widgets/oc-module-5/oc-module-5.php:34
+#: blocks/widgets/oc-module-6/oc-module-6.php:28
+#: blocks/widgets/oc-module-7/oc-module-7.php:34
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:33
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:28
+msgid "Title"
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:32
+#: blocks/widgets/oc-block-1/oc-block-1.php:33
+#: blocks/widgets/oc-block-10/oc-block-10.php:33
+#: blocks/widgets/oc-block-11/oc-block-11.php:33
+#: blocks/widgets/oc-block-12/oc-block-12.php:33
+#: blocks/widgets/oc-block-13/oc-block-13.php:33
+#: blocks/widgets/oc-block-14/oc-block-14.php:33
+#: blocks/widgets/oc-block-15/oc-block-15.php:33
+#: blocks/widgets/oc-block-16/oc-block-16.php:33
+#: blocks/widgets/oc-block-17/oc-block-17.php:33
+#: blocks/widgets/oc-block-18/oc-block-18.php:33
+#: blocks/widgets/oc-block-19/oc-block-19.php:33
+#: blocks/widgets/oc-block-2/oc-block-2.php:33
+#: blocks/widgets/oc-block-20/oc-block-20.php:33
+#: blocks/widgets/oc-block-3/oc-block-3.php:33
+#: blocks/widgets/oc-block-4/oc-block-4.php:33
+#: blocks/widgets/oc-block-5/oc-block-5.php:33
+#: blocks/widgets/oc-block-6/oc-block-6.php:33
+#: blocks/widgets/oc-block-7/oc-block-7.php:34
+#: blocks/widgets/oc-block-8/oc-block-8.php:33
+#: blocks/widgets/oc-block-9/oc-block-9.php:33
+#: blocks/widgets/oc-module-1/oc-module-1.php:33
+#: blocks/widgets/oc-module-2/oc-module-2.php:33
+#: blocks/widgets/oc-module-3/oc-module-3.php:33
+#: blocks/widgets/oc-module-4/oc-module-4.php:34
+#: blocks/widgets/oc-module-5/oc-module-5.php:39
+#: blocks/widgets/oc-module-6/oc-module-6.php:33
+#: blocks/widgets/oc-module-7/oc-module-7.php:39
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:38
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:33
+msgid "Color"
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:33
+#: blocks/widgets/oc-block-1/oc-block-1.php:34
+#: blocks/widgets/oc-block-10/oc-block-10.php:34
+#: blocks/widgets/oc-block-11/oc-block-11.php:34
+#: blocks/widgets/oc-block-12/oc-block-12.php:34
+#: blocks/widgets/oc-block-13/oc-block-13.php:34
+#: blocks/widgets/oc-block-14/oc-block-14.php:34
+#: blocks/widgets/oc-block-15/oc-block-15.php:34
+#: blocks/widgets/oc-block-16/oc-block-16.php:34
+#: blocks/widgets/oc-block-17/oc-block-17.php:34
+#: blocks/widgets/oc-block-18/oc-block-18.php:34
+#: blocks/widgets/oc-block-19/oc-block-19.php:34
+#: blocks/widgets/oc-block-2/oc-block-2.php:34
+#: blocks/widgets/oc-block-20/oc-block-20.php:34
+#: blocks/widgets/oc-block-3/oc-block-3.php:34
+#: blocks/widgets/oc-block-4/oc-block-4.php:34
+#: blocks/widgets/oc-block-5/oc-block-5.php:34
+#: blocks/widgets/oc-block-6/oc-block-6.php:34
+#: blocks/widgets/oc-block-7/oc-block-7.php:35
+#: blocks/widgets/oc-block-8/oc-block-8.php:34
+#: blocks/widgets/oc-block-9/oc-block-9.php:34
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:39
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:34
+msgid "Set main color for this block."
+msgstr ""
+
+#: blocks/widgets/oc-about-website/oc-about-website.php:56
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:16
+msgid "Block 1 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:18
+msgid "Display your posts as block 1 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:39
+#: blocks/widgets/oc-block-10/oc-block-10.php:39
+#: blocks/widgets/oc-block-11/oc-block-11.php:39
+#: blocks/widgets/oc-block-12/oc-block-12.php:39
+#: blocks/widgets/oc-block-13/oc-block-13.php:39
+#: blocks/widgets/oc-block-14/oc-block-14.php:39
+#: blocks/widgets/oc-block-15/oc-block-15.php:39
+#: blocks/widgets/oc-block-16/oc-block-16.php:39
+#: blocks/widgets/oc-block-17/oc-block-17.php:39
+#: blocks/widgets/oc-block-18/oc-block-18.php:39
+#: blocks/widgets/oc-block-19/oc-block-19.php:39
+#: blocks/widgets/oc-block-2/oc-block-2.php:39
+#: blocks/widgets/oc-block-20/oc-block-20.php:39
+#: blocks/widgets/oc-block-3/oc-block-3.php:39
+#: blocks/widgets/oc-block-4/oc-block-4.php:39
+#: blocks/widgets/oc-block-5/oc-block-5.php:39
+#: blocks/widgets/oc-block-6/oc-block-6.php:39
+#: blocks/widgets/oc-block-7/oc-block-7.php:40
+#: blocks/widgets/oc-block-8/oc-block-8.php:39
+#: blocks/widgets/oc-block-9/oc-block-9.php:39
+#: blocks/widgets/oc-module-1/oc-module-1.php:60
+#: blocks/widgets/oc-module-1/oc-module-1.php:187
+#: blocks/widgets/oc-module-2/oc-module-2.php:39
+#: blocks/widgets/oc-module-3/oc-module-3.php:58
+#: blocks/widgets/oc-module-4/oc-module-4.php:54
+#: blocks/widgets/oc-module-5/oc-module-5.php:45
+#: blocks/widgets/oc-module-6/oc-module-6.php:39
+#: blocks/widgets/oc-module-7/oc-module-7.php:45
+msgid "Posts query"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:44
+#: blocks/widgets/oc-block-10/oc-block-10.php:44
+#: blocks/widgets/oc-block-11/oc-block-11.php:44
+#: blocks/widgets/oc-block-12/oc-block-12.php:44
+#: blocks/widgets/oc-block-13/oc-block-13.php:44
+#: blocks/widgets/oc-block-14/oc-block-14.php:44
+#: blocks/widgets/oc-block-15/oc-block-15.php:44
+#: blocks/widgets/oc-block-16/oc-block-16.php:44
+#: blocks/widgets/oc-block-17/oc-block-17.php:44
+#: blocks/widgets/oc-block-18/oc-block-18.php:44
+#: blocks/widgets/oc-block-19/oc-block-19.php:44
+#: blocks/widgets/oc-block-2/oc-block-2.php:44
+#: blocks/widgets/oc-block-20/oc-block-20.php:44
+#: blocks/widgets/oc-block-3/oc-block-3.php:44
+#: blocks/widgets/oc-block-4/oc-block-4.php:44
+#: blocks/widgets/oc-block-5/oc-block-5.php:44
+#: blocks/widgets/oc-block-6/oc-block-6.php:44
+#: blocks/widgets/oc-block-7/oc-block-7.php:45
+#: blocks/widgets/oc-block-8/oc-block-8.php:44
+#: blocks/widgets/oc-block-9/oc-block-9.php:44
+#: blocks/widgets/oc-module-2/oc-module-2.php:44
+#: blocks/widgets/oc-module-3/oc-module-3.php:65
+#: blocks/widgets/oc-module-4/oc-module-4.php:61
+#: blocks/widgets/oc-module-5/oc-module-5.php:50
+#: blocks/widgets/oc-module-6/oc-module-6.php:44
+#: blocks/widgets/oc-module-7/oc-module-7.php:50
+msgid "Controls"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:49
+#: blocks/widgets/oc-block-10/oc-block-10.php:49
+#: blocks/widgets/oc-block-11/oc-block-11.php:49
+#: blocks/widgets/oc-block-12/oc-block-12.php:49
+#: blocks/widgets/oc-block-13/oc-block-13.php:49
+#: blocks/widgets/oc-block-14/oc-block-14.php:49
+#: blocks/widgets/oc-block-15/oc-block-15.php:49
+#: blocks/widgets/oc-block-16/oc-block-16.php:49
+#: blocks/widgets/oc-block-17/oc-block-17.php:49
+#: blocks/widgets/oc-block-18/oc-block-18.php:49
+#: blocks/widgets/oc-block-19/oc-block-19.php:49
+#: blocks/widgets/oc-block-2/oc-block-2.php:49
+#: blocks/widgets/oc-block-20/oc-block-20.php:49
+#: blocks/widgets/oc-block-3/oc-block-3.php:49
+#: blocks/widgets/oc-block-4/oc-block-4.php:49
+#: blocks/widgets/oc-block-5/oc-block-5.php:49
+#: blocks/widgets/oc-block-6/oc-block-6.php:49
+#: blocks/widgets/oc-block-7/oc-block-7.php:50
+#: blocks/widgets/oc-block-8/oc-block-8.php:49
+#: blocks/widgets/oc-block-9/oc-block-9.php:49
+msgid "Pagination"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:51
+#: blocks/widgets/oc-block-10/oc-block-10.php:51
+#: blocks/widgets/oc-block-11/oc-block-11.php:51
+#: blocks/widgets/oc-block-12/oc-block-12.php:51
+#: blocks/widgets/oc-block-13/oc-block-13.php:51
+#: blocks/widgets/oc-block-14/oc-block-14.php:51
+#: blocks/widgets/oc-block-15/oc-block-15.php:51
+#: blocks/widgets/oc-block-16/oc-block-16.php:51
+#: blocks/widgets/oc-block-17/oc-block-17.php:51
+#: blocks/widgets/oc-block-18/oc-block-18.php:51
+#: blocks/widgets/oc-block-19/oc-block-19.php:51
+#: blocks/widgets/oc-block-2/oc-block-2.php:51
+#: blocks/widgets/oc-block-20/oc-block-20.php:51
+#: blocks/widgets/oc-block-3/oc-block-3.php:51
+#: blocks/widgets/oc-block-4/oc-block-4.php:51
+#: blocks/widgets/oc-block-5/oc-block-5.php:51
+#: blocks/widgets/oc-block-6/oc-block-6.php:51
+#: blocks/widgets/oc-block-7/oc-block-7.php:52
+#: blocks/widgets/oc-block-8/oc-block-8.php:51
+#: blocks/widgets/oc-block-9/oc-block-9.php:51
+msgid "Disable"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:53
+#: blocks/widgets/oc-block-10/oc-block-10.php:53
+#: blocks/widgets/oc-block-11/oc-block-11.php:53
+#: blocks/widgets/oc-block-12/oc-block-12.php:53
+#: blocks/widgets/oc-block-13/oc-block-13.php:53
+#: blocks/widgets/oc-block-14/oc-block-14.php:53
+#: blocks/widgets/oc-block-15/oc-block-15.php:53
+#: blocks/widgets/oc-block-16/oc-block-16.php:53
+#: blocks/widgets/oc-block-17/oc-block-17.php:53
+#: blocks/widgets/oc-block-18/oc-block-18.php:53
+#: blocks/widgets/oc-block-19/oc-block-19.php:53
+#: blocks/widgets/oc-block-2/oc-block-2.php:53
+#: blocks/widgets/oc-block-20/oc-block-20.php:53
+#: blocks/widgets/oc-block-3/oc-block-3.php:53
+#: blocks/widgets/oc-block-4/oc-block-4.php:53
+#: blocks/widgets/oc-block-5/oc-block-5.php:53
+#: blocks/widgets/oc-block-6/oc-block-6.php:53
+#: blocks/widgets/oc-block-7/oc-block-7.php:54
+#: blocks/widgets/oc-block-9/oc-block-9.php:53
+msgid "Ajax pagination"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:99
+#: blocks/widgets/oc-block-10/oc-block-10.php:99
+#: blocks/widgets/oc-block-11/oc-block-11.php:99
+#: blocks/widgets/oc-block-12/oc-block-12.php:99
+#: blocks/widgets/oc-block-13/oc-block-13.php:99
+#: blocks/widgets/oc-block-14/oc-block-14.php:99
+#: blocks/widgets/oc-block-15/oc-block-15.php:98
+#: blocks/widgets/oc-block-16/oc-block-16.php:99
+#: blocks/widgets/oc-block-17/oc-block-17.php:99
+#: blocks/widgets/oc-block-18/oc-block-18.php:99
+#: blocks/widgets/oc-block-19/oc-block-19.php:99
+#: blocks/widgets/oc-block-2/oc-block-2.php:99
+#: blocks/widgets/oc-block-20/oc-block-20.php:99
+#: blocks/widgets/oc-block-3/oc-block-3.php:99
+#: blocks/widgets/oc-block-4/oc-block-4.php:99
+#: blocks/widgets/oc-block-5/oc-block-5.php:99
+#: blocks/widgets/oc-block-6/oc-block-6.php:99
+#: blocks/widgets/oc-block-7/oc-block-7.php:100
+#: blocks/widgets/oc-block-8/oc-block-8.php:98
+#: blocks/widgets/oc-block-9/oc-block-9.php:99
+#: blocks/widgets/oc-module-1/oc-module-1.php:98
+#: blocks/widgets/oc-module-1/oc-module-1.php:225
+#: blocks/widgets/oc-module-2/oc-module-2.php:98
+#: blocks/widgets/oc-module-3/oc-module-3.php:118
+#: blocks/widgets/oc-module-4/oc-module-4.php:99
+#: blocks/widgets/oc-module-5/oc-module-5.php:93
+#: blocks/widgets/oc-module-6/oc-module-6.php:87
+#: blocks/widgets/oc-module-7/oc-module-7.php:93
+msgid "Choose date format "
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:100
+#: blocks/widgets/oc-block-10/oc-block-10.php:100
+#: blocks/widgets/oc-block-11/oc-block-11.php:100
+#: blocks/widgets/oc-block-12/oc-block-12.php:100
+#: blocks/widgets/oc-block-13/oc-block-13.php:100
+#: blocks/widgets/oc-block-14/oc-block-14.php:100
+#: blocks/widgets/oc-block-15/oc-block-15.php:99
+#: blocks/widgets/oc-block-16/oc-block-16.php:100
+#: blocks/widgets/oc-block-17/oc-block-17.php:100
+#: blocks/widgets/oc-block-18/oc-block-18.php:100
+#: blocks/widgets/oc-block-19/oc-block-19.php:100
+#: blocks/widgets/oc-block-2/oc-block-2.php:100
+#: blocks/widgets/oc-block-20/oc-block-20.php:100
+#: blocks/widgets/oc-block-3/oc-block-3.php:100
+#: blocks/widgets/oc-block-4/oc-block-4.php:100
+#: blocks/widgets/oc-block-5/oc-block-5.php:100
+#: blocks/widgets/oc-block-6/oc-block-6.php:100
+#: blocks/widgets/oc-block-7/oc-block-7.php:101
+#: blocks/widgets/oc-block-8/oc-block-8.php:99
+#: blocks/widgets/oc-block-9/oc-block-9.php:100
+#: blocks/widgets/oc-module-1/oc-module-1.php:99
+#: blocks/widgets/oc-module-1/oc-module-1.php:226
+#: blocks/widgets/oc-module-2/oc-module-2.php:99
+#: blocks/widgets/oc-module-3/oc-module-3.php:119
+#: blocks/widgets/oc-module-4/oc-module-4.php:100
+#: blocks/widgets/oc-module-5/oc-module-5.php:94
+#: blocks/widgets/oc-module-6/oc-module-6.php:88
+#: blocks/widgets/oc-module-7/oc-module-7.php:94
+#, php-format
+msgid "example date : JANUARY 25, %s  When date is enable."
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:120
+#: blocks/widgets/oc-block-10/oc-block-10.php:120
+#: blocks/widgets/oc-block-11/oc-block-11.php:120
+#: blocks/widgets/oc-block-12/oc-block-12.php:120
+#: blocks/widgets/oc-block-13/oc-block-13.php:120
+#: blocks/widgets/oc-block-14/oc-block-14.php:120
+#: blocks/widgets/oc-block-15/oc-block-15.php:119
+#: blocks/widgets/oc-block-16/oc-block-16.php:120
+#: blocks/widgets/oc-block-17/oc-block-17.php:120
+#: blocks/widgets/oc-block-18/oc-block-18.php:120
+#: blocks/widgets/oc-block-19/oc-block-19.php:120
+#: blocks/widgets/oc-block-2/oc-block-2.php:120
+#: blocks/widgets/oc-block-20/oc-block-20.php:120
+#: blocks/widgets/oc-block-3/oc-block-3.php:120
+#: blocks/widgets/oc-block-4/oc-block-4.php:120
+#: blocks/widgets/oc-block-5/oc-block-5.php:120
+#: blocks/widgets/oc-block-6/oc-block-6.php:120
+#: blocks/widgets/oc-block-7/oc-block-7.php:121
+#: blocks/widgets/oc-block-8/oc-block-8.php:119
+#: blocks/widgets/oc-block-9/oc-block-9.php:120
+#: blocks/widgets/oc-module-1/oc-module-1.php:119
+#: blocks/widgets/oc-module-1/oc-module-1.php:246
+#: blocks/widgets/oc-module-2/oc-module-2.php:119
+#: blocks/widgets/oc-module-3/oc-module-3.php:139
+#: blocks/widgets/oc-module-4/oc-module-4.php:120
+#: blocks/widgets/oc-module-5/oc-module-5.php:114
+#: blocks/widgets/oc-module-6/oc-module-6.php:108
+#: blocks/widgets/oc-module-7/oc-module-7.php:114
+msgid "Date archive link url"
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:121
+#: blocks/widgets/oc-block-10/oc-block-10.php:121
+#: blocks/widgets/oc-block-11/oc-block-11.php:121
+#: blocks/widgets/oc-block-12/oc-block-12.php:121
+#: blocks/widgets/oc-block-13/oc-block-13.php:121
+#: blocks/widgets/oc-block-14/oc-block-14.php:121
+#: blocks/widgets/oc-block-15/oc-block-15.php:120
+#: blocks/widgets/oc-block-16/oc-block-16.php:121
+#: blocks/widgets/oc-block-17/oc-block-17.php:121
+#: blocks/widgets/oc-block-18/oc-block-18.php:121
+#: blocks/widgets/oc-block-19/oc-block-19.php:121
+#: blocks/widgets/oc-block-2/oc-block-2.php:121
+#: blocks/widgets/oc-block-20/oc-block-20.php:121
+#: blocks/widgets/oc-block-3/oc-block-3.php:121
+#: blocks/widgets/oc-block-4/oc-block-4.php:121
+#: blocks/widgets/oc-block-5/oc-block-5.php:121
+#: blocks/widgets/oc-block-6/oc-block-6.php:121
+#: blocks/widgets/oc-block-7/oc-block-7.php:122
+#: blocks/widgets/oc-block-8/oc-block-8.php:120
+#: blocks/widgets/oc-block-9/oc-block-9.php:121
+#: blocks/widgets/oc-module-1/oc-module-1.php:120
+#: blocks/widgets/oc-module-1/oc-module-1.php:247
+#: blocks/widgets/oc-module-2/oc-module-2.php:120
+#: blocks/widgets/oc-module-3/oc-module-3.php:140
+#: blocks/widgets/oc-module-4/oc-module-4.php:121
+#: blocks/widgets/oc-module-5/oc-module-5.php:115
+#: blocks/widgets/oc-module-6/oc-module-6.php:109
+#: blocks/widgets/oc-module-7/oc-module-7.php:115
+msgid "If date enable."
+msgstr ""
+
+#: blocks/widgets/oc-block-1/oc-block-1.php:172
+#: blocks/widgets/oc-block-10/oc-block-10.php:172
+#: blocks/widgets/oc-block-11/oc-block-11.php:172
+#: blocks/widgets/oc-block-12/oc-block-12.php:172
+#: blocks/widgets/oc-block-13/oc-block-13.php:172
+#: blocks/widgets/oc-block-14/oc-block-14.php:172
+#: blocks/widgets/oc-block-15/oc-block-15.php:171
+#: blocks/widgets/oc-block-16/oc-block-16.php:172
+#: blocks/widgets/oc-block-17/oc-block-17.php:172
+#: blocks/widgets/oc-block-18/oc-block-18.php:172
+#: blocks/widgets/oc-block-19/oc-block-19.php:172
+#: blocks/widgets/oc-block-2/oc-block-2.php:172
+#: blocks/widgets/oc-block-20/oc-block-20.php:172
+#: blocks/widgets/oc-block-7/oc-block-7.php:173
+#: blocks/widgets/oc-block-8/oc-block-8.php:171
+#: blocks/widgets/oc-block-9/oc-block-9.php:172
+#: blocks/widgets/oc-module-1/oc-module-1.php:171
+#: blocks/widgets/oc-module-1/oc-module-1.php:298
+#: blocks/widgets/oc-module-3/oc-module-3.php:191
+#: blocks/widgets/oc-module-4/oc-module-4.php:172
+msgid "Excerpt Length "
+msgstr ""
+
+#: blocks/widgets/oc-block-10/oc-block-10.php:16
+msgid "Block 10 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-10/oc-block-10.php:18
+msgid "Display your posts as block 10 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-11/oc-block-11.php:16
+msgid "Block 11 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-11/oc-block-11.php:18
+msgid "Display your posts as block 11 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-12/oc-block-12.php:16
+msgid "Block 12 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-12/oc-block-12.php:18
+msgid "Display your posts as block 12 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-13/oc-block-13.php:16
+msgid "Block 13 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-13/oc-block-13.php:18
+msgid "Display your posts as block 13 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-14/oc-block-14.php:16
+msgid "Block 14 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-14/oc-block-14.php:18
+msgid "Display your posts as block 14 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-15/oc-block-15.php:16
+msgid "Block 15 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-15/oc-block-15.php:18
+msgid "Display your posts as block 15 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-16/oc-block-16.php:16
+msgid "Block 16 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-16/oc-block-16.php:18
+msgid "Display your posts as block 16 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-17/oc-block-17.php:16
+msgid "Block 17 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-17/oc-block-17.php:18
+msgid "Display your posts as block 17 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-18/oc-block-18.php:16
+msgid "Block 18 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-18/oc-block-18.php:18
+msgid "Display your posts as block 18 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-19/oc-block-19.php:16
+msgid "Block 19 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-19/oc-block-19.php:18
+msgid "Display your posts as block 19 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-2/oc-block-2.php:16
+msgid "Block 2 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-2/oc-block-2.php:18
+msgid "Display your posts as block 2 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-20/oc-block-20.php:16
+msgid "Block 20 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-20/oc-block-20.php:18
+msgid "Display your posts as block 20 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-3/oc-block-3.php:16
+msgid "Block 3 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-3/oc-block-3.php:18
+msgid "Display your posts as block 3 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-4/oc-block-4.php:16
+msgid "Block 4 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-4/oc-block-4.php:18
+msgid "Display your posts as block 4 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-5/oc-block-5.php:16
+msgid "Block 5 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-5/oc-block-5.php:18
+msgid "Display your posts as block 5 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-6/oc-block-6.php:16
+msgid "Block 6 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-6/oc-block-6.php:18
+msgid "Display your posts as block 6 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-7/oc-block-7.php:16
+msgid "Block 7 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-7/oc-block-7.php:18
+msgid "Display your posts as block 7 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-8/oc-block-8.php:16
+msgid "Block 8 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-8/oc-block-8.php:18
+msgid "Display your posts as block 8 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-9/oc-block-9.php:16
+msgid "Block 9 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-block-9/oc-block-9.php:18
+msgid "Display your posts as block 9 module."
+msgstr ""
+
+#: blocks/widgets/oc-block-9/oc-block-9.php:61
+msgid "Sectipn Header Style"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:16
+msgid "Module 1 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:18
+msgid "Display your posts as module 1 module."
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:34
+#: blocks/widgets/oc-module-2/oc-module-2.php:34
+#: blocks/widgets/oc-module-3/oc-module-3.php:34
+#: blocks/widgets/oc-module-4/oc-module-4.php:35
+#: blocks/widgets/oc-module-5/oc-module-5.php:40
+#: blocks/widgets/oc-module-6/oc-module-6.php:34
+#: blocks/widgets/oc-module-7/oc-module-7.php:40
+msgid "Set main color for this module."
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:54
+msgid "Column 1"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:65
+#: blocks/widgets/oc-module-1/oc-module-1.php:192
+#: blocks/widgets/oc-module-3/oc-module-3.php:70
+#: blocks/widgets/oc-module-4/oc-module-4.php:66
+msgid "Feature article style"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:67
+#: blocks/widgets/oc-module-1/oc-module-1.php:194
+#: blocks/widgets/oc-module-3/oc-module-3.php:72
+#: blocks/widgets/oc-module-4/oc-module-4.php:68
+msgid "Classic Style"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:68
+#: blocks/widgets/oc-module-1/oc-module-1.php:195
+#: blocks/widgets/oc-module-3/oc-module-3.php:73
+#: blocks/widgets/oc-module-4/oc-module-4.php:69
+msgid "Modern Style"
+msgstr ""
+
+#: blocks/widgets/oc-module-1/oc-module-1.php:181
+msgid "Column 2"
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:16
+msgid "Module 2 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:18
+msgid "Display your posts as module 2 module."
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:77
+msgid "Choose Image Size"
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:79
+msgid " Block (351 x 185)"
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:80
+msgid " Slider (702 x 336)"
+msgstr ""
+
+#: blocks/widgets/oc-module-2/oc-module-2.php:81
+msgid "Full (1078 x 516)"
+msgstr ""
+
+#: blocks/widgets/oc-module-3/oc-module-3.php:16
+msgid "Module 3 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-3/oc-module-3.php:18
+msgid "Display your posts as module 3 module as news block."
+msgstr ""
+
+#: blocks/widgets/oc-module-3/oc-module-3.php:39
+msgid "Maximum 5 posts in one category block."
+msgstr ""
+
+#: blocks/widgets/oc-module-3/oc-module-3.php:44
+msgid "Select Category"
+msgstr ""
+
+#: blocks/widgets/oc-module-3/tpl/base.php:19
+#: blocks/widgets/oc-module-3/tpl/base.php:24
+#: blocks/widgets/oc-module-4/tpl/base.php:20
+#: lib/vendor/importer/widgets-importer.php:263
+msgid "No Title"
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:16
+msgid "Module 4 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:18
+msgid "Display your posts as module 4 in tabs layout."
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:29
+msgid "Maximum 5 posts in one tab block."
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:40
+msgid "Make Tabs"
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:41
+msgid "Tab"
+msgstr ""
+
+#: blocks/widgets/oc-module-4/oc-module-4.php:50
+msgid "Tab Title"
+msgstr ""
+
+#: blocks/widgets/oc-module-5/oc-module-5.php:16
+msgid "Module 5 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-5/oc-module-5.php:18
+msgid "Display your posts as 5 module."
+msgstr ""
+
+#: blocks/widgets/oc-module-5/oc-module-5.php:29
+msgid "Maximum 5 posts in one tab block and posts has thumbnail."
+msgstr ""
+
+#: blocks/widgets/oc-module-6/oc-module-6.php:16
+msgid "Module 6 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-6/oc-module-6.php:18
+msgid "Display your posts as module 6 module."
+msgstr ""
+
+#: blocks/widgets/oc-module-7/oc-module-7.php:16
+msgid "Module 7 - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-module-7/oc-module-7.php:18
+msgid "Display your posts as module 7 module."
+msgstr ""
+
+#: blocks/widgets/oc-module-7/oc-module-7.php:29
+msgid "Require thumbnail to display post in this module."
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:16
+msgid "Recent Tweet - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:18
+msgid "Get recent tweet from your twitter account."
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:28
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:102
+#, php-format
+msgid "Get your API keys &amp; tokens at: %s"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:59
+msgid "Consumer Key"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:64
+msgid "Consumer Secret"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:69
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:374
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:405
+msgid "Access Token"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:74
+msgid "Access Token Secret"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:79
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:113
+msgid "Twitter Username"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/oc-recent-tweet.php:84
+msgid "Tweets to display"
+msgstr ""
+
+#: blocks/widgets/oc-recent-tweet/tpl/base.php:17
+#: blocks/widgets/oc-social-counter/tpl/base.php:52
+#, php-format
+msgid "Error : %s - %s"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:16
+msgid "Social Counter - Flipmag"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:18
+msgid "Get social counter for your social account."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:54
+msgid "Style"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:62
+msgid "Style 7"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:75
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:107
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:154
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:187
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:225
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:250
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:282
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:307
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:338
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:363
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:394
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:425
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:451
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:482
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:508
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:522
+msgid "Hide/Show"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:81
+msgid "Facebook Page ID"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:82
+msgid ""
+"Please enter the page ID or page name.For example:If your page url is "
+"https://www.facebook.com/Flipmag then your page ID is Flipmag."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:87
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:139
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:172
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:211
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:236
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:268
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:293
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:324
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:349
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:380
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:411
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:437
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:468
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:494
+msgid "Default Count"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:88
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:140
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:173
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:212
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:237
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:269
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:294
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:325
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:350
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:381
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:412
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:438
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:469
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:495
+msgid "Please enter the default count to show whenever the API is unavailable."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:114
+msgid "Please enter the twitter username.For example:octocreation."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:119
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:124
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:129
+msgid "Twitter Access Token"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:134
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:160
+msgid "Google Plus Page Name or Profile ID"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:161
+msgid ""
+"Please enter the page name or profile ID.For example:If your page url is "
+"https://plus.google.com/+BBCNews then your page name is +BBCNews"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:166
+msgid "Google API Key"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:167
+#, php-format
+msgid ""
+"To get your API Key, first create a project/app in %s and then turn on Google"
+"+ API from \"APIs &amp; auth &gt;APIs inside your project.Then again go to "
+"\"APIs &amp; auth &gt; APIs &gt; Credentials &gt; Public API access\" and "
+"then click \"CREATE A NEW KEY\" button, select the \"Browser key\" option "
+"and click in the \"CREATE\" button, and then copy your API key and paste in "
+"above field. "
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:193
+msgid "Youtube Channel ID"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:194
+#, php-format
+msgid ""
+"Please enter the youtube channel ID.Your channel ID looks like: "
+"UC4WMyzBds5sSZcQxyAhxJ8g. And please note that your channel ID is different "
+"from username.Please go %s to know how to get your channel ID."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:199
+msgid "Youtube Username"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:200
+msgid ""
+"Please enter the youtube username.For example:https://www.youtube.com/user/"
+"mezzi07animator so your username is mezzi07animator."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:205
+msgid "Youtube API Key"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:206
+#, php-format
+msgid ""
+"To get your API Key, first create a project/app in %s and then turn on both "
+"Youtube Data and Analytics API from \"APIs &amp; auth &gt;APIs inside your "
+"project.Then again go to \"APIs &amp; auth &gt; APIs &gt; Credentials &gt; "
+"Public API access\" and then click \"CREATE A NEW KEY\" button, select the "
+"\"Browser key\" option and click in the \"CREATE\" button, and then copy "
+"your API key and paste in above field."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:231
+msgid "Linkedin URL"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:256
+msgid "Instagram Id"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:257
+msgid "Enter your instagram id example: 1574083"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:262
+msgid "Instagram Access Token"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:263
+#, php-format
+msgid "Create your access token %s. "
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:288
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:344
+msgid "URL"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:301
+msgid "SoundCloud"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:313
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:431
+msgid "User Id "
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:318
+msgid "Client Id "
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:319
+#, php-format
+msgid "Get your client id from %s."
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:332
+msgid "Stumbleupon"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:369
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:400
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:457
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:488
+msgid "Username"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:375
+#, php-format
+msgid "get your access token from %s"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:406
+#, php-format
+msgid "You can create your access token here %s"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:419
+msgid "Vine"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:432
+msgid "example : 1150982282283315200"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:462
+msgid "Api Key"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:463
+#, php-format
+msgid "Get your api key %s"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:476
+msgid "Github"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:489
+msgid "example : octocreation"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:502
+msgid "Website Posts"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/oc-social-counter.php:516
+msgid "Website Comment"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/tpl/base.php:37
+msgid "Likes"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/tpl/base.php:61
+#: blocks/widgets/oc-social-counter/tpl/base.php:81
+#: blocks/widgets/oc-social-counter/tpl/base.php:135
+#: blocks/widgets/oc-social-counter/tpl/base.php:154
+#: blocks/widgets/oc-social-counter/tpl/base.php:176
+#: blocks/widgets/oc-social-counter/tpl/base.php:195
+#: blocks/widgets/oc-social-counter/tpl/base.php:235
+#: blocks/widgets/oc-social-counter/tpl/base.php:255
+#: blocks/widgets/oc-social-counter/tpl/base.php:275
+#: blocks/widgets/oc-social-counter/tpl/base.php:295
+#: blocks/widgets/oc-social-counter/tpl/base.php:315
+msgid "Followers"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/tpl/base.php:116
+msgid "Subscribers"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/tpl/base.php:216
+msgid "Views"
+msgstr ""
+
+#: blocks/widgets/oc-social-counter/tpl/base.php:327
+msgid "Comments"
+msgstr ""
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:28
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:37
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "Reply To %s"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:46
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:50
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:52
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:58
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:69
+msgid "Your Website"
+msgstr ""
+
+#: functions.php:69
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:430
+msgid "Widgets in this area will be shown in the default sidebar."
+msgstr ""
+
+#: functions.php:436
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:438
+msgid "footer Column 1."
+msgstr ""
+
+#: functions.php:446
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:448
+msgid "footer Column 2."
+msgstr ""
+
+#: functions.php:456
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:458
+msgid "footer Column 3."
+msgstr ""
+
+#: functions.php:466
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:468
+msgid "footer Column 4."
+msgstr ""
+
+#: functions.php:696
+msgid "Mega Menu"
+msgstr ""
+
+#: functions.php:701
+msgid "Category Mega Menu"
+msgstr ""
+
+#: functions.php:701
+msgid "Mega Menu for Links"
+msgstr ""
+
+#: functions.php:1127
+msgid "Theme - "
+msgstr ""
+
+#: lib/admin/importer.php:28
+msgid "Demo Importer"
+msgstr ""
+
+#: lib/admin/importer.php:47
+#, php-format
+msgid ""
+"%s Your php version %s not supported one click import need to upgrade php "
+"version above 5.3.2. you can import manually from wordpress menu Tools > "
+"import. %s"
+msgstr ""
+
+#: lib/admin/importer.php:49
+#, php-format
+msgid ""
+"%s Sample Import %s For import sample content go to %s Appearance &gt; "
+"Flipmag Options &gt; Sample import. %s Import sample content from FlipMag "
+"official demo site. It needs a powerful webhost and may fail on a weaker "
+"one. It may take %s 2-4 %s minutes to complete. %s WARNING: Only use on an "
+"empty site and make sure you have enabled recommended plugins first! "
+"Existing widgets will NOT be deleted but it is a good idea to remove them. %s"
+msgstr ""
+
+#: lib/admin/importer.php:93
+msgid "Import Completed!"
+msgstr ""
+
+#: lib/admin/importer.php:94
+msgid ""
+"Your import has been completed successfully. Have fun! Refresh this page to "
+"see changed settings."
+msgstr ""
+
+#: lib/admin/importer.php:97
+#, php-format
+msgid ""
+"%s REMINDER: %s Next Step: %s For correct thumbnails, install the plugin "
+"\"Regenerate Thumbnails\" and run it from Tools > Regen. Thumbnails."
+msgstr ""
+
+#: lib/admin/importer.php:102
+msgid "Import Failed!"
+msgstr ""
+
+#: lib/admin/importer.php:104
+msgid ""
+"Sorry but your import failed. Most likely, it cannot work with your webhost. "
+"You will have to ask your webhost to increase your PHP max_execution_time "
+"(or any other webserver timeout to at least 300 secs) and memory_limit (to "
+"at least 196M) temporarily."
+msgstr ""
+
+#: lib/admin/importer/wp-import.php:87
+#: lib/vendor/importer/wordpress-importer.php:881
+msgid "Remote server did not respond"
+msgstr ""
+
+#: lib/admin/importer/wp-import.php:93
+#: lib/vendor/importer/wordpress-importer.php:887
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: lib/admin/importer/wp-import.php:100
+#: lib/vendor/importer/wordpress-importer.php:894
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: lib/admin/importer/wp-import.php:105
+#: lib/vendor/importer/wordpress-importer.php:899
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: lib/admin/importer/wp-import.php:111
+#: lib/vendor/importer/wordpress-importer.php:905
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: lib/admin/option-renderer.php:117
+msgid "Build posts query"
+msgstr ""
+
+#: lib/admin/option-renderer.php:342
+msgid "Repeat Horizontal and Vertical - Pattern"
+msgstr ""
+
+#: lib/admin/option-renderer.php:343
+msgid "Fully Cover Background - Photo"
+msgstr ""
+
+#: lib/admin/option-renderer.php:344
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: lib/admin/option-renderer.php:345
+msgid "Repeat Vertical"
+msgstr ""
+
+#: lib/admin/option-renderer.php:346
+msgid "No Repeat"
+msgstr ""
+
+#: lib/admin/option-renderer.php:351
+msgid "Remove"
+msgstr ""
+
+#: lib/admin/option-renderer.php:408
+msgid "Suggested Fonts"
+msgstr ""
+
+#: lib/admin/option-renderer.php:411
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/admin/option-renderer.php:412
+msgid "System Fonts"
+msgstr ""
+
+#: lib/admin/options.php:27
+msgid " Options"
+msgstr ""
+
+#: lib/admin/options.php:328
+msgid ""
+"Could not import options. Are you sure the uploaded file was a valid backup "
+"file?"
+msgstr ""
+
+#: lib/blocks.php:683
+msgid "Select posts in module."
+msgstr ""
+
+#: lib/blocks.php:2891 lib/posts.php:471
+msgid " [...]"
+msgstr ""
+
+#: lib/blocks.php:2896 lib/posts.php:476
+msgid "Read More"
+msgstr ""
+
+#: lib/blocks.php:2918
+msgid "right now"
+msgstr ""
+
+#: lib/blocks.php:2920
+msgid " seconds ago"
+msgstr ""
+
+#: lib/blocks.php:2922
+msgid "about 1 minute ago"
+msgstr ""
+
+#: lib/blocks.php:2924
+msgid " minutes ago"
+msgstr ""
+
+#: lib/blocks.php:2926
+msgid "about 1 hour ago"
+msgstr ""
+
+#: lib/blocks.php:2928
+msgid " hours ago"
+msgstr ""
+
+#: lib/blocks.php:2930
+msgid "yesterday"
+msgstr ""
+
+#: lib/blocks.php:2932
+msgid " days ago"
+msgstr ""
+
+#: lib/blocks.php:2934
+msgid "over a year ago"
+msgstr ""
+
+#: lib/core.php:332
+msgid "Home"
+msgstr ""
+
+#: lib/core.php:333
+#, php-format
+msgid "Category: \"%s\""
+msgstr ""
+
+#: lib/core.php:334
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: lib/core.php:335
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: lib/core.php:336
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: lib/core.php:337
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: lib/core.php:338
+msgid "Error 404"
+msgstr ""
+
+#: lib/core.php:577
+#, php-format
+msgid " (Page %s)"
+msgstr ""
+
+#: lib/lib.php:74
+msgid "Post Options"
+msgstr ""
+
+#: lib/lib.php:75
+msgid "Page Options"
+msgstr ""
+
+#: lib/lib.php:100
+msgid "FlipMag"
+msgstr ""
+
+#: lib/posts.php:322 lib/posts.php:373
+msgid "Previous"
+msgstr ""
+
+#: lib/vendor/importer/parsers.php:36 lib/vendor/importer/parsers.php:39
+msgid ":"
+msgstr ""
+
+#: lib/vendor/importer/parsers.php:42 lib/vendor/importer/parsers.php:81
+#: lib/vendor/importer/parsers.php:89
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: lib/vendor/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: lib/vendor/importer/parsers.php:93 lib/vendor/importer/parsers.php:98
+#: lib/vendor/importer/parsers.php:296 lib/vendor/importer/parsers.php:485
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:39
+#, php-format
+msgid "You must upload a %s .wie %s file generated by this plugin."
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:82
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:117
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:159
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:181
+msgid "Site does not support widget"
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:204
+msgid "Widget already exists"
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:253
+msgid "Imported"
+msgstr ""
+
+#: lib/vendor/importer/widgets-importer.php:256
+msgid "Imported to Inactive"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:136
+#: lib/vendor/importer/wordpress-importer.php:145
+#: lib/vendor/importer/wordpress-importer.php:196
+#: lib/vendor/importer/wordpress-importer.php:200
+#: lib/vendor/importer/wordpress-importer.php:209
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:137
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:180
+msgid "All done."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:180
+msgid "Have fun!"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:181
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:201
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:217
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:242
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:268
+msgid "Assign Authors"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:269
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:271
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:281
+msgid "Import Attachments"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:284
+msgid "Download and import file attachments"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:288
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:301
+msgid "Import author:"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:312
+msgid "or create new user with login name:"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:315
+msgid "as a new user:"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:323
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:325
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:326
+msgid "- Select -"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:376
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:463
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:507
+#: lib/vendor/importer/wordpress-importer.php:633
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:529
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:550
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:751
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:758
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:821
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:835
+msgid "Invalid file type"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:1004
+msgid "Import WordPress"
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:1011
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:1026
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: lib/vendor/importer/wordpress-importer.php:1027
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:393 lib/vendor/tgm-activation.php:917
+#: lib/vendor/tgm-activation.php:2623 lib/vendor/tgm-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:394 lib/vendor/tgm-activation.php:3249
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:395 lib/vendor/tgm-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:1024 lib/vendor/tgm-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:1211 lib/vendor/tgm-activation.php:3038
+msgid "and"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2072
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2363
+msgid "Required"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2366
+msgid "Recommended"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2382
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2385
+msgid "External Source"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2388
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2405
+msgid "Not Installed"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2411
+msgid "Active"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2417
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2420
+msgid "Requires Update"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2423
+msgid "Update recommended"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2432
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2478
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2482
+#, php-format
+msgid "To Install %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2486
+#, php-format
+msgid "Update Available %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2490
+#, php-format
+msgid "To Activate %s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2572
+msgid "unknown"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2580
+msgid "Installed version:"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2588
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2600
+msgid "Available version:"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2637
+msgid "Plugin"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2638
+msgid "Source"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2639
+msgid "Type"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2643
+msgid "Version"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2644
+msgid "Status"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2693
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2698
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2704
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2807
+msgid "Install"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2813
+msgid "Update"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2816
+msgid "Activate"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3248
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3588
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3591
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3593
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3597
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3599
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3599 lib/vendor/tgm-activation.php:3607
+msgid "Show Details"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3599 lib/vendor/tgm-activation.php:3607
+msgid "Hide Details"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3600
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3602
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3605
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3607
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3608
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/vendor/tgm-activation.php:3610
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: partial-comment.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: partial-comment.php:24 partial-comment.php:47
+msgid "Edit"
+msgstr ""
+
+#: partial-comment.php:43
+msgid " at "
+msgstr ""
+
+#: partial-comment.php:54
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: partial-comment.php:61
+msgid "Reply"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Nothing yet."
+msgstr ""
+
+#: sitemap.php:63
+msgid "Pages"
+msgstr ""
+
+#: sitemap.php:80
+msgid "Recent Posts"
+msgstr ""
+
+#: sitemap.php:99
+msgid "Archives"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:24
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/init.php:145 woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/init.php:145
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/init.php:146 woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/init.php:289
+msgid "Shopping Cart"
+msgstr ""
+
+#: woocommerce/init.php:309
+msgid "WooCommerce"
+msgstr ""
+
+#: woocommerce/init.php:317
+msgid "WooCommerce Default Sidebar"
+msgstr ""
+
+#: woocommerce/init.php:319
+msgid ""
+"Specify the sidebar to use by default on WooCommerce listings and pages. "
+"This can be overriden per-page except for single page product."
+msgstr ""
+
+#: woocommerce/init.php:326
+msgid "Posts Per Page"
+msgstr ""
+
+#: woocommerce/init.php:328
+msgid ""
+"The number of posts to show per page on WooCommerce shop listing. Leave "
+"empty to use default WordPress posts per page settings."
+msgstr ""
+
+#: woocommerce/init.php:334
+msgid "Add Cart In Navigation"
+msgstr ""
+
+#: woocommerce/init.php:336
+msgid "When enabled, a cart icon is shown in the navigation to the right side."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:33
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:34
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:35
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:36
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:37
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%s review for %s%s%s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+#, php-format
+msgid "You must be %s logged in %s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:27
+msgid "Product Description"
+msgstr ""

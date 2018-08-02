@@ -1,0 +1,488 @@
+/*********************************************
+Style 1
+*********************************************/
+
+#oc-social-counter.style-1{
+    color:white;
+    font-family:Arial;
+    background-color: #f9f9f9; 
+    font-family:Arial;
+    font-size:13px;
+}
+
+#oc-social-counter.style-1 div{
+    padding:10px 7px;
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    margin:0px 2px 2px 0px;
+    background:grey;
+    text-align:center;
+    min-width:92px;
+    min-height:80px;
+}
+
+#oc-social-counter.style-1 .facebook{ background:#3a5795;}
+#oc-social-counter.style-1 .twitter {background:#00a5e5;}
+#oc-social-counter.style-1 .google{ background:#dd4b39;}
+#oc-social-counter.style-1 .youtube{ background:#b31217;}
+#oc-social-counter.style-1 .linkedin {background: #0077b5;}
+#oc-social-counter.style-1 .instagram{ background:#517fa4;}
+#oc-social-counter.style-1 .pinterest { background:#cb2027;}
+#oc-social-counter.style-1 .soundcloud{background:#f50;}
+#oc-social-counter.style-1 .stumbleupon{background:#eb4924;}
+#oc-social-counter.style-1 .dribbble{ background:#ea4c89;}
+#oc-social-counter.style-1 .vimeo { background:#45bbff;}
+#oc-social-counter.style-1 .vine {background: #00a478;}
+#oc-social-counter.style-1 .tumblr {background: #35465c;}
+#oc-social-counter.style-1 .github {background: #808080;}
+#oc-social-counter.style-1 .posts {background: #96bf48;}
+#oc-social-counter.style-1 .comment {background: #6ecadc;}
+
+#oc-social-counter.style-1 div .count { 
+    padding: 3px;
+    display: block;
+    font-size: 18px;
+}
+
+#oc-social-counter.style-1 div i {
+    padding: 3px;
+    display: block;
+    font-size: 35px;
+}
+
+/*********************************************
+Style 2
+*********************************************/
+
+#oc-social-counter.style-2{
+    color:white;
+    font-family:Arial;
+    background-color: #f9f9f9; 
+    font-family:Arial;
+    font-size:13px;
+}
+
+#oc-social-counter.style-2 div{
+  padding:7px 0px;
+  font-size:14px;
+  float:left;
+  margin:0px 0px 2px 0px;
+  background:grey;
+  text-align:center;
+  min-width:92px;
+  width: 100%;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 26px;
+}
+
+#oc-social-counter.style-2 .facebook{ background:#3a5795;}
+#oc-social-counter.style-2 .twitter {background:#00a5e5;}
+#oc-social-counter.style-2 .google{ background:#dd4b39;}
+#oc-social-counter.style-2 .youtube{ background:#b31217;}
+#oc-social-counter.style-2 .linkedin {background: #0077b5;}
+#oc-social-counter.style-2 .instagram{ background:#517fa4;}
+#oc-social-counter.style-2 .pinterest { background:#cb2027;}
+#oc-social-counter.style-2 .soundcloud{background:#f50;}
+#oc-social-counter.style-2 .stumbleupon{background:#eb4924;}
+#oc-social-counter.style-2 .dribbble{ background:#ea4c89;}
+#oc-social-counter.style-2 .vimeo { background:#45bbff;}
+#oc-social-counter.style-2 .vine {background: #00a478;}
+#oc-social-counter.style-2 .tumblr {background: #35465c;}
+#oc-social-counter.style-2 .github {background: #808080;}
+#oc-social-counter.style-2 .posts {background: #96bf48;}
+#oc-social-counter.style-2 .comment {background: #6ecadc;}
+
+#oc-social-counter.style-2 div i,#oc-social-counter.style-2 div .count {
+    display: block;
+    font-size: 18px;
+    float: left;
+    border-left: 1px solid rgba(255,255,255,0.15);
+    padding-left: 10px;
+}
+
+#oc-social-counter.style-2 div i{
+    padding: 5px 10px 5px 20px;
+    width: 25px;
+}
+
+#oc-social-counter.style-2 .followers{
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+}
+
+/*********************************************
+Style 3
+*********************************************/
+
+#oc-social-counter.style-3{
+    color:white;
+    font-family:Arial;
+    background-color: #f9f9f9; 
+    font-family:Arial;
+    font-size:13px;
+}
+
+#oc-social-counter.style-3 div{
+    padding:10px 0px;
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    background:grey;
+    text-align:center;
+    min-width: 33.3333333%;
+    min-height:80px;
+}
+
+#oc-social-counter.style-3 .facebook{ background:#3a5795;}
+#oc-social-counter.style-3 .twitter {background:#00a5e5;}
+#oc-social-counter.style-3 .google{ background:#dd4b39;}
+#oc-social-counter.style-3 .youtube{ background:#b31217;}
+#oc-social-counter.style-3 .linkedin {background: #0077b5;}
+#oc-social-counter.style-3 .instagram{ background:#517fa4;}
+#oc-social-counter.style-3 .pinterest { background:#cb2027;}
+#oc-social-counter.style-3 .soundcloud{background:#f50;}
+#oc-social-counter.style-3 .stumbleupon{background:#eb4924;}
+#oc-social-counter.style-3 .dribbble{ background:#ea4c89;}
+#oc-social-counter.style-3 .vimeo { background:#45bbff;}
+#oc-social-counter.style-3 .vine {background: #00a478;}
+#oc-social-counter.style-3 .tumblr {background: #35465c;}
+#oc-social-counter.style-3 .github {background: #808080;}
+#oc-social-counter.style-3 .posts {background: #96bf48;}
+#oc-social-counter.style-3 .comment {background: #6ecadc;}
+
+#oc-social-counter.style-3 div .count { 
+    padding: 3px;
+    display: block;
+    font-size: 18px;
+}
+
+#oc-social-counter.style-3 div i {
+    padding: 3px;
+    display: block;
+    font-size: 35px;
+}
+
+#oc-social-counter.style-3 div:nth-child(10n+1),
+#oc-social-counter.style-3 div:nth-child(10n+7){
+    width: 66.66666666%;    
+    padding: 10px 0px;
+}
+
+#oc-social-counter.style-3 div:last-child{
+    width: 100%;    
+    padding: 10px 0px;
+}
+
+/*********************************************
+Style 4
+*********************************************/
+
+
+#oc-social-counter.style-4{
+    color: #444;
+    font-family:Arial;
+    background-color: #fff; 
+    font-family:Arial;
+    font-size:13px;
+    float: left;
+}
+
+#oc-social-counter.style-4 div{
+    padding:10px 7px;
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    background: #fff;
+    text-align:center;
+    min-width:92px;
+    min-height:80px;
+}
+
+#oc-social-counter.style-4 .facebook i { background:#3a5795;}
+#oc-social-counter.style-4 .twitter i {background:#00a5e5;}
+#oc-social-counter.style-4 .google i { background:#dd4b39;}
+#oc-social-counter.style-4 .youtube i { background:#b31217;}
+#oc-social-counter.style-4 .linkedin i {background: #0077b5;}
+#oc-social-counter.style-4 .instagram i { background:#517fa4;}
+#oc-social-counter.style-4 .pinterest i { background:#cb2027;}
+#oc-social-counter.style-4 .soundcloud i {background:#f50;}
+#oc-social-counter.style-4 .stumbleupon i {background:#eb4924;}
+#oc-social-counter.style-4 .dribbble i { background:#ea4c89;}
+#oc-social-counter.style-4 .vimeo i { background:#45bbff;}
+#oc-social-counter.style-4 .vine i {background: #00a478;}
+#oc-social-counter.style-4 .tumblr i {background: #35465c;}
+#oc-social-counter.style-4 .github i {background: #808080;}
+#oc-social-counter.style-4 .posts i {background: #96bf48;}
+#oc-social-counter.style-4 .comment i {background: #6ecadc;}
+
+#oc-social-counter.style-4 div .count { 
+    padding: 5px 0px 0px 0px;
+    display: block;
+    font-size: 18px;
+}
+
+#oc-social-counter.style-4 div i {
+    color: #fff;
+    padding: 3px;
+    display: block;
+    font-size: 30px;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    margin: 0 auto;
+    -webkit-transition: background,opacity .3s ease-in-out;
+    -moz-transition: background,opacity .3s ease-in-out;
+    -ms-transition: background,opacity .3s ease-in-out;
+    -o-transition: background,opacity .3s ease-in-out;
+    transition: background,opacity .3s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#oc-social-counter.style-4 div span.followers {
+    font-size: 13px;
+}
+
+/*********************************************
+Style 5
+*********************************************/
+
+#oc-social-counter.style-5{
+    color: #fff;
+    font-family:Arial;
+    font-size:13px;
+    float: left;
+}
+
+#oc-social-counter.style-5 div{
+    padding:10px 7px;
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    min-width:92px;
+    min-height:80px;
+    background: #373737;
+}
+
+#oc-social-counter.style-5 .facebook i { background:#3a5795;}
+#oc-social-counter.style-5 .twitter i {background:#00a5e5;}
+#oc-social-counter.style-5 .google i { background:#dd4b39;}
+#oc-social-counter.style-5 .youtube i { background:#b31217;}
+#oc-social-counter.style-5 .linkedin i {background: #0077b5;}
+#oc-social-counter.style-5 .instagram i { background:#517fa4;}
+#oc-social-counter.style-5 .pinterest i { background:#cb2027;}
+#oc-social-counter.style-5 .soundcloud i {background:#f50;}
+#oc-social-counter.style-5 .stumbleupon i {background:#eb4924;}
+#oc-social-counter.style-5 .dribbble i { background:#ea4c89;}
+#oc-social-counter.style-5 .vimeo i { background:#45bbff;}
+#oc-social-counter.style-5 .vine i {background: #00a478;}
+#oc-social-counter.style-5 .tumblr i {background: #35465c;}
+#oc-social-counter.style-5 .github i {background: #808080;}
+#oc-social-counter.style-5 .posts i {background: #96bf48;}
+#oc-social-counter.style-5 .comment i {background: #6ecadc;}
+
+#oc-social-counter.style-5 div .count { 
+    padding: 5px 0px 0px 0px;
+    display: block;
+    font-size: 18px;
+}
+
+#oc-social-counter.style-5 div i {
+    color: #fff;
+    padding: 3px;
+    display: block;
+    font-size: 30px;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    margin: 0 auto;
+    -webkit-transition: background,opacity .3s ease-in-out;
+    -moz-transition: background,opacity .3s ease-in-out;
+    -ms-transition: background,opacity .3s ease-in-out;
+    -o-transition: background,opacity .3s ease-in-out;
+    transition: background,opacity .3s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#oc-social-counter.style-5 div span.followers {
+    font-size: 13px;
+}
+
+/*********************************************
+Style 6
+*********************************************/
+
+#oc-social-counter.style-6{
+    color: #444;
+    font-family:Arial;
+    font-size:13px;
+    float: left;
+    border-left: 1px solid #eee;
+}
+
+#oc-social-counter.style-6 div{
+    padding:7px 15px;
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    background: #fff;
+    min-width:92px;
+    width: 100%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#oc-social-counter.style-6 div:first-child{
+  border-top: 1px solid #eee;
+}
+
+#oc-social-counter.style-6 .facebook i { border: 1px solid #3a5795; color: #3a5795; }
+#oc-social-counter.style-6 .twitter i {border: 1px solid #00a5e5; color: #00a5e5; }
+#oc-social-counter.style-6 .google i { border: 1px solid #dd4b39; color: #dd4b39; }
+#oc-social-counter.style-6 .youtube i { border: 1px solid #b31217; color: #b31217; }
+#oc-social-counter.style-6 .linkedin i {border: 1px solid  #0077b5; color: #0077b5; }
+#oc-social-counter.style-6 .instagram i { border: 1px solid #517fa4; color: #517fa4; }
+#oc-social-counter.style-6 .pinterest i { border: 1px solid #cb2027; color: #cb2027; }
+#oc-social-counter.style-6 .soundcloud i {border: 1px solid #f50; color: #f50; }
+#oc-social-counter.style-6 .stumbleupon i {border: 1px solid #eb4924; color: #eb4924; }
+#oc-social-counter.style-6 .dribbble i { border: 1px solid #ea4c89; color: #ea4c89; }
+#oc-social-counter.style-6 .vimeo i { border: 1px solid #45bbff; color: #45bbff; }
+#oc-social-counter.style-6 .vine i {border: 1px solid #00a478; color: #00a478; }
+#oc-social-counter.style-6 .tumblr i {border: 1px solid #35465c; color: #35465c; }
+#oc-social-counter.style-6 .github i { border: 1px solid #808080; color: #808080; }
+#oc-social-counter.style-6 .posts i {border: 1px solid #96bf48; color: #96bf48; }
+#oc-social-counter.style-6 .comment i {border: 1px solid #6ecadc;  color: #6ecadc; }
+
+#oc-social-counter.style-6 div .count { 
+    padding: 2px 0px 0px 0px;
+    display: block;
+    font-size: 22px;
+    float: left;
+    margin-left: 12px;
+}
+
+#oc-social-counter.style-6 div i {
+    color: #fff;
+    padding: 4px;
+    display: block;
+    font-size: 20px;
+    width: 30px;
+    line-height: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    -webkit-transition: background,opacity .3s ease-in-out;
+    -moz-transition: background,opacity .3s ease-in-out;
+    -ms-transition: background,opacity .3s ease-in-out;
+    -o-transition: background,opacity .3s ease-in-out;
+    transition: background,opacity .3s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#oc-social-counter.style-6 div span.followers {
+    font-size: 11px;
+    float: left;
+    margin: 14px 0 0 5px;
+    color: #777;
+}
+
+/*********************************************
+Style 7
+*********************************************/
+
+#oc-social-counter.style-7{
+    color: #ccc;
+    font-family:Arial;
+    font-size:13px;
+    float: left;
+    border-left: 1px solid #303030;
+}
+
+#oc-social-counter.style-7 div{
+    padding: 7px 15px;
+    font-size: 14px;
+    border-radius: 0px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    background: #373737;
+    min-width: 92px;
+    width: 100%;
+    border-right: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#oc-social-counter.style-7 div:first-child{
+  border-top: 1px solid #303030;
+}
+
+#oc-social-counter.style-7 .facebook i { border: 1px solid #3a5795; color: #3a5795; }
+#oc-social-counter.style-7 .twitter i {border: 1px solid #00a5e5; color: #00a5e5; }
+#oc-social-counter.style-7 .google i { border: 1px solid #dd4b39; color: #dd4b39; }
+#oc-social-counter.style-7 .youtube i { border: 1px solid #b31217; color: #b31217; }
+#oc-social-counter.style-7 .linkedin i {border: 1px solid  #0077b5; color: #0077b5; }
+#oc-social-counter.style-7 .instagram i { border: 1px solid #517fa4; color: #517fa4; }
+#oc-social-counter.style-7 .pinterest i { border: 1px solid #cb2027; color: #cb2027; }
+#oc-social-counter.style-7 .soundcloud i {border: 1px solid #f50; color: #f50; }
+#oc-social-counter.style-7 .stumbleupon i {border: 1px solid #eb4924; color: #eb4924; }
+#oc-social-counter.style-7 .dribbble i { border: 1px solid #ea4c89; color: #ea4c89; }
+#oc-social-counter.style-7 .vimeo i { border: 1px solid #45bbff; color: #45bbff; }
+#oc-social-counter.style-7 .vine i {border: 1px solid #00a478; color: #00a478; }
+#oc-social-counter.style-7 .tumblr i {border: 1px solid #35465c; color: #35465c; }
+#oc-social-counter.style-7 .github i { border: 1px solid #808080; color: #808080; }
+#oc-social-counter.style-7 .posts i {border: 1px solid #96bf48; color: #96bf48; }
+#oc-social-counter.style-7 .comment i {border: 1px solid #6ecadc;  color: #6ecadc; }
+
+#oc-social-counter.style-7 div .count { 
+    padding: 2px 0px 0px 0px;
+    display: block;
+    font-size: 22px;
+    float: left;
+    margin-left: 12px;
+}
+
+#oc-social-counter.style-7 div i {
+    color: #fff;
+    padding: 4px;
+    display: block;
+    font-size: 20px;
+    width: 30px;
+    line-height: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    -webkit-transition: background,opacity .3s ease-in-out;
+    -moz-transition: background,opacity .3s ease-in-out;
+    -ms-transition: background,opacity .3s ease-in-out;
+    -o-transition: background,opacity .3s ease-in-out;
+    transition: background,opacity .3s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#oc-social-counter.style-7 div span.followers {
+    font-size: 11px;
+    float: left;
+    margin: 14px 0 0 5px;
+    color: #777;
+}

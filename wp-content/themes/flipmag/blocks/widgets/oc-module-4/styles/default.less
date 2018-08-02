@@ -1,0 +1,38 @@
+@id: default;
+@theme_bgcolor: default;
+
+#flipmag-bid-@{id}{
+    .tab-links{
+        border-bottom-color: @theme_bgcolor;
+        li.active{
+            a{
+                background: @theme_bgcolor;
+            }
+        }
+        li{
+            a:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    .widgettitle{
+        background: @theme_bgcolor;
+    }
+    .cat-title {
+        background: @theme_bgcolor;
+    }
+    .read-more a{
+        background: @theme_bgcolor;
+    }
+    .main-pagination .current, 
+    .main-pagination ul li.disabled a, 
+    .main-pagination a:hover{
+        background: @theme_bgcolor;
+    }
+    .block-ajax-loading {
+        i{
+            color: @theme_bgcolor;
+        }
+    }
+
+}
