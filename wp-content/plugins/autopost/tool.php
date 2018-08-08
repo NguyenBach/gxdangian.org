@@ -8,7 +8,7 @@
 require_once 'simple_html_dom.php';
 
 
-$base = 'https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/';
+$base = "https://dongten.net/2018/08/08/anh-la-tang-da-04-8-2011-thu-nam-tuan-18-thuong-nien/";
 function getHtml($url)
 {
 //    $ch = curl_init();
@@ -16,8 +16,18 @@ function getHtml($url)
 //    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 //    $output = curl_exec($ch);
 //    curl_close($ch);
-    $output = wp_remote_get($url);
-    return $output;
+    $body = 1;
+    $args = array(
+        'sslverify'   => true,
+    );
+    $output = wp_remote_get($url,$args);
+    if (is_array($output)) {
+        $body = $output['body']; // use the content
+
+    }else{
+        $body = json_encode($output)." URL:$url";
+    }
+    return $body;
 }
 
 function getPostUrl($output)
@@ -67,7 +77,7 @@ function Generate_Featured_Image($image_url, $post_id)
     $image_data = file_get_contents($image_url);
     $filename = basename($image_url);
     if (wp_mkdir_p($upload_dir['path'])) $file = $upload_dir['path'] . '/' . $filename;
-    else                                    $file = $upload_dir['basedir'] . '/' . $filename;
+    else $file = $upload_dir['basedir'] . '/' . $filename;
     file_put_contents($file, $image_data);
     $wp_filetype = wp_check_filetype($filename, null);
     $attachment = array(
@@ -96,27 +106,28 @@ function checkPostExist($title, $content = '')
 
 }
 
-function mailToMe($title,$url,$error){
+function mailToMe($title, $url, $error)
+{
     $to = 'bachnq214@gmail.com';
     $subject = " Get Post Error!";
-    $message = "Get post" .$title . ' at '. $url. '. Error: ' .$error;
-    wp_mail($to,$subject,$message);
+    $message = "Get post" . $title . ' at ' . $url . '. Error: ' . $error;
+    wp_mail($to, $subject, $message);
 }
 
-function autopost_add_post($linkCategory,$category)
+function autopost_add_post($linkCategory, $category)
 {
     $output = getHtml($linkCategory);
     $postUrl = getPostUrl($output);
     $postThumbnailImgUrl = getImgUrl($output);
-    $postContent = getHtml($postUrl);
-    $post = getPost($postContent);
+    $post = getPost($postUrl);
     $post['post_status'] = 'publish';
     $post['post_category'] = array(get_cat_ID($category));
     $check = checkPostExist($post['post_title']);
-    if(!$check){
-        mailToMe($post['post_title'],$postUrl,'Post Exist');
-        return;
+    if ($check != 0) {
+        mailToMe($post['post_title'], $postUrl, 'Post Exist');
+        return 0;
     }
     $post_id = wp_insert_post($post);
     Generate_Featured_Image($postThumbnailImgUrl, $post_id);
+    return $post_id;
 }
