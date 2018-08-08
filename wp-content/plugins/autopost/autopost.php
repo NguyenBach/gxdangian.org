@@ -26,6 +26,7 @@ add_action('my_daily_event', 'do_this_daily');
 function my_activation()
 {
 //    autopost_add_post();
+    autopost_add_post('https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/',"Lời Chúa Mỗi Ngày");
     wp_schedule_event(current_time('timestamp'), 'daily', 'my_daily_event');
 }
 
@@ -43,7 +44,6 @@ register_deactivation_hook(__FILE__, 'my_deactivation');
 function my_deactivation()
 {
     wp_clear_scheduled_hook('my_daily_event');
-    global $lastpostid;
-    $lastpostid = [];
+
 }
 
