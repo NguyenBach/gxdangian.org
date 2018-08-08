@@ -11,11 +11,12 @@ require_once 'simple_html_dom.php';
 $base = 'https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/';
 function getHtml($url)
 {
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($ch);
-    curl_close($ch);
+//    $ch = curl_init();
+//    curl_setopt($ch, CURLOPT_URL, $url);
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//    $output = curl_exec($ch);
+//    curl_close($ch);
+    $output = wp_remote_get($url);
     return $output;
 }
 
