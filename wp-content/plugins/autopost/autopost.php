@@ -29,7 +29,7 @@ function my_activation()
     autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/',"Học Làm Người");
     autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/le-song/',"Lẽ Sống");
     autopost_add_post('https://dongten.net/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre/',"Đức Tin Và Người Trẻ");
-    wp_schedule_event(current_time('timestamp'), 'twicedaily', 'my_daily_event');
+    wp_schedule_event(current_time('timestamp'), 'daily', 'my_daily_event');
 }
 
 function do_this_daily()
