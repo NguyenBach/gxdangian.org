@@ -9,10 +9,10 @@ require_once 'simple_html_dom.php';
 
 
 $base = "https://dongten.net/2018/08/08/anh-la-tang-da-04-8-2011-thu-nam-tuan-18-thuong-nien/";
-function getHtml($url)
+function getHtml($url,$ssl= true)
 {
     $args = array(
-        'sslverify'   => true,
+        'sslverify'   => $ssl,
     );
     $output = wp_remote_get($url,$args);
     if (is_array($output)) {
@@ -145,9 +145,12 @@ function cg_getThumbnailImg($output){
 }
 
 function cg_getPost($url){
-    $output = getHtml($url);
+    $output = getHtml($url,false);
     $html = str_get_html($output);
+    $file = fopen('test.txt','w+');
+
     $main = $html->find('div.nwsdetail')[0];
+    fwrite($file,$main);
     $title = $main->find('h3.title')[0]->innertext;
     $img = $main->find('img');
     $main->find('span.time')[0]->innertext = '';
