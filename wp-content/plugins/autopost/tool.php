@@ -11,12 +11,6 @@ require_once 'simple_html_dom.php';
 $base = "https://dongten.net/2018/08/08/anh-la-tang-da-04-8-2011-thu-nam-tuan-18-thuong-nien/";
 function getHtml($url)
 {
-//    $ch = curl_init();
-//    curl_setopt($ch, CURLOPT_URL, $url);
-//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-//    $output = curl_exec($ch);
-//    curl_close($ch);
-    $body = 1;
     $args = array(
         'sslverify'   => true,
     );
@@ -120,6 +114,62 @@ function autopost_add_post($linkCategory, $category)
     $postUrl = getPostUrl($output);
     $postThumbnailImgUrl = getImgUrl($output);
     $post = getPost($postUrl);
+    $post['post_status'] = 'publish';
+    $post['post_category'] = array(get_cat_ID($category));
+    $check = checkPostExist($post['post_title']);
+    if ($check != 0) {
+        mailToMe($post['post_title'], $postUrl, 'Post Exist');
+        return 0;
+    }
+    $post_id = wp_insert_post($post);
+    Generate_Featured_Image($postThumbnailImgUrl, $post_id);
+    return $post_id;
+}
+
+/**
+ * @param $output
+ * @return mixed
+ */
+function cg_getPostUrl($output){
+    $html = str_get_html($output);
+    $main_content = $html->find('div.main_news')[0];
+    $url = $main_content->find('a.view_detail')[0]->href;
+    return $url;
+}
+
+function cg_getThumbnailImg($output){
+    $html = str_get_html($output);
+    $main_content = $html->find('div.main_news')[0];
+    $img = $main_content->find('a.img img')[0]->src;
+    return $img;
+}
+
+function cg_getPost($url){
+    $output = getHtml($url);
+    $html = str_get_html($output);
+    $main = $html->find('div.nwsdetail')[0];
+    $title = $main->find('h3.title')[0]->innertext;
+    $img = $main->find('img');
+    $main->find('span.time')[0]->innertext = '';
+    $main->find('h3.title')[0]->innertext = '';
+    foreach ($img as $key => $i){
+        $href = $i->src;
+        $img[$key]->src = 'http://conggiao.info'.$href;
+
+    }
+    $post = [
+        'post_title' => $title,
+        'post_content' => $main,
+    ];
+    return $post;
+}
+
+function cg_autopost_add_post($linkCategory, $category)
+{
+    $output = getHtml($linkCategory);
+    $postUrl = cg_getPostUrl($output);
+    $postThumbnailImgUrl = cg_getThumbnailImg($output);
+    $post = cg_getPost($postUrl);
     $post['post_status'] = 'publish';
     $post['post_category'] = array(get_cat_ID($category));
     $check = checkPostExist($post['post_title']);
