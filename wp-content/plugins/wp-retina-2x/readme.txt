@@ -3,7 +3,7 @@ Contributors: TigrouMeow
 Tags: retina, images, image, responsive, lazysizes, lazy, attachment, media, files, iphone, ipad, high-dpi
 Requires at least: 3.5
 Tested up to: 4.9
-Stable tag: 5.4.0
+Stable tag: 5.4.3
 
 Make your website look beautiful and crisp on modern displays by creating and displaying retina images. WP 4.4+ is also supported and enhanced.
 
@@ -32,6 +32,13 @@ More information and tutorial available one https://meowapps.com/wp-retina-2x/.
 3. Check if it works! - if it doesn't, read the FAQ, the tutorial, and check the forums.
 
 == Changelog ==
+
+= 5.4.3 =
+* Fix: Remove the UpdraftPlus links.
+
+= 5.4.1 =
+* Fix: Issues where happening with a few themes (actually the pagebuilder they use) after the last update.
+* Update: Lazysizes 4.0.4.
 
 = 5.4.0 =
 * Update: Removed annoying message that could appear by mistake in the admin.
