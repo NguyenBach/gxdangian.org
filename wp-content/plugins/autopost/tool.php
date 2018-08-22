@@ -13,6 +13,7 @@ function getHtml($url,$ssl= true)
 {
     $args = array(
         'sslverify'   => $ssl,
+        'timeout' => 120
     );
     $output = wp_remote_get($url,$args);
     if (is_array($output)) {
@@ -147,10 +148,7 @@ function cg_getThumbnailImg($output){
 function cg_getPost($url){
     $output = getHtml($url,false);
     $html = str_get_html($output);
-    $file = fopen('test.txt','w+');
-
     $main = $html->find('div.nwsdetail')[0];
-    fwrite($file,$main);
     $title = $main->find('h3.title')[0]->innertext;
     $img = $main->find('img');
     $main->find('span.time')[0]->innertext = '';
@@ -181,6 +179,66 @@ function cg_autopost_add_post($linkCategory, $category)
         return 0;
     }
     $post_id = wp_insert_post($post);
+    Generate_Featured_Image($postThumbnailImgUrl, $post_id);
+    return $post_id;
+}
+
+function tgp_getPostUrl($categoryUrl){
+    $output = getHtml($categoryUrl);
+    $html = str_get_html($output);
+    $main_content = $html->find('div.column-1')[0];
+    $a = 'https://tonggiaophanhanoi.org'.$main_content->find('a')[0]->href;
+    return $a;
+}
+
+function tgp_getPost($url){
+    $output = getHtml($url);
+    $html = str_get_html($output);
+    $main = $html->find('div.item-page')[0];
+    $thumbnail = $main->find('div.item-image')[0];
+    $thumbnailimg = $thumbnail->find('img')[0]->src;
+    $thumbnailimg = 'https://tonggiaophanhanoi.org'.$thumbnailimg;
+    $title = $main->find('h2')[0]->innertext;
+    $content = $main->find("div[itemprop='articleBody']")[0];
+    $img = $content->find('img');
+    foreach ($img as $key => $i){
+        $href = $i->src;
+        $img[$key]->src = 'https://tonggiaophanhanoi.org'.$href;
+
+    }
+    $a = $content->find('a');
+    foreach ($a as $key => $item){
+        $a[$key]->href = '#';
+        $a[$key]->target = '';
+        $a[$key]->tag = 'div';
+        $a[$key]->style = 'color: black';
+    }
+    $post = [
+        'post_title' => $title,
+        'post_content' => $content->innertext,
+        'post_thumbnail' => $thumbnailimg
+    ];
+    return $post;
+
+}
+
+function tgp_autopost_add_post($linkCategory, $category)
+{
+    $postUrl = tgp_getPostUrl($linkCategory);
+    $post = tgp_getPost($postUrl);
+    $postThumbnailImgUrl = $post['post_thumbnail'];
+    unset($post['post_thumbnail']);
+    $post['post_status'] = 'publish';
+    $post['post_category'] = array(get_cat_ID($category));
+    $check = checkPostExist($post['post_title']);
+    if ($check != 0) {
+        mailToMe($post['post_title'], $postUrl, 'Post Exist');
+        return 0;
+    }
+    $post_id = wp_insert_post($post);
+    if(!$post_id){
+        mailToMe($post['post_title'], $postUrl, 'Not Insert Post tonggiaophan');
+    }
     Generate_Featured_Image($postThumbnailImgUrl, $post_id);
     return $post_id;
 }

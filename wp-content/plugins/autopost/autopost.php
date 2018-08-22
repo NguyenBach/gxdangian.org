@@ -32,7 +32,7 @@ function my_activation()
     cg_autopost_add_post('http://conggiao.info/viet-nam-n-1488','Tin Giáo Hội Việt Nam');
     cg_autopost_add_post('http://conggiao.info/vatican-n-809','Tin Giáo Hội Thế Giới');
     cg_autopost_add_post('http://conggiao.info/hoan-vu-n-810','Tin Giáo Hội Thế Giới');
-
+    tgp_autopost_add_post('https://tonggiaophanhanoi.org/tin-tuc/tin-giao-phan/228-tin-tong-hop','Tin Giáo Hội Việt Nam');
     wp_schedule_event(current_time('timestamp'), 'daily', 'my_daily_event');
 }
 
@@ -45,6 +45,7 @@ function do_this_daily()
     cg_autopost_add_post('http://conggiao.info/viet-nam-n-1488','Tin Giáo Hội Việt Nam ');
     cg_autopost_add_post('http://conggiao.info/vatican-n-809','Tin Giáo Hội Thế Giới');
     cg_autopost_add_post('http://conggiao.info/hoan-vu-n-810','Tin Giáo Hội Thế Giới');
+    tgp_autopost_add_post('https://tonggiaophanhanoi.org/tin-tuc/tin-giao-phan/228-tin-tong-hop','Tin Giáo Hội Việt Nam');
 
 }
 
