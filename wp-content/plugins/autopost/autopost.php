@@ -25,21 +25,27 @@ add_action('my_daily_event', 'do_this_daily');
 
 function my_activation()
 {
-//    autopost_add_post('https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/',"Lời Chúa Mỗi Ngày");
-//    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/',"Học Làm Người");
-//    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/le-song/',"Lẽ Sống");
-//    autopost_add_post('https://dongten.net/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre/',"Đức Tin Và Người Trẻ");
-    cg_autopost_add_post('http://conggiao.info/viet-nam-n-1488','Tin Giáo Hội Việt Nam ');
+    autopost_add_post('https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/',"Lời Chúa Mỗi Ngày");
+    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/',"Học Làm Người");
+    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/le-song/',"Lẽ Sống");
+    autopost_add_post('https://dongten.net/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre/',"Đức Tin Và Người Trẻ");
+    cg_autopost_add_post('http://conggiao.info/viet-nam-n-1488','Tin Giáo Hội Việt Nam');
+    cg_autopost_add_post('http://conggiao.info/vatican-n-809','Tin Giáo Hội Thế Giới');
+    cg_autopost_add_post('http://conggiao.info/hoan-vu-n-810','Tin Giáo Hội Thế Giới');
+
     wp_schedule_event(current_time('timestamp'), 'daily', 'my_daily_event');
 }
 
 function do_this_daily()
 {
-//    autopost_add_post('https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/',"Lời Chúa Mỗi Ngày");
-//    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/',"Học Làm Người");
-//    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/le-song/',"Lẽ Sống");
-//    autopost_add_post('https://dongten.net/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre/',"Đức Tin Và Người Trẻ");
+    autopost_add_post('https://dongten.net/category/cau-nguyen/loi-chua-cho-ngay-song/',"Lời Chúa Mỗi Ngày");
+    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/',"Học Làm Người");
+    autopost_add_post('https://dongten.net/category/hoc-lam-nguoi/le-song/',"Lẽ Sống");
+    autopost_add_post('https://dongten.net/category/phuc-vu-duc-tin/duc-tin-va-nguoi-tre/',"Đức Tin Và Người Trẻ");
     cg_autopost_add_post('http://conggiao.info/viet-nam-n-1488','Tin Giáo Hội Việt Nam ');
+    cg_autopost_add_post('http://conggiao.info/vatican-n-809','Tin Giáo Hội Thế Giới');
+    cg_autopost_add_post('http://conggiao.info/hoan-vu-n-810','Tin Giáo Hội Thế Giới');
+
 }
 
 register_deactivation_hook(__FILE__, 'my_deactivation');

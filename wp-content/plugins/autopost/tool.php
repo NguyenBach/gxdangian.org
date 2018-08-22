@@ -162,7 +162,7 @@ function cg_getPost($url){
     }
     $post = [
         'post_title' => $title,
-        'post_content' => $main,
+        'post_content' => $main->innertext,
     ];
     return $post;
 }
