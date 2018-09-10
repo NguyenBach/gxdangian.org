@@ -18,10 +18,45 @@ Text Domain: akismet
 require_once 'simple_html_dom.php';
 require_once "tool.php";
 
+if(!function_exists('check_post_exist')){
+    function check_post_exist(WP_REST_Request $request){
+        if ( ! is_admin() ) {
+            require_once( ABSPATH . 'wp-admin/includes/post.php' );
+        }
+        $title = $request->get_param('title');
+        $exist = post_exists($title);
+        return $exist;
+    }
+}
+
+add_action( 'rest_api_init', function () {
+    register_rest_route( 'dangian/v1', '/checkexist', array(
+        'methods' => 'POST',
+        'callback' => 'check_post_exist',
+    ) );
+} );
+
+if(!function_exists('get_cat_id_by_name')){
+    function get_cat_id_by_name(WP_REST_Request $request){
+        if ( ! is_admin() ) {
+            require_once( ABSPATH . 'wp-admin/includes/post.php' );
+        }
+        $cat = $request->get_param('cat');
+        $catId = get_cat_ID($cat);
+        return $catId;
+    }
+}
+
+add_action( 'rest_api_init', function () {
+    register_rest_route( 'dangian/v1', '/getcat', array(
+        'methods' => 'POST',
+        'callback' => 'get_cat_id_by_name',
+    ) );
+} );
 
 
-register_activation_hook(__FILE__, 'my_activation');
-add_action('my_daily_event', 'do_this_daily');
+//register_activation_hook(__FILE__, 'my_activation');
+//add_action('my_daily_event', 'do_this_daily');
 
 function my_activation()
 {
@@ -49,7 +84,7 @@ function do_this_daily()
 
 }
 
-register_deactivation_hook(__FILE__, 'my_deactivation');
+//register_deactivation_hook(__FILE__, 'my_deactivation');
 
 function my_deactivation()
 {
