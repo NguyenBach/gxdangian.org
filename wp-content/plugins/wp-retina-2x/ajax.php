@@ -225,19 +225,41 @@ class Meow_WR2X_Ajax {
 		}
 
 		$attachmentId = intval( $_POST['attachmentId'] );
+
+		/**
+		 * @param $attachmentId ID of the attchment to regenerate
+		 */
+		do_action( 'wr2x_before_regenerate', $attachmentId );
+
 		$this->core->delete_attachment( $attachmentId, false );
 
 		// Regenerate the Thumbnails
 		$regenerate = get_option( 'wr2x_regenerate_thumbnails', false );
 		if ( $regenerate ) {
+
+			/**
+			 * @param $attachmentId ID of the attachment to generate thumbnails
+			 */
+			do_action( 'wr2x_before_generate_thumbnails', $attachmentId );
+
 			$file = get_attached_file( $attachmentId );
 			$meta = wp_generate_attachment_metadata( $attachmentId, $file );
 			wp_update_attachment_metadata( $attachmentId, $meta );
+
+			/**
+			 * @param $attachmentId ID of the attachment that has generated its thumbnails
+			 */
+			do_action( 'wr2x_generate_thumbnails', $attachmentId );
 		}
 
 		// Regenerate Retina
 		$meta = wp_get_attachment_metadata( $attachmentId );
 		$this->core->generate_images( $meta );
+
+		/**
+		 * @param $attachmentId ID of the attachment that has been regenerated
+		 */
+		do_action( 'wr2x_regenerate', $attachmentId );
 
 		// RESULTS FOR RETINA DASHBOARD
 		$info = $this->core->html_get_basic_retina_info( $attachmentId, $this->core->retina_info( $attachmentId ) );
@@ -296,6 +318,12 @@ class Meow_WR2X_Ajax {
 			$basepath = $pathinfo['dirname'];
 			$retinafile = trailingslashit( $pathinfo['dirname'] ) . $pathinfo['filename'] . $this->core->retina_extension() . $pathinfo['extension'];
 
+			/**
+			 * @param $attachmentId ID of the attachment that the uploaded retina image is attached to
+			 * @param $retinafile Path to the uploaded retina image
+			 */
+			do_action( 'wr2x_before_upload_retina', $attachmentId, $retinafile );
+
 			if ( file_exists( $retinafile ) )
 				unlink( $retinafile );
 
@@ -313,6 +341,12 @@ class Meow_WR2X_Ajax {
 			chmod( $retinafile, 0644 );
 			unlink( $tmpfname );
 
+			/**
+			 * @param $attachmentId ID of the attachment that the uploaded retina image is attached to
+			 * @param $retinafile Path to the uploaded retina image
+			 */
+			do_action( 'wr2x_upload_retina', $attachmentId, $retinafile );
+
 			// Get the results
 			$info = $this->core->retina_info( $attachmentId );
 			$this->core->update_issue_status( $attachmentId );
@@ -326,6 +360,7 @@ class Meow_WR2X_Ajax {
 			));
 			die();
 		}
+
 		echo json_encode( array(
 			'success' => true,
 			'results' => $results,
@@ -346,14 +381,15 @@ class Meow_WR2X_Ajax {
 
 		try {
 			$tmpf = $this->check_get_ajax_uploaded_file();
-			$image = wp_get_image_editor( $tmpf );
+			$ftype = wp_check_filetype( $_POST['filename'] );
+			$image = wp_get_image_editor( $tmpf, array ( 'mime_type' => $ftype['type'] ) );
 			$size = $image->get_size();
 
 			// Halve the size of the uploaded image
 			if ( $size['width'] >= $size['height'] ) $image->resize( round($size['width'] * .5), null );
 			else $image->resize( null, round($size['height'] * .5) );
 			$image->set_quality( get_option('wr2x_quality', 90) );
-			$halved = $image->save( $tmpf . 'H' );
+			$halved = $image->save( $tmpf . 'H', $ftype['type'] );
 			if ( !$halved ) throw new Exception( "Failed to halve the uploaded image" );
 			if ( is_wp_error($halved) ) throw new Exception( $halved->get_error_message() );
 
@@ -365,7 +401,6 @@ class Meow_WR2X_Ajax {
 
 			// Register the file as a new attachment
 			$attachTo = 0; // TODO Support specifying which post the media attach to
-			$ftype = wp_check_filetype( $uploaded['file'] );
 			$attachment = array (
 				'post_mime_type' => $ftype['type'],
 				'post_parent' => $attachTo,
@@ -399,6 +434,13 @@ class Meow_WR2X_Ajax {
 		$attachmentId = (int) $_POST['attachmentId'];
 		$meta = wp_get_attachment_metadata( $attachmentId );
 		$current_file = get_attached_file( $attachmentId );
+
+		/**
+		 * @param $attachmentId ID of the attachment to replace
+		 * @param $tmpfname Path to the temporary file that is to be the replacement
+		 */
+		do_action( 'wr2x_before_replace', $attachmentId, $tmpfname );
+
 		$this->core->delete_attachment( $attachmentId, false );
 		$pathinfo = pathinfo( $current_file );
 		$basepath = $pathinfo['dirname'];
@@ -432,6 +474,11 @@ class Meow_WR2X_Ajax {
 		wp_update_attachment_metadata( $attachmentId, wp_generate_attachment_metadata( $attachmentId, $current_file ) );
 		$meta = wp_get_attachment_metadata( $attachmentId );
 		$this->core->generate_images( $meta );
+
+		/**
+		 * @param $attachmentId ID of the attachment that has been replaced
+		 */
+		do_action( 'wr2x_replace', $attachmentId );
 
 		// Get the results
 		$info = $this->core->retina_info( $attachmentId );

@@ -102,7 +102,7 @@ class Meow_WR2X_Core {
 			include( __DIR__ . '/inc/simple_html_dom.php' );
 
 		$lazysize = get_option( "wr2x_picturefill_lazysizes" ) && $this->admin->is_registered();
-		$killsrc = !get_option( "wr2x_picturefill_keep_src" );
+		$killSrc = !get_option( "wr2x_picturefill_keep_src" );
 		$nodes_count = 0;
 		$nodes_replaced = 0;
 		$html = str_get_html( $buffer );
@@ -135,9 +135,13 @@ class Meow_WR2X_Core {
 						$this->log( "The src-set has already been created but it will be modifid to data-srcset for lazyload." );
 						$element->class = $element->class . ' lazyload';
 						$element->{'data-srcset'} =  $element->srcset;
-						$element->srcset = null;
-						if ( $killsrc )
+						if ( $killSrc ) {
 							$element->src = null;
+						}
+						else {
+							// If SRC is kept, to avoid it to load before LazySizes kicks in, we set srcset to a blank 1x1 pixel.
+							$element->srcset = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+						}
 						$to = $element;
 						$buffer = str_replace( trim( $from, "</> "), trim( $to, "</> " ), $buffer );
 						$this->log( "The img tag '$from' was rewritten to '$to'" );
@@ -166,7 +170,7 @@ class Meow_WR2X_Core {
 					}
 					else
 						$element->srcset = "$img_url, $retina_url 2x";
-					if ( $killsrc )
+					if ( $killSrc )
 						$element->src = null;
 					else {
 						$img_src = apply_filters( 'wr2x_img_src', $element->src  );
@@ -998,6 +1002,11 @@ class Meow_WR2X_Core {
 		$issue = false;
 		$id = $this->get_attachment_id( $meta['file'] );
 
+		/**
+		 * @param $id ID of the attachment whose retina image is to be generated
+		 */
+		do_action( 'wr2x_before_generate_retina', $id );
+
 		$this->log("* GENERATE RETINA FOR ATTACHMENT '{$meta['file']}'");
 		$this->log( "Full-Size is {$original_basename}." );
 
@@ -1078,7 +1087,13 @@ class Meow_WR2X_Core {
 			$this->add_issue( $id );
 		else
 			$this->remove_issue( $id );
-		 return $meta;
+
+		/**
+		 * @param $id ID of the attachment whose retina image has been generated
+		 */
+		do_action( 'wr2x_generate_retina', $id );
+
+		return $meta;
 	}
 
 	function delete_images( $meta, $deleteFullSize = false ) {

@@ -1,9 +1,9 @@
 === WP Retina 2x ===
 Contributors: TigrouMeow
 Tags: retina, images, image, responsive, lazysizes, lazy, attachment, media, files, iphone, ipad, high-dpi
-Requires at least: 3.5
-Tested up to: 4.9
-Stable tag: 5.4.3
+Requires at least: 4.4
+Tested up to: 5.0
+Stable tag: 5.5.1
 
 Make your website look beautiful and crisp on modern displays by creating and displaying retina images. WP 4.4+ is also supported and enhanced.
 
@@ -33,8 +33,14 @@ More information and tutorial available one https://meowapps.com/wp-retina-2x/.
 
 == Changelog ==
 
+= 5.5.1 =
+* Fix: Uploading a PNG as a Retina was turning its transparency into black.
+* Fix: Now LazyLoad used with Keep SRC only loads one image, the right one (instead of two before). Thanks to Shane Bishop, the creator of EWWW (https://wordpress.org/plugins/ewww-image-optimizer/).
+
 = 5.4.3 =
-* Fix: Remove the UpdraftPlus links.
+* Add: New hooks: wr2x_before_regenerate, wr2x_before_generate_thumbnails, wr2x_generate_thumbnails, wr2x_regenerate and wr2x_upload_retina.
+* Fix: Issues where happening with a few themes (actually the pagebuilder they use) after the last update.
+* Update: Lazysizes 4.0.4.
 
 = 5.4.1 =
 * Fix: Issues where happening with a few themes (actually the pagebuilder they use) after the last update.

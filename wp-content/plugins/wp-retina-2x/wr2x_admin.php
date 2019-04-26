@@ -361,7 +361,7 @@ class Meow_WR2X_Admin extends MeowApps_Admin {
 			<option ' . selected( 'HTML Rewrite', $value, false ) . 'value="HTML Rewrite">HTML Rewrite</option>
 			<option ' . selected( 'Retina-Images', $value, false ) . 'value="Retina-Images">Retina-Images</option>
 			<option ' . selected( 'none', $value, false ) . 'value="none">None</option>
-		</select><small><br />' . __( 'In all cases (including "None"), Retina support will be added to the Responsive Images. Check the <a target="_blank" href="http://meowapps.com/wp-retina-2x/retina-methods/">Retina Methods</a> page if you want to know more about those methods.', 'wp-retina-2x' ) . '</small>';
+		</select><small><br />' . __( 'In all cases (including "None"), Retina support will be added to the Responsive Images. Check the <a target="_blank" href="https://meowapps.com/wp-retina-2x-methods" />Retina Methods</a> page if you want to know more about those methods.', 'wp-retina-2x' ) . '</small>';
 		echo $html;
 	}
 
@@ -407,7 +407,7 @@ class Meow_WR2X_Admin extends MeowApps_Admin {
 		$value = get_option( 'wr2x_picturefill_keep_src', null );
 		$html = '<input type="checkbox" id="wr2x_picturefill_keep_src" name="wr2x_picturefill_keep_src" value="1" ' .
 			checked( 1, get_option( 'wr2x_picturefill_keep_src' ), false ) . '/>';
-		$html .= __( '<label>Enable</label><br /><small>With PictureFill, <b>src</b> tags are replaced by <b>src-set</b> tags and consequently search engines might not be able to find and reference those images. This option is better for SEO, but Retina devices will download both normal and retina. Lazy Retina option is recommended with this.</small>', 'wp-retina-2x' );
+		$html .= __( '<label>Enable</label><br /><small>With PictureFill, <b>src</b> tags are replaced by <b>src-set</b> tags, but Google might fail to reference those images. This option will keep the SRC for SEO purpose, but that will force the download of two images (standard, then retina) by the browsers. Please use the <b>Lazy Retina</b> option below as it avoid this to happen (as well as making it loading lazily).</small>', 'wp-retina-2x' );
 		echo $html;
 	}
 
@@ -416,7 +416,7 @@ class Meow_WR2X_Admin extends MeowApps_Admin {
 		$html = '<input ' . disabled( $this->is_registered(), false, false ) . ' type="checkbox" id="wr2x_picturefill_lazysizes"
 			name="wr2x_picturefill_lazysizes" value="1" ' .
 			checked( 1, get_option( 'wr2x_picturefill_lazysizes' ), false ) . '/>';
-		$html .= __( '<label>Enabled</label><br /><small>Retina images will not be loaded until the visitor gets close to them. HTML will be rewritten and the lazysizes script will be also loaded. </small>', 'wp-retina-2x' );
+		$html .= __( '<label>Enabled</label><br /><small>Retina images will not be loaded until the visitor gets close to them. HTML will be rewritten and the lazysizes script will be also loaded. The result will be a <b>faster website</b> for everyone, that consumes less bandwidth.</small>', 'wp-retina-2x' );
 		echo $html;
 	}
 
